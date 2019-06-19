@@ -1,2 +1,8 @@
 
 \.vscode/
+
+nuget/Claros\.Interfaces\.ProtocolBuffers/\.vs/
+
+nuget/Claros\.Interfaces\.ProtocolBuffers/obj/
+
+*.user
