@@ -1,2 +1,20 @@
 
 \.vscode/
+
+nuget/Claros\.Interfaces\.ProtocolBuffers/\.vs/
+
+nuget/Claros\.Interfaces\.ProtocolBuffers/obj/
+
+*.user
+
+nuget/Claros\.Interfaces\.ProtocolBuffers/bin/
+
+demo/aspnetcore/WebApplication1/\.vs/
+
+demo/aspnetcore/WebApplication1/obj/
+
+nuget/ProtoBufNsCaseFix/bin/
+
+nuget/ProtoBufNsCaseFix/obj/Debug/
+
+nuget/ProtoBufNsCaseFix/obj/
