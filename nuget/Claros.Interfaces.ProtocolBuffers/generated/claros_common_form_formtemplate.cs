@@ -34,6 +34,10 @@ namespace Claros.Common.Form
         [global::ProtoBuf.ProtoMember(6)]
         public FormTemplateConfiguration formTemplateConfiguration { get; set; }
 
+        [global::ProtoBuf.ProtoMember(7, Name = @"name")]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string Name { get; set; } = "";
+
     }
 
 }
