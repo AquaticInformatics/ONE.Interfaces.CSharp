@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using AutoBogus;
+using Claros.Common.Computation;
 using Claros.Common.Core;
+using Claros.Common.Form;
 using Newtonsoft.Json;
 
 namespace CsProto2Json
@@ -28,7 +30,9 @@ namespace CsProto2Json
             var spreadsheet = spreadsheetFaker.Generate();
             var wsdFaker = new AutoFaker<WorksheetDefinition>();
             var rowFaker = new AutoFaker<Row>();
-            var columnFaker = new AutoFaker<Column>();
+            var columnFaker = new AutoFaker<Column>()
+                .RuleFor(prop => prop.locationId, Guid.NewGuid().ToString());
+
             var cellFaker = new AutoFaker<Cell>();
 
             spreadsheet.spreadsheetDefinitions.AddRange(spreadsheetDefinitionFaker.Generate(2));
@@ -57,16 +61,33 @@ namespace CsProto2Json
                     r.Cells.ForEach(cell =>
                     {
                         cell.cellDatas.AddRange(new AutoFaker<CellData>().Generate(2));
-                        cell.Notes.AddRange(new AutoFaker<Note>().Generate(2));
+                        cell.Notes.AddRange(new AutoFaker<Note>()
+                                                .RuleFor(prop => prop.Id, Guid.NewGuid().ToString)
+                                                .Generate(2));
                         cell.cellDatas.ForEach(cd =>
                         {
-                            cd.cellDataBindings.AddRange(new AutoFaker<CellDataBinding>().Generate(2));
+                            cd.cellDataBindings.Add( new CellDataBinding{computationBinding = new ComputationBinding{computationId = Guid.NewGuid().ToString()}});
+                            cd.cellDataBindings.Add( new CellDataBinding{fieldInstrumentMeasurementBinding =
+                            {
+                                Timestamp = new AutoFaker<ClarosDateTime>().Generate(),
+                                instrumentMeasurementId = Guid.NewGuid().ToString(),
+                                unitId = uint.MaxValue
+                            }});
+                            cd.cellDataBindings.Add( new CellDataBinding
+                            {
+                                formBinding = new FormBinding
+                                {
+                                    formFieldId = Guid.NewGuid().ToString(),
+                                    formId = Guid.NewGuid().ToString(),
+                                    userId = Guid.NewGuid().ToString()
+                                }
+                            });
                         });
                     });
                 });
                 ws.Rows.AddRange(rows);
             });
-            
+
             var result = JsonConvert.SerializeObject(spreadsheet);
 
             return result;
