@@ -15,6 +15,15 @@ namespace CsProto2Json
             {
                 sr.Write(SpreadsheetJson.Generate());
             }
+
+            path = @"C:\temp\instrumentdata.json";
+            File.Delete(path);
+
+            using (var fs = File.OpenWrite(path))
+            using (var sr = new StreamWriter(fs))
+            {
+                sr.Write(InstrumentDataJson.Generate());
+            }
         }
     }
 }

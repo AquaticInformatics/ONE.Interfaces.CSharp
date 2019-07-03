@@ -4,6 +4,7 @@ using AutoBogus;
 using Claros.Common.Computation;
 using Claros.Common.Core;
 using Claros.Common.Form;
+using Claros.Instrument.Measurement;
 using Newtonsoft.Json;
 
 namespace CsProto2Json
@@ -60,20 +61,24 @@ namespace CsProto2Json
                     r.Cells.AddRange(cellFaker.Generate(2));
                     r.Cells.ForEach(cell =>
                     {
-                        cell.cellDatas.AddRange(new AutoFaker<CellData>().Generate(2));
+                        cell.cellDatas.Add(new AutoFaker<CellData>().Generate());
                         cell.Notes.AddRange(new AutoFaker<Note>()
                                                 .RuleFor(prop => prop.Id, Guid.NewGuid().ToString)
+                                                .RuleFor(prop => prop.userId, Guid.NewGuid().ToString)
                                                 .Generate(2));
                         cell.cellDatas.ForEach(cd =>
                         {
-                            cd.cellDataBindings.Add( new CellDataBinding{computationBinding = new ComputationBinding{computationId = Guid.NewGuid().ToString()}});
-                            cd.cellDataBindings.Add( new CellDataBinding{fieldInstrumentMeasurementBinding =
+                            cd.cellDataBindings.Add(new CellDataBinding { computationBinding = new ComputationBinding { computationId = Guid.NewGuid().ToString() } });
+                            cd.cellDataBindings.Add(new CellDataBinding
                             {
-                                Timestamp = new AutoFaker<ClarosDateTime>().Generate(),
-                                instrumentMeasurementId = Guid.NewGuid().ToString(),
-                                unitId = uint.MaxValue
-                            }});
-                            cd.cellDataBindings.Add( new CellDataBinding
+                                fieldInstrumentMeasurementBinding = new InstrumentMeasurementFieldBinding
+                                {
+                                    Timestamp = new AutoFaker<ClarosDateTime>().Generate(),
+                                    instrumentMeasurementId = Guid.NewGuid().ToString(),
+                                    unitId = uint.MaxValue
+                                }
+                            });
+                            cd.cellDataBindings.Add(new CellDataBinding
                             {
                                 formBinding = new FormBinding
                                 {
@@ -82,7 +87,24 @@ namespace CsProto2Json
                                     userId = Guid.NewGuid().ToString()
                                 }
                             });
+                            cd.cellDataBindings.Add(new CellDataBinding
+                            {
+                                instrumentMeasurementBinding = new InstrumentMeasurementBinding
+                                {
+                                    unitId = 1,
+                                    instrumentMeasurementId = Guid.NewGuid().ToString(),
+                                    aggregateType = AggregateType.AggregateAverage
+                                }
+                            });
+                            cd.cellDataBindings.Add(new CellDataBinding
+                            {
+                                spreadsheetBinding = new SpreadsheetBinding
+                                {
+                                    userId = Guid.NewGuid().ToString()
+                                }
+                            });
                         });
+
                     });
                 });
                 ws.Rows.AddRange(rows);
