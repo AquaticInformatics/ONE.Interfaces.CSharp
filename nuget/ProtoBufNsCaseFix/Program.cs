@@ -24,7 +24,8 @@ namespace ProtoBufNsCaseFix
 
             // HACK - Need to find a better way than hard coding this path
             var files = Directory.EnumerateFiles(
-                @"C:\Repos\claros.interfaces.csharp\nuget\Claros.Interfaces.ProtocolBuffers\generated\");
+                @"C:\work\cpb\claros.interfaces.csharp\nuget\Claros.Interfaces.ProtocolBuffers\generated");
+                
 
 
             // Extract the namespaces from the files and TitleCase them (ex. claros.common.example -> Claros.Common.Example)
