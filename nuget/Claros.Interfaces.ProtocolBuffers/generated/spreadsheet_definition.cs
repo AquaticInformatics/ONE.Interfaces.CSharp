@@ -20,7 +20,7 @@ namespace Claros.Operations.Spreadsheet
         public global::Claros.Common.Core.TimeWindow Timewindow { get; set; }
 
         [global::ProtoBuf.ProtoMember(3, Name = @"timezone")]
-        public global::Claros.Common.Core.TimeZone Timezone { get; set; }
+        public global::Claros.Common.Core.TimeZoneType Timezone { get; set; }
 
         [global::ProtoBuf.ProtoMember(4)]
         public uint timeWindowOffset { get; set; }
