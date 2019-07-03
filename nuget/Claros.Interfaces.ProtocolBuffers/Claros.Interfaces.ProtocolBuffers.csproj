@@ -5,12 +5,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.3-pre-06</Version>
+    <Version>0.0.3-pre-07</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>Added Row Index collections</PackageReleaseNotes>
+    <PackageReleaseNotes>Added Claros.Interfaces.ProtocolBuffers.Utilities.TimezoneUtility</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
