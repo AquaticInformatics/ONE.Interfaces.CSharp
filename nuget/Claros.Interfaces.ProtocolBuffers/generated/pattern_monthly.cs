@@ -56,10 +56,10 @@ namespace Claros.Common.Recurrence
                 => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
             [global::ProtoBuf.ProtoMember(1)]
-            public global::Claros.Common.OrdinalType ordinalType { get; set; }
+            public global::Claros.Common.EnumOrdinal enumOrdinal { get; set; }
 
             [global::ProtoBuf.ProtoMember(2)]
-            public global::Claros.Common.DayType dayType { get; set; }
+            public global::Claros.Common.EnumDay enumDay { get; set; }
 
             [global::ProtoBuf.ProtoMember(3)]
             public uint monthlyInterval { get; set; }

@@ -14,10 +14,10 @@ namespace Claros.Common.Core
             => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
         [global::ProtoBuf.ProtoMember(1)]
-        public ReportableQualifierType reportableQualifierType { get; set; }
+        public global::Claros.Common.EnumReportableQualifier enumReportableQualifier { get; set; }
 
         [global::ProtoBuf.ProtoMember(2)]
-        public ReportableQualifierDefinitionType reportableQualifierDefinitionType { get; set; }
+        public EnumReportableQualifierDefinition enumReportableQualifierDefinition { get; set; }
 
         [global::ProtoBuf.ProtoMember(3)]
         public double constantValue { get; set; }

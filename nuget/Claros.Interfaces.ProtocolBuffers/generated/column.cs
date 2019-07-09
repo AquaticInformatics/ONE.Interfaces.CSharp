@@ -41,7 +41,7 @@ namespace Claros.Operations.Spreadsheet
         public global::System.Collections.Generic.List<global::Claros.Common.Core.Limit> Limits { get; } = new global::System.Collections.Generic.List<global::Claros.Common.Core.Limit>();
 
         [global::ProtoBuf.ProtoMember(9)]
-        public global::Claros.Common.Core.DataSourceType dataSourceType { get; set; }
+        public global::Claros.Common.EnumDataSource enumDataSource { get; set; }
 
         [global::ProtoBuf.ProtoMember(10)]
         public global::Claros.Instrument.Measurement.InstrumentMeasurementBinding instrumentMeasurementBinding

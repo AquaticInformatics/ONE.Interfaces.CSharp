@@ -17,7 +17,7 @@ namespace Claros.Common.Recurrence
         public uint weeklyInterval { get; set; }
 
         [global::ProtoBuf.ProtoMember(2, Name = @"daysOfWeek", IsPacked = true)]
-        public global::System.Collections.Generic.List<global::Claros.Common.DayType> daysOfWeeks { get; } = new global::System.Collections.Generic.List<global::Claros.Common.DayType>();
+        public global::System.Collections.Generic.List<global::Claros.Common.EnumDay> daysOfWeeks { get; } = new global::System.Collections.Generic.List<global::Claros.Common.EnumDay>();
 
     }
 

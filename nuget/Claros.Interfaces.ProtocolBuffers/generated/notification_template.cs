@@ -29,7 +29,7 @@ namespace Claros.Common.Notification
         public NotificationTopic notificationTopic { get; set; }
 
         [global::ProtoBuf.ProtoMember(5)]
-        public NotificationDeliveryMethodType notificationDeliveryMethodType { get; set; }
+        public EnumNotificationDeliveryMethod enumNotificationDeliveryMethod { get; set; }
 
         [global::ProtoBuf.ProtoMember(6)]
         public global::Claros.Common.Core.RecordAuditInfo recordAuditInfo { get; set; }
