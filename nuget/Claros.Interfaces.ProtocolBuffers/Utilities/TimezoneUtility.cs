@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Claros.Common.Core;
+using Claros.Common;
 
 namespace Claros.Interfaces.ProtocolBuffers.Utilities
 {
@@ -563,14 +563,14 @@ namespace Claros.Interfaces.ProtocolBuffers.Utilities
         /// </summary>
         /// <param name="name">TZ database name</param>
         /// <returns>Matched Claros.Common.Core.TimeZone, or TimeZone.TimezoneUnknown if not found</returns>
-        public static TimeZoneType GetTimezone(string name)
+        public static EnumTimeZone GetTimezone(string name)
         {
             KeyValuePair<int, string> matched = Timezones.FirstOrDefault(t => t.Value.Equals(name, StringComparison.OrdinalIgnoreCase));
 
             if (matched.Value == null)
-                return TimeZoneType.TimezoneUnknown;
+                return EnumTimeZone.TimezoneUnknown;
 
-            TimeZoneType timezone = (TimeZoneType)matched.Key;
+            EnumTimeZone timezone = (EnumTimeZone)matched.Key;
 
             return timezone;
         }

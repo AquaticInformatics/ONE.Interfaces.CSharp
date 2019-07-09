@@ -24,7 +24,7 @@ namespace ProtoBufNsCaseFix
 
             // HACK - Need to find a better way than hard coding this path
             var files = Directory.EnumerateFiles(
-                @"C:\work\cpb\claros.interfaces.csharp\nuget\Claros.Interfaces.ProtocolBuffers\generated");
+                @"C:\code\claros.interfaces.csharp\nuget\Claros.Interfaces.ProtocolBuffers\generated");
                 
 
 

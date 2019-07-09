@@ -14,7 +14,7 @@ namespace Claros.Operations.Spreadsheet
             => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
         [global::ProtoBuf.ProtoMember(1)]
-        public WorksheetType worksheetType { get; set; }
+        public EnumWorksheet enumWorksheet { get; set; }
 
         [global::ProtoBuf.ProtoMember(2)]
         public global::System.Collections.Generic.List<WorksheetDefinition> worksheetDefinitions { get; } = new global::System.Collections.Generic.List<WorksheetDefinition>();

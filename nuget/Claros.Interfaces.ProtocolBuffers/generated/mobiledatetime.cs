@@ -20,7 +20,7 @@ namespace Claros.Common.Core
         public MobileTime mobileTime { get; set; }
 
         [global::ProtoBuf.ProtoMember(3)]
-        public int timeZone { get; set; }
+        public global::Claros.Common.EnumTimeZone enumTimeZone { get; set; }
 
     }
 

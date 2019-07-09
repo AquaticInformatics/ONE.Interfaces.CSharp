@@ -14,7 +14,7 @@ namespace Claros.Common.Core
             => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
         [global::ProtoBuf.ProtoMember(1)]
-        public ReportableQualifierType reportableQualifierType { get; set; }
+        public global::Claros.Common.EnumReportableQualifier enumReportableQualifier { get; set; }
 
         [global::ProtoBuf.ProtoMember(2)]
         [global::System.ComponentModel.DefaultValue("")]

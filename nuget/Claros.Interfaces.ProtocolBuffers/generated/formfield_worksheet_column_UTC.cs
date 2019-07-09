@@ -18,7 +18,7 @@ namespace Claros.Common.Form
         public string plantId { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(2)]
-        public global::Claros.Operations.Spreadsheet.WorksheetType worksheetType { get; set; }
+        public global::Claros.Operations.Spreadsheet.EnumWorksheet enumWorksheet { get; set; }
 
         [global::ProtoBuf.ProtoMember(3, Name = @"column")]
         public global::Claros.Operations.Spreadsheet.Column Column { get; set; }

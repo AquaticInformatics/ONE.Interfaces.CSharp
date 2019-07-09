@@ -18,7 +18,7 @@ namespace Claros.Common.Core
         public string i18nKey { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(2)]
-        public LimitType limitType { get; set; }
+        public global::Claros.Common.EnumLimit enumLimit { get; set; }
 
         [global::ProtoBuf.ProtoMember(3, Name = @"value")]
         public double Value { get; set; }
@@ -26,8 +26,8 @@ namespace Claros.Common.Core
         [global::ProtoBuf.ProtoMember(4)]
         public uint unitId { get; set; }
 
-        [global::ProtoBuf.ProtoMember(5, Name = @"recurrence")]
-        public global::Claros.Common.Recurrence.Recurrence Recurrence { get; set; }
+        [global::ProtoBuf.ProtoMember(5)]
+        public TimeWindow timeWindows { get; set; }
 
     }
 

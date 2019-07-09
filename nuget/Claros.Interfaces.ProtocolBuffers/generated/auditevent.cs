@@ -22,10 +22,10 @@ namespace Claros.Common.Core
         public string userId { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(3)]
-        public DataSourceType dataSourceType { get; set; }
+        public global::Claros.Common.EnumDataSource enumDataSource { get; set; }
 
         [global::ProtoBuf.ProtoMember(4)]
-        public AuditEventType eventType { get; set; }
+        public global::Claros.Common.EnumAuditEvent enumAuditEvent { get; set; }
 
         [global::ProtoBuf.ProtoMember(5)]
         public ClarosDateTime timeStamp { get; set; }

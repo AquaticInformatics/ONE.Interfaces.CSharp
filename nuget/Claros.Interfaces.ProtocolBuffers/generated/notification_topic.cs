@@ -26,7 +26,7 @@ namespace Claros.Common.Notification
         public string Description { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(4)]
-        public NotificationCategoryType notificationCategoryType { get; set; }
+        public EnumNotificationCategory enumNotificationCategory { get; set; }
 
         [global::ProtoBuf.ProtoMember(5)]
         public global::Claros.Common.Core.RecordAuditInfo recordAuditInfo { get; set; }

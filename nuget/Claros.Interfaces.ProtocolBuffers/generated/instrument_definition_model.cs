@@ -22,7 +22,7 @@ namespace Claros.Instrument
         public string i18NKeyName { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(3)]
-        public InstrumentGroupType instrumentGroupType { get; set; }
+        public EnumInstrumentGroup enumInstrumentGroup { get; set; }
 
         [global::ProtoBuf.ProtoMember(4, Name = @"name")]
         [global::System.ComponentModel.DefaultValue("")]
@@ -52,7 +52,7 @@ namespace Claros.Instrument
         public bool UsesFid { get; set; }
 
         [global::ProtoBuf.ProtoMember(12)]
-        public InstrumentManufacturerType instrumentManufacturer { get; set; }
+        public EnumInstrumentManufacturer enumInstrumentManufacturer { get; set; }
 
         [global::ProtoBuf.ProtoMember(13)]
         [global::System.ComponentModel.DefaultValue("")]
@@ -69,7 +69,7 @@ namespace Claros.Instrument
         public string Description { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(18)]
-        public InstrumentType instrumentType { get; set; }
+        public EnumInstrument enumInstrument { get; set; }
 
     }
 
