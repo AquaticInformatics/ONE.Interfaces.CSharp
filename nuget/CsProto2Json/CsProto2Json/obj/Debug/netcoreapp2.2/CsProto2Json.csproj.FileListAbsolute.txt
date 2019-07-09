@@ -9,3 +9,5 @@ C:\Repos\claros.interfaces.csharp\nuget\CsProto2Json\CsProto2Json\obj\Debug\netc
 C:\Repos\claros.interfaces.csharp\nuget\CsProto2Json\CsProto2Json\bin\Debug\netcoreapp2.2\CsProto2Json.pdb
 C:\Repos\claros.interfaces.csharp\nuget\CsProto2Json\CsProto2Json\obj\Debug\netcoreapp2.2\CsProto2Json.dll
 C:\Repos\claros.interfaces.csharp\nuget\CsProto2Json\CsProto2Json\obj\Debug\netcoreapp2.2\CsProto2Json.pdb
+C:\work\cpb\claros.interfaces.csharp\nuget\CsProto2Json\CsProto2Json\obj\Debug\netcoreapp2.2\CsProto2Json.dll
+C:\work\cpb\claros.interfaces.csharp\nuget\CsProto2Json\CsProto2Json\obj\Debug\netcoreapp2.2\CsProto2Json.pdb
