@@ -36,7 +36,7 @@ namespace Claros.Common.Configuration
         public string configurationData { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(7)]
-        public EntityType entityTypeId { get; set; }
+        public global::Claros.Common.EnumEntity enumEntity { get; set; }
 
         [global::ProtoBuf.ProtoMember(8)]
         [global::System.ComponentModel.DefaultValue("")]

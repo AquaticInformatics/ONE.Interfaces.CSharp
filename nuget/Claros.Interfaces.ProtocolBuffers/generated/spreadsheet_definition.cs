@@ -19,8 +19,8 @@ namespace Claros.Operations.Spreadsheet
         [global::ProtoBuf.ProtoMember(2, Name = @"timewindow")]
         public global::Claros.Common.Core.TimeWindow Timewindow { get; set; }
 
-        [global::ProtoBuf.ProtoMember(3, Name = @"timezone")]
-        public global::Claros.Common.Core.TimeZoneType Timezone { get; set; }
+        [global::ProtoBuf.ProtoMember(3)]
+        public global::Claros.Common.EnumTimeZone enumTimeZone { get; set; }
 
         [global::ProtoBuf.ProtoMember(4)]
         public uint timeWindowOffset { get; set; }
