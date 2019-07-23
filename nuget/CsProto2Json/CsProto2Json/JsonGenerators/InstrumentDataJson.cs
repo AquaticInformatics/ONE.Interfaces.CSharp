@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using AutoBogus;
 using Claros.Common.Gis;
 using Claros.Instrument;
@@ -46,7 +44,7 @@ namespace CsProto2Json
 
 
             instrumentData.Measurements.AddRange(new AutoFaker<InstrumentMeasurementData>().Generate(2));
-            instrumentData.Measurements.ForEach(d=>
+            instrumentData.Measurements.ForEach(d =>
             {
                 d.Gis.MultiPoint2d.Points.AddRange(new AutoFaker<Point2D>().Generate(2));
                 d.Gis.MultiPoint3d.Points.AddRange(new AutoFaker<Point3D>().Generate(2));

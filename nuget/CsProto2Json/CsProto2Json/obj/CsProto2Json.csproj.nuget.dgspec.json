@@ -25,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://components.fusion.hach.com/nuget/FF-Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
