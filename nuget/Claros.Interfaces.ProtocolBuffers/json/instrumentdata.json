@@ -1,0 +1,1048 @@
+{
+  "tenantId": "c68690f2-72a3-4ddd-977d-6707ea6742aa",
+  "fusionId": "HTTP",
+  "Events": {
+    "Calibrations": [
+      {
+        "Id": "672d94c0-4070-43d0-9190-961fdb6a5fc0",
+        "userID": "f851bfeb-703d-4c6e-85ee-d262b9d89b3c",
+        "Time": 15804925090462482432,
+        "Status": 1822415772,
+        "offsetUnits": 2716921579,
+        "slopeUnits": 1008021808,
+        "Slope": 0.397367954,
+        "slopeAux": 0.539529443,
+        "Offset": 0.11296913,
+        "R2": 0.95459044,
+        "calibrationStandards": [
+          {
+            "knownValue": {
+              "Value": 0.420976847,
+              "Unit": 896142318,
+              "chemicalForm": 271523040
+            },
+            "measuredValue": {
+              "Value": 0.198995039,
+              "Unit": 3080948633,
+              "chemicalForm": 3765384095
+            },
+            "secondaryValues": [
+              {
+                "Value": 0.0933994,
+                "Unit": 3998727859,
+                "chemicalForm": 119483064
+              },
+              {
+                "Value": 0.893857658,
+                "Unit": 4214235975,
+                "chemicalForm": 3044619835
+              }
+            ]
+          },
+          {
+            "knownValue": {
+              "Value": 0.572343051,
+              "Unit": 2682211289,
+              "chemicalForm": 613541706
+            },
+            "measuredValue": {
+              "Value": 0.2530969,
+              "Unit": 1004458956,
+              "chemicalForm": 656576752
+            },
+            "secondaryValues": [
+              {
+                "Value": 0.9212769,
+                "Unit": 972064342,
+                "chemicalForm": 1803533692
+              },
+              {
+                "Value": 0.6444081,
+                "Unit": 2217848449,
+                "chemicalForm": 2527630129
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "672d94c0-4070-43d0-9190-961fdb6a5fc0",
+        "userID": "f851bfeb-703d-4c6e-85ee-d262b9d89b3c",
+        "Time": 11077444432251189248,
+        "Status": 3278723523,
+        "offsetUnits": 2118655208,
+        "slopeUnits": 2597438515,
+        "Slope": 0.6488946,
+        "slopeAux": 0.3126663,
+        "Offset": 0.8557025,
+        "R2": 0.219111487,
+        "calibrationStandards": [
+          {
+            "knownValue": {
+              "Value": 0.07626017,
+              "Unit": 3093623147,
+              "chemicalForm": 2538681995
+            },
+            "measuredValue": {
+              "Value": 0.290920466,
+              "Unit": 2093336714,
+              "chemicalForm": 1756785466
+            },
+            "secondaryValues": [
+              {
+                "Value": 0.7229334,
+                "Unit": 394196686,
+                "chemicalForm": 4281510305
+              },
+              {
+                "Value": 0.97857374,
+                "Unit": 1997150676,
+                "chemicalForm": 4268514105
+              }
+            ]
+          },
+          {
+            "knownValue": {
+              "Value": 0.192869917,
+              "Unit": 50907968,
+              "chemicalForm": 132269708
+            },
+            "measuredValue": {
+              "Value": 0.426105,
+              "Unit": 2314245025,
+              "chemicalForm": 761505116
+            },
+            "secondaryValues": [
+              {
+                "Value": 0.452625334,
+                "Unit": 3511554439,
+                "chemicalForm": 1120612828
+              },
+              {
+                "Value": 0.805969059,
+                "Unit": 3409638551,
+                "chemicalForm": 3860097253
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Errors": [
+      {
+        "i18nDatabaseName": "infrastructures",
+        "translationIndex": -714493605,
+        "i18nKey": "copying",
+        "Status": -1349713232
+      },
+      {
+        "i18nDatabaseName": "policy",
+        "translationIndex": 417160411,
+        "i18nKey": "protocol",
+        "Status": -1169316161
+      }
+    ],
+    "Infoes": [
+      {
+        "i18nDatabaseName": "ROI",
+        "translationIndex": 1278789039,
+        "i18nKey": "AGP",
+        "Status": -1330577376
+      },
+      {
+        "i18nDatabaseName": "digital",
+        "translationIndex": 614535217,
+        "i18nKey": "productivity",
+        "Status": -1919827551
+      }
+    ],
+    "Limits": [
+      {
+        "i18nDatabaseName": "Lari",
+        "translationIndex": -1563313164,
+        "i18nKey": "Saint Helena Pound",
+        "Status": -1161573396
+      },
+      {
+        "i18nDatabaseName": "Roads",
+        "translationIndex": 332432459,
+        "i18nKey": "Practical",
+        "Status": 1085930543
+      }
+    ],
+    "Reminders": [
+      {
+        "i18nDatabaseName": "markets",
+        "translationIndex": 955230502,
+        "i18nKey": "Drive",
+        "Status": 186376193
+      },
+      {
+        "i18nDatabaseName": "Movies, Beauty & Movies",
+        "translationIndex": 1908055076,
+        "i18nKey": "bypass",
+        "Status": 496425696
+      }
+    ],
+    "Warnings": [
+      {
+        "i18nDatabaseName": "adapter",
+        "translationIndex": -1185223125,
+        "i18nKey": "Buckinghamshire",
+        "Status": 1876646564
+      },
+      {
+        "i18nDatabaseName": "Forest",
+        "translationIndex": 1114563869,
+        "i18nKey": "invoice",
+        "Status": 440502426
+      }
+    ],
+    "Prognosys": [
+      {
+        "Id": -1036440063,
+        "Percent": 0.130944461,
+        "Days": 280329048
+      },
+      {
+        "Id": 120936261,
+        "Percent": 0.841540635,
+        "Days": 241084117
+      }
+    ],
+    "eventDateTime": { "Ticks": 8319828560804835328 }
+  },
+  "Measurements": [
+    {
+      "instrumentMeasurementId": "Director",
+      "Channel": -1183458150,
+      "fusionId": "firewall",
+      "Measurement": {
+        "Timestamp": { "Ticks": 14937142323884509184 },
+        "parameterId": 1205004359,
+        "parameterGuid": "Kuwait",
+        "unitId": 983967799,
+        "unitGuid": "benchmark",
+        "Value": 0.431054682
+      },
+      "supportingMeasurements": {
+        "instrumentMeasurementId": "Checking Account",
+        "Channel": 1212601405,
+        "fusionId": "reinvent",
+        "Measurement": {
+          "Timestamp": { "Ticks": 6736683789192987648 },
+          "parameterId": 690302081,
+          "parameterGuid": "Specialist",
+          "unitId": 166200418,
+          "unitGuid": "Global",
+          "Value": 0.55762285
+        },
+        "supportingMeasurements": {
+          "instrumentMeasurementId": "Gorgeous",
+          "Channel": -2103118894,
+          "fusionId": "deposit",
+          "Measurement": {
+            "Timestamp": { "Ticks": 9842473701502547968 },
+            "parameterId": 260083167,
+            "parameterGuid": "implement",
+            "unitId": 1050554880,
+            "unitGuid": "Burundi Franc",
+            "Value": 0.3648282
+          },
+          "supportingMeasurements": {
+            "instrumentMeasurementId": "North Carolina",
+            "Channel": -294334555,
+            "fusionId": "Niue",
+            "Measurement": {
+              "Timestamp": { "Ticks": 18099307075004485632 },
+              "parameterId": -769595841,
+              "parameterGuid": "Afghanistan",
+              "unitId": -1337996267,
+              "unitGuid": "hard drive",
+              "Value": 0.3580151
+            },
+            "supportingMeasurements": {
+              "instrumentMeasurementId": "Wooden",
+              "Channel": 1161770495,
+              "fusionId": "compressing",
+              "Measurement": {
+                "Timestamp": { "Ticks": 10348821792994152448 },
+                "parameterId": 752491406,
+                "parameterGuid": "Soft",
+                "unitId": 1679280684,
+                "unitGuid": "Awesome",
+                "Value": 0.580901265
+              },
+              "supportingMeasurements": null,
+              "Gis": {
+                "Point2d": {
+                  "X": 0.361694157,
+                  "Y": 0.933010936
+                },
+                "Point3d": {
+                  "X": 0.536244154,
+                  "Y": 0.41622892,
+                  "Z": 0.0077713565
+                },
+                "MultiPoint2d": { "Points": [] },
+                "MultiPoint3d": { "Points": [] }
+              },
+              "measurementDataExtended": "Sleek Metal Ball",
+              "measurementEvent": {
+                "Calibrations": [],
+                "Errors": [],
+                "Infoes": [],
+                "Limits": [],
+                "Reminders": [],
+                "Warnings": [],
+                "Prognosys": [],
+                "eventDateTime": { "Ticks": 3729041455965040128 }
+              }
+            },
+            "Gis": {
+              "Point2d": {
+                "X": 0.492755353,
+                "Y": 0.4940112
+              },
+              "Point3d": {
+                "X": 0.508059263,
+                "Y": 0.20091778,
+                "Z": 0.159820542
+              },
+              "MultiPoint2d": { "Points": [] },
+              "MultiPoint3d": { "Points": [] }
+            },
+            "measurementDataExtended": "yellow",
+            "measurementEvent": {
+              "Calibrations": [],
+              "Errors": [],
+              "Infoes": [],
+              "Limits": [],
+              "Reminders": [],
+              "Warnings": [],
+              "Prognosys": [],
+              "eventDateTime": { "Ticks": 13955850546647287808 }
+            }
+          },
+          "Gis": {
+            "Point2d": {
+              "X": 0.318700731,
+              "Y": 0.032296747
+            },
+            "Point3d": {
+              "X": 0.437856019,
+              "Y": 0.302782655,
+              "Z": 0.240924329
+            },
+            "MultiPoint2d": { "Points": [] },
+            "MultiPoint3d": { "Points": [] }
+          },
+          "measurementDataExtended": "Auto Loan Account",
+          "measurementEvent": {
+            "Calibrations": [],
+            "Errors": [],
+            "Infoes": [],
+            "Limits": [],
+            "Reminders": [],
+            "Warnings": [],
+            "Prognosys": [],
+            "eventDateTime": { "Ticks": 16005925677358444544 }
+          }
+        },
+        "Gis": {
+          "Point2d": {
+            "X": 0.424951643,
+            "Y": 0.335326374
+          },
+          "Point3d": {
+            "X": 0.256408364,
+            "Y": 0.814345956,
+            "Z": 0.0606220849
+          },
+          "MultiPoint2d": { "Points": [] },
+          "MultiPoint3d": { "Points": [] }
+        },
+        "measurementDataExtended": "Holy See (Vatican City State)",
+        "measurementEvent": {
+          "Calibrations": [],
+          "Errors": [],
+          "Infoes": [],
+          "Limits": [],
+          "Reminders": [],
+          "Warnings": [],
+          "Prognosys": [],
+          "eventDateTime": { "Ticks": 2209355831203490560 }
+        }
+      },
+      "Gis": {
+        "Point2d": {
+          "X": 0.7642957,
+          "Y": 0.189972714
+        },
+        "Point3d": {
+          "X": 0.253086835,
+          "Y": 0.8728177,
+          "Z": 0.404457569
+        },
+        "MultiPoint2d": {
+          "Points": [
+            {
+              "X": 0.385283083,
+              "Y": 0.4577699
+            },
+            {
+              "X": 0.628759861,
+              "Y": 0.379516453
+            }
+          ]
+        },
+        "MultiPoint3d": {
+          "Points": [
+            {
+              "X": 0.1856511,
+              "Y": 0.404174715,
+              "Z": 0.491718918
+            },
+            {
+              "X": 0.8925817,
+              "Y": 0.461900353,
+              "Z": 0.9228667
+            }
+          ]
+        }
+      },
+      "measurementDataExtended": "distributed",
+      "measurementEvent": {
+        "Calibrations": [
+          {
+            "Id": "318e545b-5774-4e67-bfa5-ac071cbc5100",
+            "userID": "0a8e9618-da85-423d-a1b2-a139a1b55137",
+            "Time": 16090058194031132672,
+            "Status": 777182304,
+            "offsetUnits": 247161532,
+            "slopeUnits": 267044142,
+            "Slope": 0.5873539,
+            "slopeAux": 0.907833457,
+            "Offset": 0.5220908,
+            "R2": 0.995877862,
+            "calibrationStandards": [
+              {
+                "knownValue": {
+                  "Value": 0.3134073,
+                  "Unit": 958734832,
+                  "chemicalForm": 1864755090
+                },
+                "measuredValue": {
+                  "Value": 0.08505697,
+                  "Unit": 1076820530,
+                  "chemicalForm": 3776289905
+                },
+                "secondaryValues": [
+                  {
+                    "Value": 0.9476629,
+                    "Unit": 2091566494,
+                    "chemicalForm": 186665678
+                  },
+                  {
+                    "Value": 0.03686821,
+                    "Unit": 260244894,
+                    "chemicalForm": 2825308313
+                  }
+                ]
+              },
+              {
+                "knownValue": {
+                  "Value": 0.06510712,
+                  "Unit": 1186292400,
+                  "chemicalForm": 2901321461
+                },
+                "measuredValue": {
+                  "Value": 0.303188443,
+                  "Unit": 2275193409,
+                  "chemicalForm": 371654430
+                },
+                "secondaryValues": [
+                  {
+                    "Value": 0.315167129,
+                    "Unit": 1967272628,
+                    "chemicalForm": 4116632003
+                  },
+                  {
+                    "Value": 0.156490877,
+                    "Unit": 1695463372,
+                    "chemicalForm": 4281198387
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Id": "318e545b-5774-4e67-bfa5-ac071cbc5100",
+            "userID": "0a8e9618-da85-423d-a1b2-a139a1b55137",
+            "Time": 8537461159454199808,
+            "Status": 3971044827,
+            "offsetUnits": 2980583105,
+            "slopeUnits": 60495854,
+            "Slope": 0.326361328,
+            "slopeAux": 0.0836739,
+            "Offset": 0.410116017,
+            "R2": 0.4852226,
+            "calibrationStandards": [
+              {
+                "knownValue": {
+                  "Value": 0.8097061,
+                  "Unit": 2714833399,
+                  "chemicalForm": 3904521863
+                },
+                "measuredValue": {
+                  "Value": 0.6826493,
+                  "Unit": 1133388286,
+                  "chemicalForm": 1768832560
+                },
+                "secondaryValues": [
+                  {
+                    "Value": 0.717038453,
+                    "Unit": 3979679729,
+                    "chemicalForm": 4099948725
+                  },
+                  {
+                    "Value": 0.08339844,
+                    "Unit": 3647729557,
+                    "chemicalForm": 23063214
+                  }
+                ]
+              },
+              {
+                "knownValue": {
+                  "Value": 0.381518573,
+                  "Unit": 1432898428,
+                  "chemicalForm": 1741306590
+                },
+                "measuredValue": {
+                  "Value": 0.16840291,
+                  "Unit": 4210411349,
+                  "chemicalForm": 3180793397
+                },
+                "secondaryValues": [
+                  {
+                    "Value": 0.363806635,
+                    "Unit": 975653994,
+                    "chemicalForm": 1840378790
+                  },
+                  {
+                    "Value": 0.367761821,
+                    "Unit": 2035921000,
+                    "chemicalForm": 396412356
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Errors": [
+          {
+            "i18nDatabaseName": "Madagascar",
+            "translationIndex": -829154297,
+            "i18nKey": "archive",
+            "Status": -1515060484
+          },
+          {
+            "i18nDatabaseName": "24/7",
+            "translationIndex": 228622216,
+            "i18nKey": "technologies",
+            "Status": 2146350784
+          }
+        ],
+        "Infoes": [
+          {
+            "i18nDatabaseName": "Cambridgeshire",
+            "translationIndex": 1082485640,
+            "i18nKey": "aggregate",
+            "Status": -103207441
+          },
+          {
+            "i18nDatabaseName": "expedite",
+            "translationIndex": 567203505,
+            "i18nKey": "Communications",
+            "Status": -1095817634
+          }
+        ],
+        "Limits": [
+          {
+            "i18nDatabaseName": "leading-edge",
+            "translationIndex": 570608071,
+            "i18nKey": "Horizontal",
+            "Status": 422160826
+          },
+          {
+            "i18nDatabaseName": "Small Rubber Car",
+            "translationIndex": -49981038,
+            "i18nKey": "invoice",
+            "Status": 878463886
+          }
+        ],
+        "Reminders": [
+          {
+            "i18nDatabaseName": "Analyst",
+            "translationIndex": -967593477,
+            "i18nKey": "24 hour",
+            "Status": 965195735
+          },
+          {
+            "i18nDatabaseName": "Pike",
+            "translationIndex": 417115317,
+            "i18nKey": "Alabama",
+            "Status": -974445187
+          }
+        ],
+        "Warnings": [
+          {
+            "i18nDatabaseName": "Handcrafted Metal Car",
+            "translationIndex": -234212026,
+            "i18nKey": "hard drive",
+            "Status": -1359791712
+          },
+          {
+            "i18nDatabaseName": "Shoes, Grocery & Beauty",
+            "translationIndex": -2103365563,
+            "i18nKey": "Licensed Granite Pants",
+            "Status": -993443272
+          }
+        ],
+        "Prognosys": [
+          {
+            "Id": -391840058,
+            "Percent": 0.3240138,
+            "Days": -576854284
+          },
+          {
+            "Id": -1870450025,
+            "Percent": 0.6790888,
+            "Days": -1695853112
+          }
+        ],
+        "eventDateTime": { "Ticks": 9303703537533503488 }
+      }
+    },
+    {
+      "instrumentMeasurementId": "Mill",
+      "Channel": 1354581545,
+      "fusionId": "Ergonomic Fresh Pizza",
+      "Measurement": {
+        "Timestamp": { "Ticks": 3291451092220193280 },
+        "parameterId": -1704374755,
+        "parameterGuid": "Bedfordshire",
+        "unitId": -1893223460,
+        "unitGuid": "transmit",
+        "Value": 0.358912855
+      },
+      "supportingMeasurements": {
+        "instrumentMeasurementId": "alarm",
+        "Channel": 745547201,
+        "fusionId": "AI",
+        "Measurement": {
+          "Timestamp": { "Ticks": 10735868826957312000 },
+          "parameterId": 1724088619,
+          "parameterGuid": "Home Loan Account",
+          "unitId": -1385164833,
+          "unitGuid": "withdrawal",
+          "Value": 0.5990086
+        },
+        "supportingMeasurements": {
+          "instrumentMeasurementId": "Direct",
+          "Channel": 400607258,
+          "fusionId": "Junction",
+          "Measurement": {
+            "Timestamp": { "Ticks": 3330854127234393088 },
+            "parameterId": -1786030206,
+            "parameterGuid": "Plastic",
+            "unitId": 1190929074,
+            "unitGuid": "empower",
+            "Value": 0.9424802
+          },
+          "supportingMeasurements": {
+            "instrumentMeasurementId": "Georgia",
+            "Channel": 1626343106,
+            "fusionId": "quantifying",
+            "Measurement": {
+              "Timestamp": { "Ticks": 7074076053388940288 },
+              "parameterId": 338972058,
+              "parameterGuid": "value-added",
+              "unitId": -491732513,
+              "unitGuid": "Granite",
+              "Value": 0.9831958
+            },
+            "supportingMeasurements": {
+              "instrumentMeasurementId": "Intelligent Plastic Pants",
+              "Channel": 2053571771,
+              "fusionId": "Mews",
+              "Measurement": {
+                "Timestamp": { "Ticks": 13476348139661899776 },
+                "parameterId": -1785707306,
+                "parameterGuid": "Incredible",
+                "unitId": 722246284,
+                "unitGuid": "Administrator",
+                "Value": 0.0178292841
+              },
+              "supportingMeasurements": null,
+              "Gis": {
+                "Point2d": {
+                  "X": 0.9998009,
+                  "Y": 0.32680437
+                },
+                "Point3d": {
+                  "X": 0.394832283,
+                  "Y": 0.6195197,
+                  "Z": 0.6353724
+                },
+                "MultiPoint2d": { "Points": [] },
+                "MultiPoint3d": { "Points": [] }
+              },
+              "measurementDataExtended": "EXE",
+              "measurementEvent": {
+                "Calibrations": [],
+                "Errors": [],
+                "Infoes": [],
+                "Limits": [],
+                "Reminders": [],
+                "Warnings": [],
+                "Prognosys": [],
+                "eventDateTime": { "Ticks": 6647754584322417664 }
+              }
+            },
+            "Gis": {
+              "Point2d": {
+                "X": 0.828126848,
+                "Y": 0.650064051
+              },
+              "Point3d": {
+                "X": 0.5108086,
+                "Y": 0.351528943,
+                "Z": 0.7324694
+              },
+              "MultiPoint2d": { "Points": [] },
+              "MultiPoint3d": { "Points": [] }
+            },
+            "measurementDataExtended": "index",
+            "measurementEvent": {
+              "Calibrations": [],
+              "Errors": [],
+              "Infoes": [],
+              "Limits": [],
+              "Reminders": [],
+              "Warnings": [],
+              "Prognosys": [],
+              "eventDateTime": { "Ticks": 9258336236051394560 }
+            }
+          },
+          "Gis": {
+            "Point2d": {
+              "X": 0.65414685,
+              "Y": 0.163091481
+            },
+            "Point3d": {
+              "X": 0.387738556,
+              "Y": 0.4625235,
+              "Z": 0.7855332
+            },
+            "MultiPoint2d": { "Points": [] },
+            "MultiPoint3d": { "Points": [] }
+          },
+          "measurementDataExtended": "Borders",
+          "measurementEvent": {
+            "Calibrations": [],
+            "Errors": [],
+            "Infoes": [],
+            "Limits": [],
+            "Reminders": [],
+            "Warnings": [],
+            "Prognosys": [],
+            "eventDateTime": { "Ticks": 13966262174442864640 }
+          }
+        },
+        "Gis": {
+          "Point2d": {
+            "X": 0.5070207,
+            "Y": 0.648272
+          },
+          "Point3d": {
+            "X": 0.59433496,
+            "Y": 0.6170642,
+            "Z": 0.212268725
+          },
+          "MultiPoint2d": { "Points": [] },
+          "MultiPoint3d": { "Points": [] }
+        },
+        "measurementDataExtended": "Grocery",
+        "measurementEvent": {
+          "Calibrations": [],
+          "Errors": [],
+          "Infoes": [],
+          "Limits": [],
+          "Reminders": [],
+          "Warnings": [],
+          "Prognosys": [],
+          "eventDateTime": { "Ticks": 17941984871010105344 }
+        }
+      },
+      "Gis": {
+        "Point2d": {
+          "X": 0.365603358,
+          "Y": 0.8645309
+        },
+        "Point3d": {
+          "X": 0.0451203436,
+          "Y": 0.7254053,
+          "Z": 0.380745649
+        },
+        "MultiPoint2d": {
+          "Points": [
+            {
+              "X": 0.493133575,
+              "Y": 0.5317928
+            },
+            {
+              "X": 0.696302652,
+              "Y": 0.9961299
+            }
+          ]
+        },
+        "MultiPoint3d": {
+          "Points": [
+            {
+              "X": 0.2177596,
+              "Y": 0.17059429,
+              "Z": 0.40756166
+            },
+            {
+              "X": 0.6964319,
+              "Y": 0.446684659,
+              "Z": 0.677924633
+            }
+          ]
+        }
+      },
+      "measurementDataExtended": "Path",
+      "measurementEvent": {
+        "Calibrations": [
+          {
+            "Id": "f38d9de4-ea70-4fc3-ac14-f2b685a15325",
+            "userID": "c369c78a-b379-41db-979b-013521e88271",
+            "Time": 10360957051295959040,
+            "Status": 387684484,
+            "offsetUnits": 1572217028,
+            "slopeUnits": 3362847759,
+            "Slope": 0.054236535,
+            "slopeAux": 0.5329476,
+            "Offset": 0.19605507,
+            "R2": 0.554877341,
+            "calibrationStandards": [
+              {
+                "knownValue": {
+                  "Value": 0.656091,
+                  "Unit": 345012396,
+                  "chemicalForm": 178246976
+                },
+                "measuredValue": {
+                  "Value": 0.47307983,
+                  "Unit": 335950264,
+                  "chemicalForm": 3948895039
+                },
+                "secondaryValues": [
+                  {
+                    "Value": 0.449900061,
+                    "Unit": 3425348449,
+                    "chemicalForm": 3443615891
+                  },
+                  {
+                    "Value": 0.4796375,
+                    "Unit": 980703448,
+                    "chemicalForm": 1230522758
+                  }
+                ]
+              },
+              {
+                "knownValue": {
+                  "Value": 0.498525947,
+                  "Unit": 3141727483,
+                  "chemicalForm": 2473820995
+                },
+                "measuredValue": {
+                  "Value": 0.4395417,
+                  "Unit": 1159150704,
+                  "chemicalForm": 2786540497
+                },
+                "secondaryValues": [
+                  {
+                    "Value": 0.113063447,
+                    "Unit": 3226648015,
+                    "chemicalForm": 1112486708
+                  },
+                  {
+                    "Value": 0.499201,
+                    "Unit": 2005677362,
+                    "chemicalForm": 1462852086
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Id": "f38d9de4-ea70-4fc3-ac14-f2b685a15325",
+            "userID": "c369c78a-b379-41db-979b-013521e88271",
+            "Time": 4287099373176597504,
+            "Status": 480042210,
+            "offsetUnits": 1257303330,
+            "slopeUnits": 2423568433,
+            "Slope": 0.7434695,
+            "slopeAux": 0.4064815,
+            "Offset": 0.392948866,
+            "R2": 0.716417551,
+            "calibrationStandards": [
+              {
+                "knownValue": {
+                  "Value": 0.140436232,
+                  "Unit": 3809626597,
+                  "chemicalForm": 3993344181
+                },
+                "measuredValue": {
+                  "Value": 0.0570666641,
+                  "Unit": 353441668,
+                  "chemicalForm": 403704526
+                },
+                "secondaryValues": [
+                  {
+                    "Value": 0.316960335,
+                    "Unit": 578371678,
+                    "chemicalForm": 2217094367
+                  },
+                  {
+                    "Value": 0.219361126,
+                    "Unit": 2275877541,
+                    "chemicalForm": 195950334
+                  }
+                ]
+              },
+              {
+                "knownValue": {
+                  "Value": 0.779425,
+                  "Unit": 89074522,
+                  "chemicalForm": 2849579867
+                },
+                "measuredValue": {
+                  "Value": 0.9052591,
+                  "Unit": 3040518953,
+                  "chemicalForm": 3294203061
+                },
+                "secondaryValues": [
+                  {
+                    "Value": 0.478540331,
+                    "Unit": 1456858348,
+                    "chemicalForm": 1466044146
+                  },
+                  {
+                    "Value": 0.540530741,
+                    "Unit": 850225992,
+                    "chemicalForm": 2341064777
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Errors": [
+          {
+            "i18nDatabaseName": "Generic Metal Hat",
+            "translationIndex": 1462931407,
+            "i18nKey": "index",
+            "Status": 2086354031
+          },
+          {
+            "i18nDatabaseName": "Lempira",
+            "translationIndex": 1177956162,
+            "i18nKey": "infomediaries",
+            "Status": 402661418
+          }
+        ],
+        "Infoes": [
+          {
+            "i18nDatabaseName": "Beauty, Electronics & Jewelery",
+            "translationIndex": 1107511793,
+            "i18nKey": "Data",
+            "Status": -1141035396
+          },
+          {
+            "i18nDatabaseName": "Wooden",
+            "translationIndex": 2079364145,
+            "i18nKey": "Multi-tiered",
+            "Status": -1466365191
+          }
+        ],
+        "Limits": [
+          {
+            "i18nDatabaseName": "Central African Republic",
+            "translationIndex": -1574373248,
+            "i18nKey": "Fresh",
+            "Status": 1175533272
+          },
+          {
+            "i18nDatabaseName": "Unbranded Metal Hat",
+            "translationIndex": 1894761851,
+            "i18nKey": "Clothing, Jewelery & Home",
+            "Status": -2113320455
+          }
+        ],
+        "Reminders": [
+          {
+            "i18nDatabaseName": "JBOD",
+            "translationIndex": 612776815,
+            "i18nKey": "payment",
+            "Status": -1891993135
+          },
+          {
+            "i18nDatabaseName": "Research",
+            "translationIndex": 1775860173,
+            "i18nKey": "extensible",
+            "Status": 1209696466
+          }
+        ],
+        "Warnings": [
+          {
+            "i18nDatabaseName": "azure",
+            "translationIndex": 756749306,
+            "i18nKey": "Synergized",
+            "Status": 326340690
+          },
+          {
+            "i18nDatabaseName": "Industrial & Health",
+            "translationIndex": 1707085770,
+            "i18nKey": "Credit Card Account",
+            "Status": -1841618055
+          }
+        ],
+        "Prognosys": [
+          {
+            "Id": -1933069330,
+            "Percent": 0.400910735,
+            "Days": 1984591082
+          },
+          {
+            "Id": -1688570067,
+            "Percent": 0.06494032,
+            "Days": 992956406
+          }
+        ],
+        "eventDateTime": { "Ticks": 16741534879789596672 }
+      }
+    }
+  ],
+  "Settings": {
+    "Functionality": "Branding",
+    "hacking": "full-range"
+  },
+  "States": {
+    "override": "needs-based",
+    "uniform": "Fantastic Soft Shoes"
+  },
+  "instrumentDataDateTime": { "Ticks": 7678018695382932480 }
+}

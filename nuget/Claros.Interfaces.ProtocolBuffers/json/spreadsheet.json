@@ -1,0 +1,1128 @@
+{
+  "Name": "capacitor",
+  "locationId": "a959fc34-7b28-4f44-b1c5-c7769afcaf90",
+  "spreadsheetDefinitions": [
+    {
+      "Version": 659903040,
+      "Timewindow": {
+        "startTime": { "Ticks": 1475403515486756608 },
+        "endTime": { "Ticks": 2471757597009175552 }
+      },
+      "Timezone": 0,
+      "timeWindowOffset": 3113053713
+    },
+    {
+      "Version": 3809143489,
+      "Timewindow": {
+        "startTime": { "Ticks": 422717106740237824 },
+        "endTime": { "Ticks": 12250902993545193472 }
+      },
+      "Timezone": 1,
+      "timeWindowOffset": 723473218
+    }
+  ],
+  "Worksheets": [
+    {
+      "worksheetType": 1,
+      "worksheetDefinitions": [
+        {
+          "Version": 2269710671,
+          "startRow": 1276959868,
+          "endRow": 835296268,
+          "Columns": [
+            {
+              "columnNumber": 1313261730,
+              "Name": "invoice",
+              "Description": "Unbranded",
+              "parameterId": 1656711082,
+              "displayUnitId": 1187417572,
+              "locationId": "dcb9bb67-0778-47fd-9541-8e488ceb4e44",
+              "isActive": true,
+              "Limits": [
+                {
+                  "i18nKey": "Wooden",
+                  "limitType": 1,
+                  "Value": 0.050005350750873492,
+                  "unitId": 873007252,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 2912786293,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 5,
+                        "dayType": 3,
+                        "monthType": 2
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 15674490137667825664 },
+                    "endDate": { "Ticks": 17329111368505933824 }
+                  }
+                },
+                {
+                  "i18nKey": "Applications",
+                  "limitType": 2,
+                  "Value": 0.73163120249827918,
+                  "unitId": 2471644693,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 3140724125,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 5,
+                        "dayType": 7,
+                        "monthType": 1
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 9840236478806824960 },
+                    "endDate": { "Ticks": 10837315799917248512 }
+                  }
+                }
+              ],
+              "dataSourceType": 4,
+              "computationBinding": { "computationId": "Ergonomic Concrete Chair" },
+              "reportableQualiferDefinitions": [
+                {
+                  "reportableQualifierType": 6,
+                  "reportableQualifierDefinitionType": 2,
+                  "constantValue": 0.9903066907964212
+                },
+                {
+                  "reportableQualifierType": 4,
+                  "reportableQualifierDefinitionType": 3,
+                  "constantValue": 0.56805769008028217
+                }
+              ]
+            },
+            {
+              "columnNumber": 3547292621,
+              "Name": "generate",
+              "Description": "Mountains",
+              "parameterId": 3454276987,
+              "displayUnitId": 614585142,
+              "locationId": "dcb9bb67-0778-47fd-9541-8e488ceb4e44",
+              "isActive": true,
+              "Limits": [
+                {
+                  "i18nKey": "Officer",
+                  "limitType": 0,
+                  "Value": 0.6707081462585871,
+                  "unitId": 937750526,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 995054930,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 3,
+                        "dayType": 3,
+                        "monthType": 11
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 14268028260427526144 },
+                    "endDate": { "Ticks": 6129875794125874176 }
+                  }
+                },
+                {
+                  "i18nKey": "Union",
+                  "limitType": 2,
+                  "Value": 0.93534313511817857,
+                  "unitId": 2829978605,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 193523574,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 0,
+                        "dayType": 5,
+                        "monthType": 2
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 18190768154507292672 },
+                    "endDate": { "Ticks": 16973070691309512704 }
+                  }
+                }
+              ],
+              "dataSourceType": 1,
+              "computationBinding": { "computationId": "Prairie" },
+              "reportableQualiferDefinitions": [
+                {
+                  "reportableQualifierType": 3,
+                  "reportableQualifierDefinitionType": 2,
+                  "constantValue": 0.2373370231303093
+                },
+                {
+                  "reportableQualifierType": 3,
+                  "reportableQualifierDefinitionType": 4,
+                  "constantValue": 0.82533659591588038
+                }
+              ]
+            }
+          ],
+          "auditEvent": {
+            "Id": "parse",
+            "userId": "Quality",
+            "dataSourceType": 4,
+            "eventType": 4,
+            "timeStamp": { "Ticks": 4531092393746979328 },
+            "Details": "deposit"
+          }
+        },
+        {
+          "Version": 2548333909,
+          "startRow": 922173906,
+          "endRow": 3229612815,
+          "Columns": [
+            {
+              "columnNumber": 3182631755,
+              "Name": "backing up",
+              "Description": "Gibraltar Pound",
+              "parameterId": 2658721287,
+              "displayUnitId": 2836009901,
+              "locationId": "dcb9bb67-0778-47fd-9541-8e488ceb4e44",
+              "isActive": false,
+              "Limits": [
+                {
+                  "i18nKey": "action-items",
+                  "limitType": 3,
+                  "Value": 0.21408976391613938,
+                  "unitId": 3874560701,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 1802374546,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 1,
+                        "dayType": 7,
+                        "monthType": 1
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 14863963915146940416 },
+                    "endDate": { "Ticks": 17702970121265031168 }
+                  }
+                },
+                {
+                  "i18nKey": "Lakes",
+                  "limitType": 1,
+                  "Value": 0.31030832571457528,
+                  "unitId": 3149756991,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 3883031755,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 5,
+                        "dayType": 6,
+                        "monthType": 8
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 5631069837008250880 },
+                    "endDate": { "Ticks": 11218512169297530880 }
+                  }
+                }
+              ],
+              "dataSourceType": 6,
+              "computationBinding": { "computationId": "cross-media" },
+              "reportableQualiferDefinitions": [
+                {
+                  "reportableQualifierType": 4,
+                  "reportableQualifierDefinitionType": 3,
+                  "constantValue": 0.18508890698900862
+                },
+                {
+                  "reportableQualifierType": 3,
+                  "reportableQualifierDefinitionType": 2,
+                  "constantValue": 0.99814845947462527
+                }
+              ]
+            },
+            {
+              "columnNumber": 4123631365,
+              "Name": "Steel",
+              "Description": "Soft",
+              "parameterId": 2635529109,
+              "displayUnitId": 949315780,
+              "locationId": "dcb9bb67-0778-47fd-9541-8e488ceb4e44",
+              "isActive": false,
+              "Limits": [
+                {
+                  "i18nKey": "Soft",
+                  "limitType": 4,
+                  "Value": 0.2926016046165496,
+                  "unitId": 1230856520,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 1305553048,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 5,
+                        "dayType": 4,
+                        "monthType": 3
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 15713763954295898112 },
+                    "endDate": { "Ticks": 954136322509605888 }
+                  }
+                },
+                {
+                  "i18nKey": "invoice",
+                  "limitType": 0,
+                  "Value": 0.61190862423363546,
+                  "unitId": 907945540,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 2252623369,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 4,
+                        "dayType": 7,
+                        "monthType": 11
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 17622858063350460416 },
+                    "endDate": { "Ticks": 14924303464039944192 }
+                  }
+                }
+              ],
+              "dataSourceType": 5,
+              "computationBinding": { "computationId": "web-enabled" },
+              "reportableQualiferDefinitions": [
+                {
+                  "reportableQualifierType": 4,
+                  "reportableQualifierDefinitionType": 2,
+                  "constantValue": 0.91689580814768368
+                },
+                {
+                  "reportableQualifierType": 3,
+                  "reportableQualifierDefinitionType": 4,
+                  "constantValue": 0.021484120293280166
+                }
+              ]
+            }
+          ],
+          "auditEvent": {
+            "Id": "payment",
+            "userId": "Cotton",
+            "dataSourceType": 0,
+            "eventType": 4,
+            "timeStamp": { "Ticks": 8047223928384059392 },
+            "Details": "Borders"
+          }
+        }
+      ],
+      "Rows": [
+        {
+          "rowNumber": 4221730937,
+          "UTCTimeWindow": {
+            "startTime": { "Ticks": 5428742947030796288 },
+            "endTime": { "Ticks": 12655652465371500544 }
+          },
+          "Cells": [
+            {
+              "columnId": 3008573019,
+              "Notes": [
+                {
+                  "Id": "2fff5cca-7b9b-4a6e-8c48-c241ca3a4d9b",
+                  "timeStamp": { "Ticks": 9216634766467538944 },
+                  "userId": "692f345e-2989-4250-b407-acbb2de9f904",
+                  "Text": "Gorgeous"
+                },
+                {
+                  "Id": "2fff5cca-7b9b-4a6e-8c48-c241ca3a4d9b",
+                  "timeStamp": { "Ticks": 18068574651252011008 },
+                  "userId": "692f345e-2989-4250-b407-acbb2de9f904",
+                  "Text": "innovate"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.87110832048166,
+                  "stringValue": "Intelligent",
+                  "isLocked": true,
+                  "unitId": 3003571929,
+                  "Justification": "content",
+                  "reportableQualifier": {
+                    "reportableQualifierType": 5,
+                    "qualifiedValue": "Rustic Cotton Soap"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "1e948e7a-7b4b-4e9a-a4f0-6de024c87b4c" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "16f2d81f-569f-49f9-ae0d-62ac1c018bf0",
+                        "Timestamp": { "Ticks": 13387138997412780032 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "4808e39b-580f-4b75-b2a1-161e620994e9",
+                        "formFieldId": "bee10fd5-d0f1-4396-ac2d-e9fd00637347",
+                        "userId": "30351efe-be0c-417f-b54f-c803c7379012"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "fc271e99-fe1f-4c02-a04d-b6b1ae9ce5ee",
+                        "aggregateType": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "6db38b52-aee3-4413-995d-fb9788380017" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "e-business",
+                    "userId": "mission-critical",
+                    "dataSourceType": 1,
+                    "eventType": 5,
+                    "timeStamp": { "Ticks": 13751613719072151552 },
+                    "Details": "Legacy"
+                  }
+                }
+              ]
+            },
+            {
+              "columnId": 1996977006,
+              "Notes": [
+                {
+                  "Id": "f7ff6c5b-693e-4390-95a2-a26c755bb8d8",
+                  "timeStamp": { "Ticks": 13519986356029310976 },
+                  "userId": "fb07ea29-d9c4-4207-98f8-fd247b0371ca",
+                  "Text": "Supervisor"
+                },
+                {
+                  "Id": "f7ff6c5b-693e-4390-95a2-a26c755bb8d8",
+                  "timeStamp": { "Ticks": 4092115305320692224 },
+                  "userId": "fb07ea29-d9c4-4207-98f8-fd247b0371ca",
+                  "Text": "South Carolina"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.719244984313494,
+                  "stringValue": "Incredible Fresh Table",
+                  "isLocked": false,
+                  "unitId": 3241981211,
+                  "Justification": "Innovative",
+                  "reportableQualifier": {
+                    "reportableQualifierType": 3,
+                    "qualifiedValue": "interface"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "e957f6c5-51d7-4fff-b9db-56b20ffc75d7" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "9cd6af89-9c11-430b-8804-72389721fe83",
+                        "Timestamp": { "Ticks": 12764251031329011712 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "3779e070-d4ab-4535-afd6-edc52b837781",
+                        "formFieldId": "3b668dbf-0343-47af-a2a1-051c60b81b2b",
+                        "userId": "50ee153e-2551-47d1-a6e5-a6399bb04b2b"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "9c0b00c5-1338-442e-b75b-2e2d25eee2bf",
+                        "aggregateType": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "f4f813f5-8fdd-4495-8ef4-817e1e480313" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "strategic",
+                    "userId": "Health",
+                    "dataSourceType": 1,
+                    "eventType": 5,
+                    "timeStamp": { "Ticks": 9859043625208690688 },
+                    "Details": "navigating"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rowNumber": 36165238,
+          "UTCTimeWindow": {
+            "startTime": { "Ticks": 10906064826060259328 },
+            "endTime": { "Ticks": 6817611684735749120 }
+          },
+          "Cells": [
+            {
+              "columnId": 1727078420,
+              "Notes": [
+                {
+                  "Id": "199467ea-b643-474e-9e8a-dc93eccc62d9",
+                  "timeStamp": { "Ticks": 16876334386942414848 },
+                  "userId": "713c82cd-be08-4b0d-8365-9bc30b22470a",
+                  "Text": "Manager"
+                },
+                {
+                  "Id": "199467ea-b643-474e-9e8a-dc93eccc62d9",
+                  "timeStamp": { "Ticks": 4309546796421295104 },
+                  "userId": "713c82cd-be08-4b0d-8365-9bc30b22470a",
+                  "Text": "Cotton"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.49497339199063062,
+                  "stringValue": "invoice",
+                  "isLocked": true,
+                  "unitId": 3772381297,
+                  "Justification": "magenta",
+                  "reportableQualifier": {
+                    "reportableQualifierType": 2,
+                    "qualifiedValue": "bluetooth"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "0c5b6998-eb45-4554-9d40-e826675f87a4" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "7cc9bff2-19dc-4d68-ab8d-d52722fa2563",
+                        "Timestamp": { "Ticks": 7196410809528718336 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "10eb59cf-a311-4823-9ffc-51209bb5fe22",
+                        "formFieldId": "a31b46bc-36e0-4c8a-b766-5e978ef182e3",
+                        "userId": "c9714687-7147-4a64-b327-843f8ce03d6c"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "f3dcf49f-13f4-45d8-8c93-37992ef51d8a",
+                        "aggregateType": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "a78d0d18-202d-4759-a913-1edbc961297a" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "withdrawal",
+                    "userId": "SCSI",
+                    "dataSourceType": 1,
+                    "eventType": 5,
+                    "timeStamp": { "Ticks": 5046882197749121024 },
+                    "Details": "Regional"
+                  }
+                }
+              ]
+            },
+            {
+              "columnId": 14372530,
+              "Notes": [
+                {
+                  "Id": "72e44f95-cca1-426f-9b3d-bd0c0b9a0420",
+                  "timeStamp": { "Ticks": 7845176331540059136 },
+                  "userId": "710678a7-06ad-4fc9-b74d-3b1c0db3a652",
+                  "Text": "Alabama"
+                },
+                {
+                  "Id": "72e44f95-cca1-426f-9b3d-bd0c0b9a0420",
+                  "timeStamp": { "Ticks": 9287297398110304256 },
+                  "userId": "710678a7-06ad-4fc9-b74d-3b1c0db3a652",
+                  "Text": "moderator"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.15773767705901418,
+                  "stringValue": "Fresh",
+                  "isLocked": true,
+                  "unitId": 1882392900,
+                  "Justification": "Cross-platform",
+                  "reportableQualifier": {
+                    "reportableQualifierType": 4,
+                    "qualifiedValue": "Incredible Cotton Shirt"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "c8fe1c78-28bf-4d39-93a3-f40d4ca67472" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "868d30d4-4cf5-4264-a8cc-6a0fa9bbc243",
+                        "Timestamp": { "Ticks": 7195707474273932288 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "dc90a86b-e072-4ad9-a976-5f04c6688ee5",
+                        "formFieldId": "df84576d-89ea-4860-a821-09979fd9ed84",
+                        "userId": "07df5e57-fa50-402e-a57c-3d9967f7b992"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "50fa4454-a524-4513-83d3-15b8625e1643",
+                        "aggregateType": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "e14a3e4c-8907-4f81-80a1-001eff0cbda2" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "Bahraini Dinar",
+                    "userId": "Checking Account",
+                    "dataSourceType": 6,
+                    "eventType": 2,
+                    "timeStamp": { "Ticks": 12025467289718888448 },
+                    "Details": "embrace"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "worksheetType": 2,
+      "worksheetDefinitions": [
+        {
+          "Version": 2448074165,
+          "startRow": 4113732647,
+          "endRow": 3149158315,
+          "Columns": [
+            {
+              "columnNumber": 266599446,
+              "Name": "fuchsia",
+              "Description": "workforce",
+              "parameterId": 2384627637,
+              "displayUnitId": 2935455639,
+              "locationId": "dcb9bb67-0778-47fd-9541-8e488ceb4e44",
+              "isActive": true,
+              "Limits": [
+                {
+                  "i18nKey": "virtual",
+                  "limitType": 3,
+                  "Value": 0.021046598917360698,
+                  "unitId": 2447150335,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 417282110,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 5,
+                        "dayType": 1,
+                        "monthType": 5
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 7682310200937289728 },
+                    "endDate": { "Ticks": 5726710581116975104 }
+                  }
+                },
+                {
+                  "i18nKey": "open-source",
+                  "limitType": 2,
+                  "Value": 0.050737571460538346,
+                  "unitId": 503982820,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 1702079114,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 2,
+                        "dayType": 5,
+                        "monthType": 8
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 12042766971318632448 },
+                    "endDate": { "Ticks": 15093431914661234688 }
+                  }
+                }
+              ],
+              "dataSourceType": 4,
+              "computationBinding": { "computationId": "Borders" },
+              "reportableQualiferDefinitions": [
+                {
+                  "reportableQualifierType": 5,
+                  "reportableQualifierDefinitionType": 4,
+                  "constantValue": 0.96179895846256935
+                },
+                {
+                  "reportableQualifierType": 2,
+                  "reportableQualifierDefinitionType": 2,
+                  "constantValue": 0.3035179759857794
+                }
+              ]
+            },
+            {
+              "columnNumber": 1724260132,
+              "Name": "microchip",
+              "Description": "Rubber",
+              "parameterId": 2126273842,
+              "displayUnitId": 2057449808,
+              "locationId": "dcb9bb67-0778-47fd-9541-8e488ceb4e44",
+              "isActive": true,
+              "Limits": [
+                {
+                  "i18nKey": "Handmade",
+                  "limitType": 3,
+                  "Value": 0.44736703366384239,
+                  "unitId": 3448113859,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 1791111246,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 1,
+                        "dayType": 4,
+                        "monthType": 1
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 8429341413630940160 },
+                    "endDate": { "Ticks": 13246505919646930944 }
+                  }
+                },
+                {
+                  "i18nKey": "Cambridgeshire",
+                  "limitType": 4,
+                  "Value": 0.12377600750130416,
+                  "unitId": 467694254,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 3300751545,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 3,
+                        "dayType": 7,
+                        "monthType": 10
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 8196253735936975872 },
+                    "endDate": { "Ticks": 3451312601140235776 }
+                  }
+                }
+              ],
+              "dataSourceType": 2,
+              "computationBinding": { "computationId": "SQL" },
+              "reportableQualiferDefinitions": [
+                {
+                  "reportableQualifierType": 6,
+                  "reportableQualifierDefinitionType": 0,
+                  "constantValue": 0.13913021615665883
+                },
+                {
+                  "reportableQualifierType": 5,
+                  "reportableQualifierDefinitionType": 2,
+                  "constantValue": 0.87961266975831831
+                }
+              ]
+            }
+          ],
+          "auditEvent": {
+            "Id": "Well",
+            "userId": "Virgin Islands, British",
+            "dataSourceType": 0,
+            "eventType": 0,
+            "timeStamp": { "Ticks": 3314683781515853312 },
+            "Details": "Place"
+          }
+        },
+        {
+          "Version": 2826610071,
+          "startRow": 1668321996,
+          "endRow": 2973665269,
+          "Columns": [
+            {
+              "columnNumber": 1175673102,
+              "Name": "Rustic",
+              "Description": "Small Frozen Soap",
+              "parameterId": 1216148678,
+              "displayUnitId": 880409400,
+              "locationId": "dcb9bb67-0778-47fd-9541-8e488ceb4e44",
+              "isActive": true,
+              "Limits": [
+                {
+                  "i18nKey": "Bedfordshire",
+                  "limitType": 0,
+                  "Value": 0.91312802159838757,
+                  "unitId": 3020816515,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 436474562,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 2,
+                        "dayType": 0,
+                        "monthType": 6
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 13978995300782489600 },
+                    "endDate": { "Ticks": 8902084658780773376 }
+                  }
+                },
+                {
+                  "i18nKey": "Bedfordshire",
+                  "limitType": 1,
+                  "Value": 0.63561100030113526,
+                  "unitId": 708268534,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 1447159158,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 4,
+                        "dayType": 4,
+                        "monthType": 4
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 2382471308557449728 },
+                    "endDate": { "Ticks": 8840898803761568768 }
+                  }
+                }
+              ],
+              "dataSourceType": 2,
+              "computationBinding": { "computationId": "Knolls" },
+              "reportableQualiferDefinitions": [
+                {
+                  "reportableQualifierType": 2,
+                  "reportableQualifierDefinitionType": 0,
+                  "constantValue": 0.40661658272455287
+                },
+                {
+                  "reportableQualifierType": 5,
+                  "reportableQualifierDefinitionType": 3,
+                  "constantValue": 0.1165618133342647
+                }
+              ]
+            },
+            {
+              "columnNumber": 446212390,
+              "Name": "Kentucky",
+              "Description": "Spur",
+              "parameterId": 3967899045,
+              "displayUnitId": 2557517059,
+              "locationId": "dcb9bb67-0778-47fd-9541-8e488ceb4e44",
+              "isActive": false,
+              "Limits": [
+                {
+                  "i18nKey": "seamless",
+                  "limitType": 3,
+                  "Value": 0.73801169951353762,
+                  "unitId": 1544521244,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 4160725125,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 2,
+                        "dayType": 7,
+                        "monthType": 7
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 9327642465481842688 },
+                    "endDate": { "Ticks": 6452785145125129216 }
+                  }
+                },
+                {
+                  "i18nKey": "calculate",
+                  "limitType": 0,
+                  "Value": 0.65228608327558546,
+                  "unitId": 1201286952,
+                  "Recurrence": {
+                    "Yearly": {
+                      "yearlyInterval": 390221346,
+                      "ordinalDayOfMonth": {
+                        "ordinalType": 3,
+                        "dayType": 7,
+                        "monthType": 9
+                      }
+                    },
+                    "recurrenceStartDate": { "Ticks": 15165312375691413504 },
+                    "endDate": { "Ticks": 12763586462449057792 }
+                  }
+                }
+              ],
+              "dataSourceType": 2,
+              "computationBinding": { "computationId": "attitude" },
+              "reportableQualiferDefinitions": [
+                {
+                  "reportableQualifierType": 1,
+                  "reportableQualifierDefinitionType": 3,
+                  "constantValue": 0.36478446347861759
+                },
+                {
+                  "reportableQualifierType": 5,
+                  "reportableQualifierDefinitionType": 2,
+                  "constantValue": 0.12157873069941007
+                }
+              ]
+            }
+          ],
+          "auditEvent": {
+            "Id": "RSS",
+            "userId": "invoice",
+            "dataSourceType": 4,
+            "eventType": 0,
+            "timeStamp": { "Ticks": 7059251372464472064 },
+            "Details": "5th generation"
+          }
+        }
+      ],
+      "Rows": [
+        {
+          "rowNumber": 170575096,
+          "UTCTimeWindow": {
+            "startTime": { "Ticks": 4701017011046235136 },
+            "endTime": { "Ticks": 3304922162661089792 }
+          },
+          "Cells": [
+            {
+              "columnId": 896987534,
+              "Notes": [
+                {
+                  "Id": "90dc7b27-39cf-4cf9-8c0e-a5d7072de774",
+                  "timeStamp": { "Ticks": 5975399315204064256 },
+                  "userId": "a38a87ff-e721-4ffd-be19-a6cef9691e69",
+                  "Text": "Avon"
+                },
+                {
+                  "Id": "90dc7b27-39cf-4cf9-8c0e-a5d7072de774",
+                  "timeStamp": { "Ticks": 2731742541766603264 },
+                  "userId": "a38a87ff-e721-4ffd-be19-a6cef9691e69",
+                  "Text": "Generic Frozen Chair"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.11617843532756829,
+                  "stringValue": "ADP",
+                  "isLocked": false,
+                  "unitId": 1370469720,
+                  "Justification": "Multi-channelled",
+                  "reportableQualifier": {
+                    "reportableQualifierType": 5,
+                    "qualifiedValue": "Iran"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "a2ef4c64-f2b4-4184-9b59-65871da811b7" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "c3d20599-5747-4202-9325-c9c58e48378d",
+                        "Timestamp": { "Ticks": 4132079838589628928 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "586e9859-ffb7-411c-97b1-03f898523625",
+                        "formFieldId": "733a20a3-5250-404d-88a0-283ecc3797d8",
+                        "userId": "0d5f87e8-1342-4b29-b433-d557ae0f5146"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "5d2d3f92-81a8-4d1b-8b61-7ad5efdd3387",
+                        "aggregateType": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "2ec1128f-bee2-4e25-ab57-f08d31af6aa5" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "bricks-and-clicks",
+                    "userId": "Metal",
+                    "dataSourceType": 2,
+                    "eventType": 3,
+                    "timeStamp": { "Ticks": 1917158210804267520 },
+                    "Details": "Riel"
+                  }
+                }
+              ]
+            },
+            {
+              "columnId": 2494173007,
+              "Notes": [
+                {
+                  "Id": "e09eccac-c5aa-4388-b2b5-1fb8f869645f",
+                  "timeStamp": { "Ticks": 5627012793718690816 },
+                  "userId": "8fada585-2b4f-49a6-a1cb-d898d435fcbc",
+                  "Text": "asynchronous"
+                },
+                {
+                  "Id": "e09eccac-c5aa-4388-b2b5-1fb8f869645f",
+                  "timeStamp": { "Ticks": 3427521840973742592 },
+                  "userId": "8fada585-2b4f-49a6-a1cb-d898d435fcbc",
+                  "Text": "Designer"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.97100718783727247,
+                  "stringValue": "Health",
+                  "isLocked": false,
+                  "unitId": 1764262538,
+                  "Justification": "Practical",
+                  "reportableQualifier": {
+                    "reportableQualifierType": 5,
+                    "qualifiedValue": "bandwidth"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "6b60d2da-5575-4c99-8344-c4c9bbca38b2" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "e118e9ea-ff82-49a7-8c30-b0330a679bcc",
+                        "Timestamp": { "Ticks": 11136051253897226240 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "fee8a85f-563d-4eab-9511-a1da9429c6a8",
+                        "formFieldId": "c525861c-4a2d-4924-8f41-d3b898c33d27",
+                        "userId": "6a25426a-22b1-4cab-baf7-69524e21b244"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "8596ac63-3efe-4866-9b2e-c7d52327c671",
+                        "aggregateType": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "81d476ff-3571-4ca9-91c1-507349e8180e" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "HDD",
+                    "userId": "partnerships",
+                    "dataSourceType": 2,
+                    "eventType": 0,
+                    "timeStamp": { "Ticks": 14434581165189095424 },
+                    "Details": "card"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rowNumber": 2543885457,
+          "UTCTimeWindow": {
+            "startTime": { "Ticks": 2702539049062806016 },
+            "endTime": { "Ticks": 4912531901226001408 }
+          },
+          "Cells": [
+            {
+              "columnId": 3296861393,
+              "Notes": [
+                {
+                  "Id": "8b618d82-7254-4bc9-b508-7ef3cbe76b8b",
+                  "timeStamp": { "Ticks": 11460693778820046848 },
+                  "userId": "6f8a4b10-6271-4e36-8959-92d8779ab327",
+                  "Text": "Refined Wooden Sausages"
+                },
+                {
+                  "Id": "8b618d82-7254-4bc9-b508-7ef3cbe76b8b",
+                  "timeStamp": { "Ticks": 15975961365557544960 },
+                  "userId": "6f8a4b10-6271-4e36-8959-92d8779ab327",
+                  "Text": "Borders"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.92219236536053584,
+                  "stringValue": "plum",
+                  "isLocked": false,
+                  "unitId": 4025115465,
+                  "Justification": "intermediate",
+                  "reportableQualifier": {
+                    "reportableQualifierType": 6,
+                    "qualifiedValue": "payment"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "1ba3dee0-b9d6-437e-8532-522a50b9ecf9" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "4d0ea35e-0d30-47c6-b71e-bda3582ac2ec",
+                        "Timestamp": { "Ticks": 13203123004725647360 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "d0f79eb9-aaee-4e1f-b77a-88872333bfde",
+                        "formFieldId": "016592bb-e9f4-4571-9c31-dc6554694ef1",
+                        "userId": "9255ebda-3c2f-4782-bdad-00dfe631ba3a"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "88a074fc-2854-4ba6-9425-fe9cffd6547e",
+                        "aggregateType": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "162a5e10-4b28-4eb2-979c-09b916f0a9ba" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "Interactions",
+                    "userId": "revolutionary",
+                    "dataSourceType": 6,
+                    "eventType": 0,
+                    "timeStamp": { "Ticks": 6611158121458899968 },
+                    "Details": "Nevada"
+                  }
+                }
+              ]
+            },
+            {
+              "columnId": 2561694011,
+              "Notes": [
+                {
+                  "Id": "52c8c6f8-159a-48d5-a5ad-fc70747ca31f",
+                  "timeStamp": { "Ticks": 5705156064393663488 },
+                  "userId": "7c8d803d-6786-4824-8486-bae4a8976753",
+                  "Text": "Representative"
+                },
+                {
+                  "Id": "52c8c6f8-159a-48d5-a5ad-fc70747ca31f",
+                  "timeStamp": { "Ticks": 17048285275323586560 },
+                  "userId": "7c8d803d-6786-4824-8486-bae4a8976753",
+                  "Text": "program"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.55750298665720177,
+                  "stringValue": "feed",
+                  "isLocked": true,
+                  "unitId": 3660538757,
+                  "Justification": "Coordinator",
+                  "reportableQualifier": {
+                    "reportableQualifierType": 2,
+                    "qualifiedValue": "Rubber"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "2003e597-63a0-4f48-8b23-2032081b241a" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "a490de2b-0372-485e-8adf-390f0b231c65",
+                        "Timestamp": { "Ticks": 5954874242012539904 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "290b81ec-9d4c-470f-938a-17840eebed8b",
+                        "formFieldId": "d02a5cb1-64e3-4b3c-beeb-3969020ce29e",
+                        "userId": "aae3207f-7654-45e4-a252-10ddb3254de8"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "bd791592-9591-4be6-b1e2-dceee1b1f00a",
+                        "aggregateType": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "083fc5d5-7254-42ba-b8e7-71d6b4440a28" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "wireless",
+                    "userId": "frame",
+                    "dataSourceType": 0,
+                    "eventType": 5,
+                    "timeStamp": { "Ticks": 6217235686665231360 },
+                    "Details": "asymmetric"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
