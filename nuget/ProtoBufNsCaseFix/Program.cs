@@ -16,16 +16,20 @@ namespace ProtoBufNsCaseFix
         /// still needed after running this tool but it should cut down on the amount of manual effort
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+        static void Main(string[] args = null)
         {
+
+            var path = "\\generated";
+            cd if(args != null)
+                
+            Console.WriteLine("Starting...");
+            var directory = Directory.GetCurrentDirectory() + path;
 
             // Read all namespaces and collect them 
             var namespaces = new Dictionary<string, string>();
 
             // HACK - Need to find a better way than hard coding this path
-            var files = Directory.EnumerateFiles(
-                @"C:\Repos\claros.interfaces.csharp\nuget\Claros.Interfaces.ProtocolBuffers\generated\");
-
+            var files = Directory.EnumerateFiles(directory);
 
             // Extract the namespaces from the files and TitleCase them (ex. claros.common.example -> Claros.Common.Example)
             TextInfo myTI = new CultureInfo("en-US", false).TextInfo;
@@ -36,6 +40,7 @@ namespace ProtoBufNsCaseFix
             
             foreach (var file in files)
             {
+                Console.WriteLine($"File: {file}");
                 TitleCaseNamespaces(file, namespaces);
             }
         }
