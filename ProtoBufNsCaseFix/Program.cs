@@ -18,7 +18,12 @@ namespace ProtoBufNsCaseFix
         {
 
             var path = "\\generated";
-                
+
+            if (args != null)
+            {
+                path = args[0];
+            }
+
             Console.WriteLine("Starting...");
             var directory = Directory.GetCurrentDirectory() + path;
 
@@ -32,9 +37,9 @@ namespace ProtoBufNsCaseFix
             TextInfo myTI = new CultureInfo("en-US", false).TextInfo;
             foreach (var file in files)
             {
-                ExtractNamespaces(file).ForEach(x =>namespaces.TryAdd(x, myTI.ToTitleCase(x)));
+                ExtractNamespaces(file).ForEach(x => namespaces.TryAdd(x, myTI.ToTitleCase(x)));
             }
-            
+
             foreach (var file in files)
             {
                 Console.WriteLine($"File: {file}");
