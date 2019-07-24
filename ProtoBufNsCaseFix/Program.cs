@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Net;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
 
 
 namespace ProtoBufNsCaseFix
