@@ -18,11 +18,7 @@ namespace ProtoBufNsCaseFix
         {
 
             var path = "\\generated";
-
-            if (args != null)
-            {
-                path = args[0];
-            }
+            path = string.Empty;
 
             Console.WriteLine("Starting...");
             var directory = Directory.GetCurrentDirectory() + path;
