@@ -17,6 +17,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="generated\event_data_calibration.cs" />
+    <Compile Remove="generated\event_data_calibration_standard.cs" />
+    <Compile Remove="generated\event_data_calibration_value.cs" />
+    <Compile Remove="generated\event_data_metadata.cs" />
+    <Compile Remove="generated\event_data_prognosys.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="protobuf-net" Version="2.4.0" />
   </ItemGroup>
 
