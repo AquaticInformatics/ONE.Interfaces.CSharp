@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Claros.Common;
 
 namespace Claros.Interfaces.CSharp.Utilities

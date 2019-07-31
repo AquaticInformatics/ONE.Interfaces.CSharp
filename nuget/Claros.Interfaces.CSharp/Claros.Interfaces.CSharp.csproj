@@ -5,21 +5,28 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
+    <Version>0.0.100-TestingCicd</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>
-      Version 1.0.3 
-      - Enums with Type suffix were renamed to begin with Enum
-      - Introduced Recurrence object
-
-    </PackageReleaseNotes>
+    <PackageReleaseNotes>Testing Cicd</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="generated\event_data_calibration.cs" />
+    <Compile Remove="generated\event_data_calibration_standard.cs" />
+    <Compile Remove="generated\event_data_calibration_value.cs" />
+    <Compile Remove="generated\event_data_metadata.cs" />
+    <Compile Remove="generated\event_data_prognosys.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="protobuf-net" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="generated\" />
   </ItemGroup>
 
 </Project>
