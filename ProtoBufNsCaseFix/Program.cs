@@ -17,11 +17,11 @@ namespace ProtoBufNsCaseFix
         static void Main(string[] args = null)
         {
 
-            var path = "\\generated";
-            path = string.Empty;
-
             Console.WriteLine("Starting...");
-            var directory = Directory.GetCurrentDirectory() + path;
+            var directory = Directory.GetCurrentDirectory();
+
+            Console.WriteLine(directory);
+
 
             // Read all namespaces and collect them 
             var namespaces = new Dictionary<string, string>();
