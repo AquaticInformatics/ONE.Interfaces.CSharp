@@ -5,21 +5,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.7</Version>
+    <Version>1.0.8</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 1.0.7 
-      - move content from apiResponse into ClarosContent message
-      - fix spelling of reportableQualifer; reformat comments
-      - fix spelling of nonquantifiable, reformat comments
-      - add locationId, tenantId to form
-      - removed mobileDateTime from clarsDateTime
-      - add locationId and createdOn to formIndex
-      - modify gen all to only gen cpp for speed
-      - add comments to formfield_worksheet_columnUTC
+      Version 1.0.8 
+      - ApiResponse content property is now repeated
    </PackageReleaseNotes>
   </PropertyGroup>
 
