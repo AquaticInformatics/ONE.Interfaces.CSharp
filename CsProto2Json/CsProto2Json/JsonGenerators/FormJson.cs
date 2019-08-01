@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using AutoBogus;
 using Claros.Common.Configuration;
 using Claros.Common.Core;
 using Claros.Common.Form;
 using Claros.Common.Gis;
 using Claros.Instrument;
-using Claros.Instrument.Event;
+using Claros.Instrument.Instrumentevent;
 using Claros.Instrument.Measurement;
 using Claros.Operations.Spreadsheet;
 using Newtonsoft.Json;
@@ -62,13 +61,13 @@ namespace CsProto2Json.JsonGenerators
                 x.instrumentDatas.AddRange(new AutoFaker<InstrumentData>().Generate(2));
                 x.instrumentDatas.ForEach(inst =>
                 {
-                    inst.Events.Calibrations.AddRange(new AutoFaker<EventDataCalibration>().Generate(2));
-                    inst.Events.Errors.AddRange(new AutoFaker<EventDataMetaData>().Generate(2));
-                    inst.Events.Infoes.AddRange(new AutoFaker<EventDataMetaData>().Generate(2));
-                    inst.Events.Limits.AddRange(new AutoFaker<EventDataMetaData>().Generate(2));
-                    inst.Events.Prognosys.AddRange(new AutoFaker<EventDataPrognosys>().Generate(2));
-                    inst.Events.Reminders.AddRange(new AutoFaker<EventDataMetaData>().Generate(2));
-                    inst.Events.Warnings.AddRange(new AutoFaker<EventDataMetaData>().Generate(2));
+                    inst.Events.Calibrations.AddRange(new AutoFaker<InstrumentEventDataCalibration>().Generate(2));
+                    inst.Events.Errors.AddRange(new AutoFaker<InstrumentEventDataMetaData>().Generate(2));
+                    inst.Events.Infoes.AddRange(new AutoFaker<InstrumentEventDataMetaData>().Generate(2));
+                    inst.Events.Limits.AddRange(new AutoFaker<InstrumentEventDataMetaData>().Generate(2));
+                    inst.Events.Prognosys.AddRange(new AutoFaker<InstrumentEventDataPrognosys>().Generate(2));
+                    inst.Events.Reminders.AddRange(new AutoFaker<InstrumentEventDataMetaData>().Generate(2));
+                    inst.Events.Warnings.AddRange(new AutoFaker<InstrumentEventDataMetaData>().Generate(2));
 
                     inst.Measurements.AddRange(new AutoFaker<InstrumentMeasurementData>().Generate(2));
                     inst.Measurements.ForEach(m =>

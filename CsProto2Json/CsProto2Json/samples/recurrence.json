@@ -1,1 +1,12 @@
-{"Yearly":{"yearlyInterval":657777904,"ordinalDayOfMonth":{"ordinalType":4,"dayType":0,"monthType":3}},"recurrenceStartDate":{"Ticks":8987840535653151744},"endDate":{"Ticks":11610253490848256000}}
+{
+  "Yearly": {
+    "yearlyInterval": 437229314,
+    "ordinalDayOfMonth": {
+      "enumOrdinal": 3,
+      "enumDay": 3,
+      "enumMonth": 7
+    }
+  },
+  "recurrenceStartDate": { "Ticks": 3226370200077909504 },
+  "endDate": { "Ticks": 12236215502466156544 }
+}

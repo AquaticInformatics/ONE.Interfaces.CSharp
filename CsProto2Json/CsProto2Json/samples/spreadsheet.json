@@ -1,1 +1,1128 @@
-{"Name":"Grocery, Games & Sports","locationId":"543ecafc-b75d-46aa-8528-32cea471b5da","spreadsheetDefinitions":[{"Version":2134385088,"Timewindow":{"startTime":{"Ticks":3714894623959411200},"endTime":{"Ticks":15201244828020725760}},"Timezone":1,"timeWindowOffset":3782715557},{"Version":1494117488,"Timewindow":{"startTime":{"Ticks":814404870048756224},"endTime":{"Ticks":6993000866237662208}},"Timezone":1,"timeWindowOffset":4082998903}],"Worksheets":[{"worksheetType":4,"worksheetDefinitions":[{"Version":2796369543,"startRow":1953995072,"endRow":3476793417,"Columns":[{"columnNumber":690274048,"Name":"Gorgeous","Description":"Movies & Home","parameterId":1904660664,"displayUnitId":1499251578,"locationId":"20ed2f08-e466-49d9-aa8b-d57bc8ada91b","isActive":false,"Limits":[{"i18nKey":"copying","limitType":1,"Value":0.36932007147433238,"unitId":2828682647,"Recurrence":{"Yearly":{"yearlyInterval":2170446249,"ordinalDayOfMonth":{"ordinalType":3,"dayType":1,"monthType":12}},"recurrenceStartDate":{"Ticks":17003240173698238464},"endDate":{"Ticks":9278175978491045888}}},{"i18nKey":"Infrastructure","limitType":0,"Value":0.61331313504526075,"unitId":3759602859,"Recurrence":{"Yearly":{"yearlyInterval":3917825873,"ordinalDayOfMonth":{"ordinalType":1,"dayType":2,"monthType":3}},"recurrenceStartDate":{"Ticks":9254795310392100864},"endDate":{"Ticks":17884028436262004736}}}],"dataSourceType":2,"computationBinding":{"computationId":"innovative"},"reportableQualiferDefinitions":[{"reportableQualifierType":1,"reportableQualifierDefinitionType":2,"constantValue":0.727777628101305},{"reportableQualifierType":3,"reportableQualifierDefinitionType":4,"constantValue":0.7741970246537575}]},{"columnNumber":75691052,"Name":"open-source","Description":"mobile","parameterId":3218975303,"displayUnitId":970494296,"locationId":"20ed2f08-e466-49d9-aa8b-d57bc8ada91b","isActive":false,"Limits":[{"i18nKey":"transparent","limitType":0,"Value":0.93362745965534233,"unitId":2643483693,"Recurrence":{"Yearly":{"yearlyInterval":1398504488,"ordinalDayOfMonth":{"ordinalType":4,"dayType":6,"monthType":9}},"recurrenceStartDate":{"Ticks":16351264902366017536},"endDate":{"Ticks":16202915074035720192}}},{"i18nKey":"Electronics, Toys & Garden","limitType":3,"Value":0.65413834790426229,"unitId":3842234825,"Recurrence":{"Yearly":{"yearlyInterval":374925684,"ordinalDayOfMonth":{"ordinalType":5,"dayType":7,"monthType":7}},"recurrenceStartDate":{"Ticks":11325634065368446976},"endDate":{"Ticks":12180510558295144448}}}],"dataSourceType":3,"computationBinding":{"computationId":"Bedfordshire"},"reportableQualiferDefinitions":[{"reportableQualifierType":3,"reportableQualifierDefinitionType":3,"constantValue":0.82629606911274422},{"reportableQualifierType":3,"reportableQualifierDefinitionType":2,"constantValue":0.54586711737600491}]}],"auditEvent":{"Id":"analyzer","userId":"payment","dataSourceType":2,"eventType":0,"timeStamp":{"Ticks":15737804037314039808},"Details":"Practical"}},{"Version":264364274,"startRow":2648773151,"endRow":4142174807,"Columns":[{"columnNumber":471983600,"Name":"transmitter","Description":"Cambridgeshire","parameterId":2794755703,"displayUnitId":1941132230,"locationId":"20ed2f08-e466-49d9-aa8b-d57bc8ada91b","isActive":true,"Limits":[{"i18nKey":"US Dollar","limitType":1,"Value":0.99884792137837408,"unitId":2416825537,"Recurrence":{"Yearly":{"yearlyInterval":1234873886,"ordinalDayOfMonth":{"ordinalType":2,"dayType":4,"monthType":1}},"recurrenceStartDate":{"Ticks":10561850049261107200},"endDate":{"Ticks":12111735496060375040}}},{"i18nKey":"bottom-line","limitType":4,"Value":0.11178732389201751,"unitId":1924573602,"Recurrence":{"Yearly":{"yearlyInterval":2065983992,"ordinalDayOfMonth":{"ordinalType":0,"dayType":3,"monthType":7}},"recurrenceStartDate":{"Ticks":10987499983010717696},"endDate":{"Ticks":12691017303412643840}}}],"dataSourceType":2,"computationBinding":{"computationId":"online"},"reportableQualiferDefinitions":[{"reportableQualifierType":0,"reportableQualifierDefinitionType":1,"constantValue":0.78908987286923915},{"reportableQualifierType":6,"reportableQualifierDefinitionType":4,"constantValue":0.38571035879930032}]},{"columnNumber":1060115030,"Name":"Colorado","Description":"Home Loan Account","parameterId":2340645653,"displayUnitId":1308817408,"locationId":"20ed2f08-e466-49d9-aa8b-d57bc8ada91b","isActive":false,"Limits":[{"i18nKey":"Rubber","limitType":1,"Value":0.268003305079417,"unitId":1640320666,"Recurrence":{"Yearly":{"yearlyInterval":2955574491,"ordinalDayOfMonth":{"ordinalType":0,"dayType":7,"monthType":8}},"recurrenceStartDate":{"Ticks":13056535221089091584},"endDate":{"Ticks":11226089135856297984}}},{"i18nKey":"redefine","limitType":0,"Value":0.87501924758545091,"unitId":1377426540,"Recurrence":{"Yearly":{"yearlyInterval":2191320061,"ordinalDayOfMonth":{"ordinalType":3,"dayType":3,"monthType":2}},"recurrenceStartDate":{"Ticks":365040617960621312},"endDate":{"Ticks":10392988737015816192}}}],"dataSourceType":1,"computationBinding":{"computationId":"monitor"},"reportableQualiferDefinitions":[{"reportableQualifierType":6,"reportableQualifierDefinitionType":4,"constantValue":0.12305397732325549},{"reportableQualifierType":1,"reportableQualifierDefinitionType":0,"constantValue":0.8490474130255391}]}],"auditEvent":{"Id":"Well","userId":"experiences","dataSourceType":3,"eventType":5,"timeStamp":{"Ticks":4584297658360620032},"Details":"Gorgeous Concrete Pizza"}}],"Rows":[{"rowNumber":2008533286,"UTCTimeWindow":{"startTime":{"Ticks":12130577620675915776},"endTime":{"Ticks":12233294624055805952}},"Cells":[{"columnId":3823973603,"Notes":[{"Id":"c93cc7bb-bc9e-4bf0-a1f3-5799fab94f57","timeStamp":{"Ticks":14107993587015962624},"userId":"0365e4ed-4fa1-4f75-b5ae-6a47613ddee8","Text":"ivory"},{"Id":"c93cc7bb-bc9e-4bf0-a1f3-5799fab94f57","timeStamp":{"Ticks":7062864187286400000},"userId":"0365e4ed-4fa1-4f75-b5ae-6a47613ddee8","Text":"open-source"}],"cellDatas":[{"Value":0.98107082488996478,"stringValue":"parsing","isLocked":true,"unitId":4215120437,"Justification":"initiatives","reportableQualifier":{"reportableQualifierType":2,"qualifiedValue":"PNG"},"cellDataBindings":[{"computationBinding":{"computationId":"e553cc28-0489-4b4d-bf2b-93a893df89b3"}},{"fieldInstrumentMeasurementBinding":{"instrumentMeasurementId":"6434700e-e552-46ce-a308-eaadcce1e4af","Timestamp":{"Ticks":7720510456129488896},"unitId":4294967295}},{"formBinding":{"formId":"d5d727b9-7323-4d6f-9e63-0a2c1a8db923","formFieldId":"54e46a3c-51cd-4d65-960f-d9b24b021c1b","userId":"fa0d641e-0fde-4d08-8b32-42e0d398451d"}},{"instrumentMeasurementBinding":{"instrumentMeasurementId":"6cee624c-0b6f-429a-a0ef-fc1113686395","aggregateType":3,"unitId":1}},{"spreadsheetBinding":{"userId":"84793abe-439b-43f4-a712-71e3a69ae96a"}}],"auditEvent":{"Id":"Supervisor","userId":"Frozen","dataSourceType":4,"eventType":0,"timeStamp":{"Ticks":12012314347505754112},"Details":"Fords"}}]},{"columnId":821937442,"Notes":[{"Id":"e83e36a9-b918-4cd7-b541-1f216fd13138","timeStamp":{"Ticks":16221897205995241472},"userId":"95a99e73-dd6c-454c-8220-b37837678f0e","Text":"gold"},{"Id":"e83e36a9-b918-4cd7-b541-1f216fd13138","timeStamp":{"Ticks":12504085105239580672},"userId":"95a99e73-dd6c-454c-8220-b37837678f0e","Text":"Web"}],"cellDatas":[{"Value":0.27524805221485349,"stringValue":"Kroon","isLocked":false,"unitId":2957169305,"Justification":"Drive","reportableQualifier":{"reportableQualifierType":0,"qualifiedValue":"6th generation"},"cellDataBindings":[{"computationBinding":{"computationId":"3ec2261f-f897-444b-a343-40bd3a54ef0f"}},{"fieldInstrumentMeasurementBinding":{"instrumentMeasurementId":"999da3b3-74f3-4b52-be34-43ad98320a72","Timestamp":{"Ticks":9710773408392228864},"unitId":4294967295}},{"formBinding":{"formId":"b699bbf3-685a-45bf-9a28-44f04d7140f7","formFieldId":"f92268df-8c92-47a0-bcd9-fe29697ea21c","userId":"5a2b2a1b-35d6-426e-b18d-b6b5667073f1"}},{"instrumentMeasurementBinding":{"instrumentMeasurementId":"b5a3e52b-83ba-4f25-a35d-f63e9b35158e","aggregateType":3,"unitId":1}},{"spreadsheetBinding":{"userId":"2ac2f1a3-aca2-415f-b687-95fc77c0fa3e"}}],"auditEvent":{"Id":"panel","userId":"Incredible Fresh Bike","dataSourceType":3,"eventType":3,"timeStamp":{"Ticks":18099488417113741312},"Details":"Singapore Dollar"}}]}]},{"rowNumber":1279238574,"UTCTimeWindow":{"startTime":{"Ticks":17079662416617164800},"endTime":{"Ticks":358127241029264832}},"Cells":[{"columnId":2777706141,"Notes":[{"Id":"5cdac2df-759c-4323-bb16-ab314986276b","timeStamp":{"Ticks":8720861700507399168},"userId":"c5e9eab1-f0d7-463c-adde-1e9b72eb413a","Text":"systems"},{"Id":"5cdac2df-759c-4323-bb16-ab314986276b","timeStamp":{"Ticks":17265030774247354368},"userId":"c5e9eab1-f0d7-463c-adde-1e9b72eb413a","Text":"Assurance"}],"cellDatas":[{"Value":0.94820086748721122,"stringValue":"neural-net","isLocked":true,"unitId":798511804,"Justification":"payment","reportableQualifier":{"reportableQualifierType":2,"qualifiedValue":"generate"},"cellDataBindings":[{"computationBinding":{"computationId":"b5a15f56-8ab5-4094-99ee-649a5f8676c7"}},{"fieldInstrumentMeasurementBinding":{"instrumentMeasurementId":"50568050-bb7a-4b96-a297-76d0262c9cbb","Timestamp":{"Ticks":15967472577441413120},"unitId":4294967295}},{"formBinding":{"formId":"9071f356-f330-4f0b-bb7b-c1b5f3f9e059","formFieldId":"8b0664b2-1cc9-494e-9665-8ab5c47beb9d","userId":"cd459c24-05b1-4638-8263-3ef1795d95f3"}},{"instrumentMeasurementBinding":{"instrumentMeasurementId":"4677d880-b17e-42aa-abde-f13998d2d1f6","aggregateType":3,"unitId":1}},{"spreadsheetBinding":{"userId":"d40fad4e-3f4d-47dd-ae27-67c7e7dd451d"}}],"auditEvent":{"Id":"bypass","userId":"withdrawal","dataSourceType":1,"eventType":2,"timeStamp":{"Ticks":3664224515333022208},"Details":"Handcrafted"}}]},{"columnId":1456985184,"Notes":[{"Id":"f2e15c5b-1dbf-4480-b417-c2e2c158eb44","timeStamp":{"Ticks":13446238752455608320},"userId":"b72bd057-4798-4e85-b708-2980b368a328","Text":"budgetary management"},{"Id":"f2e15c5b-1dbf-4480-b417-c2e2c158eb44","timeStamp":{"Ticks":15212535910500110336},"userId":"b72bd057-4798-4e85-b708-2980b368a328","Text":"Iranian Rial"}],"cellDatas":[{"Value":0.273034870751684,"stringValue":"generate","isLocked":false,"unitId":4038310389,"Justification":"Metal","reportableQualifier":{"reportableQualifierType":3,"qualifiedValue":"auxiliary"},"cellDataBindings":[{"computationBinding":{"computationId":"6ebb3c41-f276-4b82-9c25-66121f91a153"}},{"fieldInstrumentMeasurementBinding":{"instrumentMeasurementId":"e15ca4a6-aed3-4d7f-9ddd-66c6678b0c4c","Timestamp":{"Ticks":3519312782554970112},"unitId":4294967295}},{"formBinding":{"formId":"1d43539b-e362-4c21-a6e3-10f038afb608","formFieldId":"c12929c2-cd77-4bbc-905b-b5b11762026e","userId":"d39ee276-7b61-4e0b-a64c-b1e41bd8db4f"}},{"instrumentMeasurementBinding":{"instrumentMeasurementId":"ec085ae8-258b-4527-ac1f-ef195518be26","aggregateType":3,"unitId":1}},{"spreadsheetBinding":{"userId":"9ad441a5-6ddb-456c-9906-be5aae9373f2"}}],"auditEvent":{"Id":"Generic","userId":"Moroccan Dirham","dataSourceType":1,"eventType":5,"timeStamp":{"Ticks":3489005388766306304},"Details":"Greens"}}]}]}]},{"worksheetType":3,"worksheetDefinitions":[{"Version":2302703101,"startRow":50617366,"endRow":1615983896,"Columns":[{"columnNumber":3380527779,"Name":"Thailand","Description":"analyzing","parameterId":554269614,"displayUnitId":1084089880,"locationId":"20ed2f08-e466-49d9-aa8b-d57bc8ada91b","isActive":true,"Limits":[{"i18nKey":"port","limitType":1,"Value":0.36967467254478237,"unitId":3031582627,"Recurrence":{"Yearly":{"yearlyInterval":2227214109,"ordinalDayOfMonth":{"ordinalType":2,"dayType":4,"monthType":3}},"recurrenceStartDate":{"Ticks":12283820791148169216},"endDate":{"Ticks":11003803206427523072}}},{"i18nKey":"Connecticut","limitType":4,"Value":0.53860329582290878,"unitId":3001329951,"Recurrence":{"Yearly":{"yearlyInterval":1000941846,"ordinalDayOfMonth":{"ordinalType":3,"dayType":1,"monthType":2}},"recurrenceStartDate":{"Ticks":11783478129091061760},"endDate":{"Ticks":13963191040896561152}}}],"dataSourceType":0,"computationBinding":{"computationId":"gold"},"reportableQualiferDefinitions":[{"reportableQualifierType":4,"reportableQualifierDefinitionType":4,"constantValue":0.27449290513735863},{"reportableQualifierType":3,"reportableQualifierDefinitionType":3,"constantValue":0.54158186891189863}]},{"columnNumber":2930290511,"Name":"Forward","Description":"redundant","parameterId":3663106307,"displayUnitId":2533213155,"locationId":"20ed2f08-e466-49d9-aa8b-d57bc8ada91b","isActive":false,"Limits":[{"i18nKey":"e-business","limitType":1,"Value":0.16818410445385804,"unitId":3843316875,"Recurrence":{"Yearly":{"yearlyInterval":3127343565,"ordinalDayOfMonth":{"ordinalType":1,"dayType":3,"monthType":1}},"recurrenceStartDate":{"Ticks":6647041387822714880},"endDate":{"Ticks":3374400027574701568}}},{"i18nKey":"program","limitType":1,"Value":0.55304119109783378,"unitId":1873335908,"Recurrence":{"Yearly":{"yearlyInterval":1762922624,"ordinalDayOfMonth":{"ordinalType":4,"dayType":7,"monthType":6}},"recurrenceStartDate":{"Ticks":8861225750111636480},"endDate":{"Ticks":8631749822087709696}}}],"dataSourceType":5,"computationBinding":{"computationId":"yellow"},"reportableQualiferDefinitions":[{"reportableQualifierType":0,"reportableQualifierDefinitionType":1,"constantValue":0.27542985988568042},{"reportableQualifierType":0,"reportableQualifierDefinitionType":2,"constantValue":0.6461534787184342}]}],"auditEvent":{"Id":"empower","userId":"proactive","dataSourceType":3,"eventType":1,"timeStamp":{"Ticks":4247337854421902848},"Details":"Road"}},{"Version":2186247657,"startRow":1896776914,"endRow":2072877176,"Columns":[{"columnNumber":1435744624,"Name":"Sleek","Description":"program","parameterId":3009926443,"displayUnitId":3220476307,"locationId":"20ed2f08-e466-49d9-aa8b-d57bc8ada91b","isActive":true,"Limits":[{"i18nKey":"channels","limitType":4,"Value":0.68730780188334539,"unitId":924054180,"Recurrence":{"Yearly":{"yearlyInterval":3582894397,"ordinalDayOfMonth":{"ordinalType":2,"dayType":2,"monthType":8}},"recurrenceStartDate":{"Ticks":11842123124406441984},"endDate":{"Ticks":6773579508197960704}}},{"i18nKey":"pixel","limitType":4,"Value":0.78163991113269693,"unitId":1329375594,"Recurrence":{"Yearly":{"yearlyInterval":2491990931,"ordinalDayOfMonth":{"ordinalType":0,"dayType":7,"monthType":0}},"recurrenceStartDate":{"Ticks":11461338496361150464},"endDate":{"Ticks":2325870846524935680}}}],"dataSourceType":3,"computationBinding":{"computationId":"Soft"},"reportableQualiferDefinitions":[{"reportableQualifierType":4,"reportableQualifierDefinitionType":4,"constantValue":0.92579693949119979},{"reportableQualifierType":4,"reportableQualifierDefinitionType":1,"constantValue":0.83541125284294193}]},{"columnNumber":149430886,"Name":"HDD","Description":"Division","parameterId":3210104499,"displayUnitId":1411139930,"locationId":"20ed2f08-e466-49d9-aa8b-d57bc8ada91b","isActive":true,"Limits":[{"i18nKey":"Investor","limitType":3,"Value":0.86829296819320556,"unitId":3357707353,"Recurrence":{"Yearly":{"yearlyInterval":2590467517,"ordinalDayOfMonth":{"ordinalType":1,"dayType":7,"monthType":2}},"recurrenceStartDate":{"Ticks":6980194931612402688},"endDate":{"Ticks":1477650874305304320}}},{"i18nKey":"Awesome Fresh Tuna","limitType":1,"Value":0.27538723557972689,"unitId":4038140601,"Recurrence":{"Yearly":{"yearlyInterval":1282079034,"ordinalDayOfMonth":{"ordinalType":3,"dayType":5,"monthType":12}},"recurrenceStartDate":{"Ticks":15522774609754058752},"endDate":{"Ticks":12134424923532445696}}}],"dataSourceType":3,"computationBinding":{"computationId":"Knoll"},"reportableQualiferDefinitions":[{"reportableQualifierType":5,"reportableQualifierDefinitionType":4,"constantValue":0.52176605235867479},{"reportableQualifierType":5,"reportableQualifierDefinitionType":0,"constantValue":0.02635803168004287}]}],"auditEvent":{"Id":"bypassing","userId":"Shoal","dataSourceType":3,"eventType":1,"timeStamp":{"Ticks":5633636294717170688},"Details":"array"}}],"Rows":[{"rowNumber":583859192,"UTCTimeWindow":{"startTime":{"Ticks":3827639285058438144},"endTime":{"Ticks":9475238183453958144}},"Cells":[{"columnId":4048333549,"Notes":[{"Id":"04cd66a2-8c37-43e6-9ab8-c773d17a7494","timeStamp":{"Ticks":15155961192501581824},"userId":"d8f47a93-d206-4a72-8c71-34ef2eca5363","Text":"overriding"},{"Id":"04cd66a2-8c37-43e6-9ab8-c773d17a7494","timeStamp":{"Ticks":3340931555034578944},"userId":"d8f47a93-d206-4a72-8c71-34ef2eca5363","Text":"JBOD"}],"cellDatas":[{"Value":0.72081070333757,"stringValue":"Manors","isLocked":true,"unitId":1920780006,"Justification":"navigate","reportableQualifier":{"reportableQualifierType":5,"qualifiedValue":"Supervisor"},"cellDataBindings":[{"computationBinding":{"computationId":"d340a41d-334e-44fa-808f-7b439f076c88"}},{"fieldInstrumentMeasurementBinding":{"instrumentMeasurementId":"85da8197-584c-42be-b07f-5ebedfbb7136","Timestamp":{"Ticks":4420922127456438784},"unitId":4294967295}},{"formBinding":{"formId":"5ba9e840-be84-4eea-88de-c58440e83a7a","formFieldId":"0f8716c4-4a24-4094-89da-cad050755f3b","userId":"c85eeae1-fff8-43c3-a6d1-bc1ba45244e9"}},{"instrumentMeasurementBinding":{"instrumentMeasurementId":"4af78625-27cd-4a87-a9b2-2a5ddb3214cc","aggregateType":3,"unitId":1}},{"spreadsheetBinding":{"userId":"7a6a88cb-7310-42ba-81b6-40947883e5a8"}}],"auditEvent":{"Id":"pixel","userId":"rich","dataSourceType":5,"eventType":3,"timeStamp":{"Ticks":10837931363220332544},"Details":"knowledge user"}}]},{"columnId":3964188251,"Notes":[{"Id":"6bde0670-907a-4203-8a5a-6edbdfbae3cc","timeStamp":{"Ticks":3936441432465873408},"userId":"1c8674fc-ee33-4c80-b13f-2850e5feb439","Text":"empowering"},{"Id":"6bde0670-907a-4203-8a5a-6edbdfbae3cc","timeStamp":{"Ticks":4591871042916660224},"userId":"1c8674fc-ee33-4c80-b13f-2850e5feb439","Text":"Morocco"}],"cellDatas":[{"Value":0.72893618453710163,"stringValue":"red","isLocked":false,"unitId":2032466110,"Justification":"Solomon Islands","reportableQualifier":{"reportableQualifierType":1,"qualifiedValue":"Small"},"cellDataBindings":[{"computationBinding":{"computationId":"d196384a-151c-4906-8dc4-d09116642a36"}},{"fieldInstrumentMeasurementBinding":{"instrumentMeasurementId":"da588061-7e01-413d-aa43-1cc058926144","Timestamp":{"Ticks":2824490599630321152},"unitId":4294967295}},{"formBinding":{"formId":"84a8d46c-7bb3-4386-b33b-063c21b31440","formFieldId":"66828893-a1bd-486d-84ac-5c23c2f2e3cb","userId":"fc339b2c-3ad2-47d6-b884-adb38222f2e0"}},{"instrumentMeasurementBinding":{"instrumentMeasurementId":"10589eac-9f88-4963-8884-83690ebc22ee","aggregateType":3,"unitId":1}},{"spreadsheetBinding":{"userId":"19675ad4-9183-40ef-81bb-703e0231b154"}}],"auditEvent":{"Id":"Investor","userId":"Licensed Frozen Fish","dataSourceType":4,"eventType":0,"timeStamp":{"Ticks":11599283311145508864},"Details":"Frozen"}}]}]},{"rowNumber":2326278423,"UTCTimeWindow":{"startTime":{"Ticks":11346682729433335808},"endTime":{"Ticks":8635985810894774272}},"Cells":[{"columnId":3525561693,"Notes":[{"Id":"a23f7012-0d88-48a1-a6ee-0313517925ee","timeStamp":{"Ticks":9325071317668634624},"userId":"6dc92669-bb60-4f21-8b04-75a2724755fd","Text":"AI"},{"Id":"a23f7012-0d88-48a1-a6ee-0313517925ee","timeStamp":{"Ticks":2790579384681251328},"userId":"6dc92669-bb60-4f21-8b04-75a2724755fd","Text":"Personal Loan Account"}],"cellDatas":[{"Value":0.57682197800689472,"stringValue":"relationships","isLocked":false,"unitId":3635012097,"Justification":"initiatives","reportableQualifier":{"reportableQualifierType":4,"qualifiedValue":"Arkansas"},"cellDataBindings":[{"computationBinding":{"computationId":"22e323e4-8e7b-4e13-8b0b-a2c798ae9d48"}},{"fieldInstrumentMeasurementBinding":{"instrumentMeasurementId":"4001f673-0df8-41e9-bb20-efe16b65d8a7","Timestamp":{"Ticks":5899862333764733952},"unitId":4294967295}},{"formBinding":{"formId":"f69ce111-f9c5-4bee-bef1-3757030a9be8","formFieldId":"084c7093-c727-4c5b-a4fb-46dbf4b66a35","userId":"5c869a11-c2ce-447d-a281-c87be9a10684"}},{"instrumentMeasurementBinding":{"instrumentMeasurementId":"41dcd962-a116-414a-867c-9066bbc6258d","aggregateType":3,"unitId":1}},{"spreadsheetBinding":{"userId":"7bdb86f6-2531-48ac-9fbc-d5ef896c2fb1"}}],"auditEvent":{"Id":"Unbranded Plastic Fish","userId":"Future","dataSourceType":4,"eventType":3,"timeStamp":{"Ticks":6044505416338295808},"Details":"invoice"}}]},{"columnId":3789361909,"Notes":[{"Id":"269f6076-cd55-45cf-8c50-e60267d80ffc","timeStamp":{"Ticks":8325662354756166656},"userId":"828b1ebf-b8a3-40d5-9fbd-59600bda8078","Text":"frictionless"},{"Id":"269f6076-cd55-45cf-8c50-e60267d80ffc","timeStamp":{"Ticks":9082362861687541760},"userId":"828b1ebf-b8a3-40d5-9fbd-59600bda8078","Text":"US Dollar"}],"cellDatas":[{"Value":0.11260783677576475,"stringValue":"Turnpike","isLocked":false,"unitId":3542434623,"Justification":"Home Loan Account","reportableQualifier":{"reportableQualifierType":0,"qualifiedValue":"Cambridgeshire"},"cellDataBindings":[{"computationBinding":{"computationId":"dac3374d-afff-4fbd-8a05-eff2edcb6d74"}},{"fieldInstrumentMeasurementBinding":{"instrumentMeasurementId":"bfd68978-3c67-45a3-bb84-591b0695e272","Timestamp":{"Ticks":5143714760923302912},"unitId":4294967295}},{"formBinding":{"formId":"83945488-b7dc-425c-bf2a-8373949042ad","formFieldId":"bf3edc82-babd-4985-8648-a0a678ac57c8","userId":"167b28e1-7281-4ce2-9287-d41ebe62a9af"}},{"instrumentMeasurementBinding":{"instrumentMeasurementId":"8b6b2923-401d-454c-8ffe-f8e5adbb9c94","aggregateType":3,"unitId":1}},{"spreadsheetBinding":{"userId":"2683415f-a92f-4ba5-a474-02b2a745fea6"}}],"auditEvent":{"Id":"Innovative","userId":"Specialist","dataSourceType":0,"eventType":5,"timeStamp":{"Ticks":5376643653676259328},"Details":"Rhode Island"}}]}]}]}]}
+{
+  "Name": "transmitter",
+  "locationId": "b9bc3561-85c2-43e8-85bf-a66cf70e9525",
+  "spreadsheetDefinitions": [
+    {
+      "Version": 338434544,
+      "Timewindow": {
+        "startTime": { "Ticks": 805239564453646848 },
+        "endTime": { "Ticks": 15026334312034240512 }
+      },
+      "enumTimeZone": 347,
+      "timeWindowOffset": 2142966088
+    },
+    {
+      "Version": 781939764,
+      "Timewindow": {
+        "startTime": { "Ticks": 14529296438334382080 },
+        "endTime": { "Ticks": 2507493417145651200 }
+      },
+      "enumTimeZone": 485,
+      "timeWindowOffset": 2166508881
+    }
+  ],
+  "Worksheets": [
+    {
+      "enumWorksheet": 2,
+      "worksheetDefinitions": [
+        {
+          "Version": 3102293071,
+          "startRow": 2610361671,
+          "endRow": 819581034,
+          "Columns": [
+            {
+              "columnNumber": 455676892,
+              "Name": "Streets",
+              "Description": "plum",
+              "parameterId": 2506115751,
+              "displayUnitId": 2085561130,
+              "locationId": "af45c1cf-c565-4f59-b39b-6e35c86c99e4",
+              "isActive": true,
+              "Limits": [
+                {
+                  "Name": "Fresh",
+                  "enumLimitOperation": 4,
+                  "enumLimit": 1,
+                  "lowValue": 0.86917988297956994,
+                  "highValue": 0.093456092334099156,
+                  "unitId": 1952151054,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 12472917438091061248 },
+                    "endTime": { "Ticks": 12352100944301193216 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 1,
+                    "Duration": 3314227015,
+                    "instanceCount": 1985688116,
+                    "enumLimitOperation": 6
+                  }
+                },
+                {
+                  "Name": "Manor",
+                  "enumLimitOperation": 3,
+                  "enumLimit": 2,
+                  "lowValue": 0.5044465966077738,
+                  "highValue": 0.20338731082314035,
+                  "unitId": 3373154477,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 4365760264720390144 },
+                    "endTime": { "Ticks": 18422021589107234816 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 0,
+                    "Duration": 1023886274,
+                    "instanceCount": 4190020201,
+                    "enumLimitOperation": 1
+                  }
+                }
+              ],
+              "enumDataSource": 2,
+              "computationBinding": { "computationId": "enterprise" },
+              "reportableQualifierDefinitions": [
+                {
+                  "enumReportableQualifier": 0,
+                  "enumReportableQualifierDefinition": 2,
+                  "constantValue": 0.49491672008061627
+                },
+                {
+                  "enumReportableQualifier": 4,
+                  "enumReportableQualifierDefinition": 3,
+                  "constantValue": 0.58616374506902125
+                }
+              ]
+            },
+            {
+              "columnNumber": 3887845055,
+              "Name": "Intelligent Fresh Chicken",
+              "Description": "3rd generation",
+              "parameterId": 2047416384,
+              "displayUnitId": 3089888595,
+              "locationId": "af45c1cf-c565-4f59-b39b-6e35c86c99e4",
+              "isActive": true,
+              "Limits": [
+                {
+                  "Name": "Ergonomic",
+                  "enumLimitOperation": 4,
+                  "enumLimit": 1,
+                  "lowValue": 0.19962960397807397,
+                  "highValue": 0.37922074942813289,
+                  "unitId": 1285355624,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 4640226275838577664 },
+                    "endTime": { "Ticks": 9327590144190218240 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 0,
+                    "Duration": 4024647393,
+                    "instanceCount": 444331766,
+                    "enumLimitOperation": 5
+                  }
+                },
+                {
+                  "Name": "Sri Lanka Rupee",
+                  "enumLimitOperation": 5,
+                  "enumLimit": 0,
+                  "lowValue": 0.98492045373884984,
+                  "highValue": 0.1908785333814465,
+                  "unitId": 574560234,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 6967547068963579904 },
+                    "endTime": { "Ticks": 6817098058186515456 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 1,
+                    "Duration": 3725470537,
+                    "instanceCount": 2700667651,
+                    "enumLimitOperation": 0
+                  }
+                }
+              ],
+              "enumDataSource": 5,
+              "computationBinding": { "computationId": "Small Wooden Shoes" },
+              "reportableQualifierDefinitions": [
+                {
+                  "enumReportableQualifier": 1,
+                  "enumReportableQualifierDefinition": 4,
+                  "constantValue": 0.69937344114266964
+                },
+                {
+                  "enumReportableQualifier": 1,
+                  "enumReportableQualifierDefinition": 1,
+                  "constantValue": 0.0942159905537106
+                }
+              ]
+            }
+          ],
+          "auditEvent": {
+            "Id": "synthesize",
+            "userId": "France",
+            "enumDataSource": 6,
+            "enumAuditEvent": 0,
+            "timeStamp": { "Ticks": 17055422986986852352 },
+            "Details": "Marketing"
+          }
+        },
+        {
+          "Version": 1297459356,
+          "startRow": 1219196026,
+          "endRow": 3217844969,
+          "Columns": [
+            {
+              "columnNumber": 1559784072,
+              "Name": "reboot",
+              "Description": "Egypt",
+              "parameterId": 64982244,
+              "displayUnitId": 216843430,
+              "locationId": "af45c1cf-c565-4f59-b39b-6e35c86c99e4",
+              "isActive": true,
+              "Limits": [
+                {
+                  "Name": "orchid",
+                  "enumLimitOperation": 2,
+                  "enumLimit": 2,
+                  "lowValue": 0.99581081047459075,
+                  "highValue": 0.12755985517406829,
+                  "unitId": 2756074513,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 5295158391637302272 },
+                    "endTime": { "Ticks": 18064161331835148288 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 1,
+                    "Duration": 4214143529,
+                    "instanceCount": 603875604,
+                    "enumLimitOperation": 0
+                  }
+                },
+                {
+                  "Name": "Tajikistan",
+                  "enumLimitOperation": 6,
+                  "enumLimit": 1,
+                  "lowValue": 0.67126479729603272,
+                  "highValue": 0.15164276266081386,
+                  "unitId": 1793673894,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 1624938660302021120 },
+                    "endTime": { "Ticks": 5435471142152132608 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 1,
+                    "Duration": 2006089994,
+                    "instanceCount": 5602466,
+                    "enumLimitOperation": 4
+                  }
+                }
+              ],
+              "enumDataSource": 2,
+              "computationBinding": { "computationId": "Virginia" },
+              "reportableQualifierDefinitions": [
+                {
+                  "enumReportableQualifier": 4,
+                  "enumReportableQualifierDefinition": 3,
+                  "constantValue": 0.17827652356507095
+                },
+                {
+                  "enumReportableQualifier": 4,
+                  "enumReportableQualifierDefinition": 4,
+                  "constantValue": 0.49908988247583147
+                }
+              ]
+            },
+            {
+              "columnNumber": 873525446,
+              "Name": "Bedfordshire",
+              "Description": "Kentucky",
+              "parameterId": 2500891125,
+              "displayUnitId": 3267215959,
+              "locationId": "af45c1cf-c565-4f59-b39b-6e35c86c99e4",
+              "isActive": false,
+              "Limits": [
+                {
+                  "Name": "Manat",
+                  "enumLimitOperation": 1,
+                  "enumLimit": 0,
+                  "lowValue": 0.61586365365230644,
+                  "highValue": 0.41161778169293783,
+                  "unitId": 3211031611,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 9670254102787344384 },
+                    "endTime": { "Ticks": 9702936544772325376 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 0,
+                    "Duration": 2640383677,
+                    "instanceCount": 3864497497,
+                    "enumLimitOperation": 0
+                  }
+                },
+                {
+                  "Name": "Handcrafted Fresh Cheese",
+                  "enumLimitOperation": 4,
+                  "enumLimit": 3,
+                  "lowValue": 0.86080780386031042,
+                  "highValue": 0.53635899421589406,
+                  "unitId": 2328402633,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 2185985823213378816 },
+                    "endTime": { "Ticks": 8735780372496217088 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 0,
+                    "Duration": 222183808,
+                    "instanceCount": 3292611933,
+                    "enumLimitOperation": 4
+                  }
+                }
+              ],
+              "enumDataSource": 1,
+              "computationBinding": { "computationId": "SQL" },
+              "reportableQualifierDefinitions": [
+                {
+                  "enumReportableQualifier": 1,
+                  "enumReportableQualifierDefinition": 3,
+                  "constantValue": 0.96416800793454427
+                },
+                {
+                  "enumReportableQualifier": 1,
+                  "enumReportableQualifierDefinition": 4,
+                  "constantValue": 0.28756338743845161
+                }
+              ]
+            }
+          ],
+          "auditEvent": {
+            "Id": "action-items",
+            "userId": "Buckinghamshire",
+            "enumDataSource": 2,
+            "enumAuditEvent": 2,
+            "timeStamp": { "Ticks": 1719870571597818368 },
+            "Details": "Books & Movies"
+          }
+        }
+      ],
+      "Rows": [
+        {
+          "rowNumber": 2520108595,
+          "UTCTimeWindow": {
+            "startTime": { "Ticks": 17863513439063762944 },
+            "endTime": { "Ticks": 15947220483781414912 }
+          },
+          "Cells": [
+            {
+              "columnId": 515052846,
+              "Notes": [
+                {
+                  "Id": "8230e222-683b-496e-8e88-55a331ac8852",
+                  "timeStamp": { "Ticks": 3005620631991236608 },
+                  "userId": "79ef54a5-319a-4069-8ab0-41ffd3dc3c35",
+                  "Text": "extend"
+                },
+                {
+                  "Id": "8230e222-683b-496e-8e88-55a331ac8852",
+                  "timeStamp": { "Ticks": 2692456931158330880 },
+                  "userId": "79ef54a5-319a-4069-8ab0-41ffd3dc3c35",
+                  "Text": "Intelligent Cotton Chips"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.43229193213968164,
+                  "stringValue": "Applications",
+                  "isLocked": false,
+                  "unitId": 4264157731,
+                  "Justification": "program",
+                  "reportableQualifier": {
+                    "enumReportableQualifier": 3,
+                    "qualifiedValue": "Crest"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "083933cb-3980-4fbb-a360-a9a8dbbee434" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "4290da5c-26fc-4b32-a77d-3de95cd4d892",
+                        "Timestamp": { "Ticks": 14675306445790138368 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "b2aa5c7f-437f-49dc-85f4-bfa71495f8b4",
+                        "formFieldId": "a4f197d5-9f5b-437f-8983-8c4c6b6d1ec4",
+                        "userId": "bf986366-c4d2-4af3-b526-24df62a5d757"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "3529b3e4-afcc-4e81-9881-5407ce451a26",
+                        "enumAggregate": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "5439b3d8-940c-48d3-abfe-a7798369742c" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "parsing",
+                    "userId": "payment",
+                    "enumDataSource": 6,
+                    "enumAuditEvent": 2,
+                    "timeStamp": { "Ticks": 17281732072413206528 },
+                    "Details": "Prairie"
+                  }
+                }
+              ]
+            },
+            {
+              "columnId": 3568856437,
+              "Notes": [
+                {
+                  "Id": "ba2ab8b9-2923-4c62-b33a-968807c9e44b",
+                  "timeStamp": { "Ticks": 4522075109904827904 },
+                  "userId": "48b2a901-612d-4345-a4a2-a662984db461",
+                  "Text": "transition"
+                },
+                {
+                  "Id": "ba2ab8b9-2923-4c62-b33a-968807c9e44b",
+                  "timeStamp": { "Ticks": 10099888795526891520 },
+                  "userId": "48b2a901-612d-4345-a4a2-a662984db461",
+                  "Text": "cultivate"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.046385764631622362,
+                  "stringValue": "architectures",
+                  "isLocked": false,
+                  "unitId": 1642741406,
+                  "Justification": "IB",
+                  "reportableQualifier": {
+                    "enumReportableQualifier": 0,
+                    "qualifiedValue": "interface"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "64337f16-9fb0-43e4-8705-2ffcb63c8678" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "d726b8a5-b6d0-49d7-9143-49d91b16330d",
+                        "Timestamp": { "Ticks": 12724811317294086144 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "3f4fc81c-f459-4b3a-8bcd-4158b95e6447",
+                        "formFieldId": "c1c3279b-5aef-4678-b066-956cb8c876a1",
+                        "userId": "dfd7413a-39d5-4ae6-8472-4c05791c4483"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "af03487d-8eec-4204-b619-c26351d1e483",
+                        "enumAggregate": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "2e88d5d6-bc69-4dd3-a94f-b4524a2e68ff" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "Savings Account",
+                    "userId": "Ergonomic Granite Chicken",
+                    "enumDataSource": 3,
+                    "enumAuditEvent": 1,
+                    "timeStamp": { "Ticks": 8011994244373849088 },
+                    "Details": "Triple-buffered"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rowNumber": 2129072088,
+          "UTCTimeWindow": {
+            "startTime": { "Ticks": 16531852892674056192 },
+            "endTime": { "Ticks": 5716060428017536000 }
+          },
+          "Cells": [
+            {
+              "columnId": 3458864789,
+              "Notes": [
+                {
+                  "Id": "90c03256-99e4-4e65-b4fd-2fcd6950bdc6",
+                  "timeStamp": { "Ticks": 10966750454828199936 },
+                  "userId": "c6be2ad6-b53f-4d25-bbcf-a2d4e862a7a8",
+                  "Text": "primary"
+                },
+                {
+                  "Id": "90c03256-99e4-4e65-b4fd-2fcd6950bdc6",
+                  "timeStamp": { "Ticks": 5822484117024619520 },
+                  "userId": "c6be2ad6-b53f-4d25-bbcf-a2d4e862a7a8",
+                  "Text": "Spain"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.52221325529842322,
+                  "stringValue": "cyan",
+                  "isLocked": true,
+                  "unitId": 685909224,
+                  "Justification": "Branding",
+                  "reportableQualifier": {
+                    "enumReportableQualifier": 6,
+                    "qualifiedValue": "Avon"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "a2867ec3-f5be-4a93-98c1-711c12ced05d" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "563f71ee-237b-4d65-80fa-f595424d6e3b",
+                        "Timestamp": { "Ticks": 10688091129698023424 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "7b62cfb3-85f3-4093-9fd0-2ecca3100722",
+                        "formFieldId": "1fa1f5ad-098c-4b06-8b71-e5545dafd3df",
+                        "userId": "59720dfe-d91e-48b2-9f11-168872cb3662"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "56fe65da-2adb-48a8-9220-210eb1f8db17",
+                        "enumAggregate": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "448a7993-c04b-4f51-a8dc-b70f720c7dd9" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "invoice",
+                    "userId": "brand",
+                    "enumDataSource": 1,
+                    "enumAuditEvent": 3,
+                    "timeStamp": { "Ticks": 10507542189232656384 },
+                    "Details": "Valleys"
+                  }
+                }
+              ]
+            },
+            {
+              "columnId": 2751946925,
+              "Notes": [
+                {
+                  "Id": "142193ca-9567-47fe-871b-876972399ae8",
+                  "timeStamp": { "Ticks": 4752836452921569280 },
+                  "userId": "aa7cf24e-f9ca-4063-85af-ccdceb8a0992",
+                  "Text": "Philippine Peso"
+                },
+                {
+                  "Id": "142193ca-9567-47fe-871b-876972399ae8",
+                  "timeStamp": { "Ticks": 11304657848811941888 },
+                  "userId": "aa7cf24e-f9ca-4063-85af-ccdceb8a0992",
+                  "Text": "hard drive"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.16075684556772785,
+                  "stringValue": "Solutions",
+                  "isLocked": false,
+                  "unitId": 3421341829,
+                  "Justification": "AGP",
+                  "reportableQualifier": {
+                    "enumReportableQualifier": 3,
+                    "qualifiedValue": "Home Loan Account"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "d338df3d-29f3-4e5f-8b09-1df6d5c4fdbc" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "d0c81ddd-c453-4159-be7f-1b9bfd8143db",
+                        "Timestamp": { "Ticks": 6914219148673842176 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "0cf864b0-dd9a-476a-848d-6064e0539e73",
+                        "formFieldId": "112aaf47-8335-4677-8525-72d5bee9f295",
+                        "userId": "a0646748-c575-4155-b372-e163f901fca6"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "fef9ff1e-3eae-46bf-b380-610432a532c8",
+                        "enumAggregate": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "2fb0c42d-2462-4eb5-b082-1860e64a55bc" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "overriding",
+                    "userId": "value-added",
+                    "enumDataSource": 1,
+                    "enumAuditEvent": 0,
+                    "timeStamp": { "Ticks": 8072081584197179392 },
+                    "Details": "Meadows"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "enumWorksheet": 3,
+      "worksheetDefinitions": [
+        {
+          "Version": 3674331439,
+          "startRow": 1336969262,
+          "endRow": 3437964075,
+          "Columns": [
+            {
+              "columnNumber": 1633920344,
+              "Name": "Idaho",
+              "Description": "navigating",
+              "parameterId": 2722631511,
+              "displayUnitId": 2233032421,
+              "locationId": "af45c1cf-c565-4f59-b39b-6e35c86c99e4",
+              "isActive": true,
+              "Limits": [
+                {
+                  "Name": "Investment Account",
+                  "enumLimitOperation": 5,
+                  "enumLimit": 1,
+                  "lowValue": 0.63561698172037351,
+                  "highValue": 0.88124549709318467,
+                  "unitId": 720228578,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 7049419573844059136 },
+                    "endTime": { "Ticks": 5627608582992334848 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 1,
+                    "Duration": 3511055273,
+                    "instanceCount": 353621830,
+                    "enumLimitOperation": 6
+                  }
+                },
+                {
+                  "Name": "Planner",
+                  "enumLimitOperation": 4,
+                  "enumLimit": 3,
+                  "lowValue": 0.9179857149338283,
+                  "highValue": 0.73628008725879723,
+                  "unitId": 3536015289,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 16071471894847729664 },
+                    "endTime": { "Ticks": 1629493163883904768 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 0,
+                    "Duration": 1306231446,
+                    "instanceCount": 4108725607,
+                    "enumLimitOperation": 3
+                  }
+                }
+              ],
+              "enumDataSource": 4,
+              "computationBinding": { "computationId": "XML" },
+              "reportableQualifierDefinitions": [
+                {
+                  "enumReportableQualifier": 0,
+                  "enumReportableQualifierDefinition": 4,
+                  "constantValue": 0.39272988326509012
+                },
+                {
+                  "enumReportableQualifier": 1,
+                  "enumReportableQualifierDefinition": 4,
+                  "constantValue": 0.20519019300359775
+                }
+              ]
+            },
+            {
+              "columnNumber": 659474536,
+              "Name": "withdrawal",
+              "Description": "primary",
+              "parameterId": 3639524863,
+              "displayUnitId": 1991485696,
+              "locationId": "af45c1cf-c565-4f59-b39b-6e35c86c99e4",
+              "isActive": false,
+              "Limits": [
+                {
+                  "Name": "Metrics",
+                  "enumLimitOperation": 5,
+                  "enumLimit": 0,
+                  "lowValue": 0.83855519622497032,
+                  "highValue": 0.633582046550504,
+                  "unitId": 1944303156,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 7793909024890752000 },
+                    "endTime": { "Ticks": 8697483068222952448 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 1,
+                    "Duration": 4291639317,
+                    "instanceCount": 3338600255,
+                    "enumLimitOperation": 5
+                  }
+                },
+                {
+                  "Name": "Beauty",
+                  "enumLimitOperation": 3,
+                  "enumLimit": 3,
+                  "lowValue": 0.35569117979877218,
+                  "highValue": 0.16474807037261691,
+                  "unitId": 3787222289,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 6462970196215868416 },
+                    "endTime": { "Ticks": 3846894482448831488 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 0,
+                    "Duration": 633413456,
+                    "instanceCount": 613135294,
+                    "enumLimitOperation": 4
+                  }
+                }
+              ],
+              "enumDataSource": 6,
+              "computationBinding": { "computationId": "multi-byte" },
+              "reportableQualifierDefinitions": [
+                {
+                  "enumReportableQualifier": 2,
+                  "enumReportableQualifierDefinition": 0,
+                  "constantValue": 0.97112307975586643
+                },
+                {
+                  "enumReportableQualifier": 4,
+                  "enumReportableQualifierDefinition": 1,
+                  "constantValue": 0.69963065846805961
+                }
+              ]
+            }
+          ],
+          "auditEvent": {
+            "Id": "index",
+            "userId": "Wooden",
+            "enumDataSource": 6,
+            "enumAuditEvent": 4,
+            "timeStamp": { "Ticks": 1967374684984642048 },
+            "Details": "Mobility"
+          }
+        },
+        {
+          "Version": 1238213154,
+          "startRow": 3981417963,
+          "endRow": 3119112065,
+          "Columns": [
+            {
+              "columnNumber": 3591857339,
+              "Name": "scale",
+              "Description": "bricks-and-clicks",
+              "parameterId": 3767184617,
+              "displayUnitId": 4250554337,
+              "locationId": "af45c1cf-c565-4f59-b39b-6e35c86c99e4",
+              "isActive": true,
+              "Limits": [
+                {
+                  "Name": "asynchronous",
+                  "enumLimitOperation": 2,
+                  "enumLimit": 1,
+                  "lowValue": 0.97619903831565713,
+                  "highValue": 0.18156997588536236,
+                  "unitId": 453497668,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 9651441467417272320 },
+                    "endTime": { "Ticks": 18054560473606348800 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 0,
+                    "Duration": 803558266,
+                    "instanceCount": 278227576,
+                    "enumLimitOperation": 4
+                  }
+                },
+                {
+                  "Name": "Central African Republic",
+                  "enumLimitOperation": 6,
+                  "enumLimit": 3,
+                  "lowValue": 0.40934348963636136,
+                  "highValue": 0.32407088592838074,
+                  "unitId": 3547407801,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 12674685286535073792 },
+                    "endTime": { "Ticks": 12311939357932623872 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 0,
+                    "Duration": 77059520,
+                    "instanceCount": 160896054,
+                    "enumLimitOperation": 5
+                  }
+                }
+              ],
+              "enumDataSource": 4,
+              "computationBinding": { "computationId": "Multi-tiered" },
+              "reportableQualifierDefinitions": [
+                {
+                  "enumReportableQualifier": 4,
+                  "enumReportableQualifierDefinition": 0,
+                  "constantValue": 0.25155057956071131
+                },
+                {
+                  "enumReportableQualifier": 5,
+                  "enumReportableQualifierDefinition": 2,
+                  "constantValue": 0.060926851844846669
+                }
+              ]
+            },
+            {
+              "columnNumber": 856645410,
+              "Name": "compressing",
+              "Description": "instruction set",
+              "parameterId": 1517766810,
+              "displayUnitId": 1383916324,
+              "locationId": "af45c1cf-c565-4f59-b39b-6e35c86c99e4",
+              "isActive": false,
+              "Limits": [
+                {
+                  "Name": "Architect",
+                  "enumLimitOperation": 4,
+                  "enumLimit": 2,
+                  "lowValue": 0.51910718973684455,
+                  "highValue": 0.15711285367473626,
+                  "unitId": 2342221465,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 6111701090248572928 },
+                    "endTime": { "Ticks": 15730595312661469184 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 1,
+                    "Duration": 2605651777,
+                    "instanceCount": 1469481996,
+                    "enumLimitOperation": 3
+                  }
+                },
+                {
+                  "Name": "Garden",
+                  "enumLimitOperation": 5,
+                  "enumLimit": 3,
+                  "lowValue": 0.78204861086888644,
+                  "highValue": 0.59214789913601606,
+                  "unitId": 1377805350,
+                  "timeWindow": {
+                    "startTime": { "Ticks": 4259452067383949824 },
+                    "endTime": { "Ticks": 12184478360754188288 }
+                  },
+                  "thresholdRule": {
+                    "durationUnit": 1,
+                    "Duration": 2869839035,
+                    "instanceCount": 2209833897,
+                    "enumLimitOperation": 3
+                  }
+                }
+              ],
+              "enumDataSource": 1,
+              "computationBinding": { "computationId": "online" },
+              "reportableQualifierDefinitions": [
+                {
+                  "enumReportableQualifier": 6,
+                  "enumReportableQualifierDefinition": 4,
+                  "constantValue": 0.58184142950076678
+                },
+                {
+                  "enumReportableQualifier": 6,
+                  "enumReportableQualifierDefinition": 1,
+                  "constantValue": 0.48406268399397967
+                }
+              ]
+            }
+          ],
+          "auditEvent": {
+            "Id": "synthesize",
+            "userId": "Beauty & Electronics",
+            "enumDataSource": 1,
+            "enumAuditEvent": 0,
+            "timeStamp": { "Ticks": 18290288783094468608 },
+            "Details": "Mountains"
+          }
+        }
+      ],
+      "Rows": [
+        {
+          "rowNumber": 2224518829,
+          "UTCTimeWindow": {
+            "startTime": { "Ticks": 6376807259522854912 },
+            "endTime": { "Ticks": 8421050984284498944 }
+          },
+          "Cells": [
+            {
+              "columnId": 3132786107,
+              "Notes": [
+                {
+                  "Id": "3de0cfba-34e7-402e-9814-60db04063181",
+                  "timeStamp": { "Ticks": 3700297026545922560 },
+                  "userId": "22def0d3-7c3f-40d8-836b-fedd0ca03c68",
+                  "Text": "Unions"
+                },
+                {
+                  "Id": "3de0cfba-34e7-402e-9814-60db04063181",
+                  "timeStamp": { "Ticks": 1820555806337651712 },
+                  "userId": "22def0d3-7c3f-40d8-836b-fedd0ca03c68",
+                  "Text": "bus"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.636387232056068,
+                  "stringValue": "Web",
+                  "isLocked": false,
+                  "unitId": 482034052,
+                  "Justification": "Orchestrator",
+                  "reportableQualifier": {
+                    "enumReportableQualifier": 2,
+                    "qualifiedValue": "Australia"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "a55e9c64-82e7-488f-aba0-1d41630a0a9a" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "75f78170-a650-4ab2-950b-4b1985cde4bf",
+                        "Timestamp": { "Ticks": 7216543477328027648 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "3fa569ff-3d98-4b30-9147-a950d75d5d25",
+                        "formFieldId": "0c869bf9-6978-4247-b2c7-c18ff41fd284",
+                        "userId": "b9f90f52-6c4f-4fdc-ac6a-8839a37220d5"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "8d6e4b3c-cdb9-4bfe-aacb-a51fc1ed1454",
+                        "enumAggregate": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "da54d65c-96ca-4fa4-b7b3-76d7c8073fde" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "Granite",
+                    "userId": "Handcrafted Frozen Ball",
+                    "enumDataSource": 1,
+                    "enumAuditEvent": 3,
+                    "timeStamp": { "Ticks": 16338655342235557888 },
+                    "Details": "primary"
+                  }
+                }
+              ]
+            },
+            {
+              "columnId": 4101375261,
+              "Notes": [
+                {
+                  "Id": "82c74c51-44d1-4e8d-9195-7e9965c9c78b",
+                  "timeStamp": { "Ticks": 10244051640626995200 },
+                  "userId": "729d741e-0809-416e-8ac9-ee9a7937f8fc",
+                  "Text": "Executive"
+                },
+                {
+                  "Id": "82c74c51-44d1-4e8d-9195-7e9965c9c78b",
+                  "timeStamp": { "Ticks": 13333535743949436928 },
+                  "userId": "729d741e-0809-416e-8ac9-ee9a7937f8fc",
+                  "Text": "Awesome"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.90213592299359657,
+                  "stringValue": "programming",
+                  "isLocked": true,
+                  "unitId": 1570208564,
+                  "Justification": "Squares",
+                  "reportableQualifier": {
+                    "enumReportableQualifier": 0,
+                    "qualifiedValue": "calculate"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "114219fd-ffdb-414f-971d-6e1d2eee3436" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "712493dd-549d-452a-8ef9-d13f488f995b",
+                        "Timestamp": { "Ticks": 13430222132206598144 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "70c126ed-e74b-4ea3-8018-fbf37c6d4858",
+                        "formFieldId": "e45a9e54-8bcd-42a7-bbf2-fd23012ebd08",
+                        "userId": "c5095ddb-e67c-49a0-a05c-a3ed4cecedec"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "0a8545d5-f606-4530-8942-4539b870fc8a",
+                        "enumAggregate": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "095d59b0-35f2-481f-b4e1-0d8516bf100c" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "Handcrafted Frozen Fish",
+                    "userId": "deposit",
+                    "enumDataSource": 1,
+                    "enumAuditEvent": 3,
+                    "timeStamp": { "Ticks": 1572775131416575232 },
+                    "Details": "Route"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rowNumber": 2104829786,
+          "UTCTimeWindow": {
+            "startTime": { "Ticks": 10109025582539141120 },
+            "endTime": { "Ticks": 12661391718502668288 }
+          },
+          "Cells": [
+            {
+              "columnId": 1868839626,
+              "Notes": [
+                {
+                  "Id": "e9c63d23-c0b6-4a11-bca4-df732f9efe7b",
+                  "timeStamp": { "Ticks": 8784127779987717120 },
+                  "userId": "ab087914-db0d-412a-ad5b-5b429e30d733",
+                  "Text": "Practical Frozen Towels"
+                },
+                {
+                  "Id": "e9c63d23-c0b6-4a11-bca4-df732f9efe7b",
+                  "timeStamp": { "Ticks": 18298606640102074368 },
+                  "userId": "ab087914-db0d-412a-ad5b-5b429e30d733",
+                  "Text": "invoice"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.54809264631387433,
+                  "stringValue": "Practical Soft Table",
+                  "isLocked": true,
+                  "unitId": 3298319849,
+                  "Justification": "multi-tasking",
+                  "reportableQualifier": {
+                    "enumReportableQualifier": 3,
+                    "qualifiedValue": "Brand"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "d241ac55-4717-4678-9ff7-009db3dbb550" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "7ce6b509-c1a1-492a-b072-0507409b8fee",
+                        "Timestamp": { "Ticks": 3500387249674502144 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "e9f5ae14-6bd4-42e6-9d12-1c91e043bf66",
+                        "formFieldId": "bd2f97d9-e588-45b2-b42a-7e67a89c7de8",
+                        "userId": "1c421be8-1348-4d5c-b34f-93e5667b3c4a"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "bc419e92-61f1-481e-8859-96ac67772ad3",
+                        "enumAggregate": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "3ccf60d6-d160-44a4-8fea-8c920ca350a6" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "process improvement",
+                    "userId": "River",
+                    "enumDataSource": 1,
+                    "enumAuditEvent": 5,
+                    "timeStamp": { "Ticks": 9650501788702011392 },
+                    "Details": "Money Market Account"
+                  }
+                }
+              ]
+            },
+            {
+              "columnId": 3817369697,
+              "Notes": [
+                {
+                  "Id": "2cded3e6-1d46-4f81-8d4f-e2aa5438cc68",
+                  "timeStamp": { "Ticks": 4491145194966057472 },
+                  "userId": "69c7b56a-4f41-4bdd-ab65-d5220104d091",
+                  "Text": "applications"
+                },
+                {
+                  "Id": "2cded3e6-1d46-4f81-8d4f-e2aa5438cc68",
+                  "timeStamp": { "Ticks": 5902724207914344448 },
+                  "userId": "69c7b56a-4f41-4bdd-ab65-d5220104d091",
+                  "Text": "Licensed"
+                }
+              ],
+              "cellDatas": [
+                {
+                  "Value": 0.73972402733737785,
+                  "stringValue": "Rand",
+                  "isLocked": true,
+                  "unitId": 2673835057,
+                  "Justification": "Designer",
+                  "reportableQualifier": {
+                    "enumReportableQualifier": 2,
+                    "qualifiedValue": "real-time"
+                  },
+                  "cellDataBindings": [
+                    { "computationBinding": { "computationId": "a81d4c6a-ce55-40e9-9d40-7f0552f5e7db" } },
+                    {
+                      "fieldInstrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "3e115731-f1de-4d16-90fd-6727780efb62",
+                        "Timestamp": { "Ticks": 16863325360493502464 },
+                        "unitId": 4294967295
+                      }
+                    },
+                    {
+                      "formBinding": {
+                        "formId": "ecb99419-7d9c-4098-b8d9-1e8a7da2d031",
+                        "formFieldId": "6bec173a-94ed-4f41-89be-d3782b4e754b",
+                        "userId": "a49bc86f-3023-495d-ac1a-1c3cfbd13b72"
+                      }
+                    },
+                    {
+                      "instrumentMeasurementBinding": {
+                        "instrumentMeasurementId": "d5e077fe-515f-4adf-bde9-92d8d1bff557",
+                        "enumAggregate": 3,
+                        "unitId": 1
+                      }
+                    },
+                    { "spreadsheetBinding": { "userId": "3f1b1943-a79a-45cb-adf8-33a3afafcf69" } }
+                  ],
+                  "auditEvent": {
+                    "Id": "Small Rubber Towels",
+                    "userId": "Park",
+                    "enumDataSource": 1,
+                    "enumAuditEvent": 3,
+                    "timeStamp": { "Ticks": 3088535027218734080 },
+                    "Details": "XML"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
