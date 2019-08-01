@@ -5,14 +5,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.9</Version>
+    <Version>1.0.10</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 1.0.9
-      - Added NotificationTemplate to ClarosContent
+      Version 1.0.10
+      - Refactor of form, formtemplate
+      - Refactored recurrance to have startTime and durationInSeconds property to match outlook
+      - Added durationInSeconds to TimeWindow
    </PackageReleaseNotes>
   </PropertyGroup>
 
