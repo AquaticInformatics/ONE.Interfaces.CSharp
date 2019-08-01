@@ -41,6 +41,13 @@ namespace Claros.Common.Form
         [global::ProtoBuf.ProtoMember(8)]
         public bool isInSpeed { get; set; }
 
+        [global::ProtoBuf.ProtoMember(9)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string locationId { get; set; } = "";
+
+        [global::ProtoBuf.ProtoMember(10)]
+        public global::Claros.Common.Core.ClarosDateTime createdOn { get; set; }
+
     }
 
 }

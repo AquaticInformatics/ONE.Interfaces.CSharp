@@ -60,6 +60,10 @@ namespace Claros.Common.Configuration
         [global::ProtoBuf.ProtoMap]
         public global::System.Collections.Generic.Dictionary<string, Rights> Privileges { get; } = new global::System.Collections.Generic.Dictionary<string, Rights>();
 
+        [global::ProtoBuf.ProtoMember(14, Name = @"name")]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string Name { get; set; } = "";
+
     }
 
 }

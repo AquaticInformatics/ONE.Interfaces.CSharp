@@ -28,6 +28,12 @@ namespace Claros.Operations.Spreadsheet
         [global::ProtoBuf.ProtoMember(5)]
         public bool isInSpeed { get; set; }
 
+        [global::ProtoBuf.ProtoMember(6)]
+        public bool isRowCooked { get; set; }
+
+        [global::ProtoBuf.ProtoMember(7)]
+        public bool isColumnCooked { get; set; }
+
     }
 
 }

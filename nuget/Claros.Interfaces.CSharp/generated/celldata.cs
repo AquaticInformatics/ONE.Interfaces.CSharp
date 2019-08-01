@@ -31,13 +31,13 @@ namespace Claros.Operations.Spreadsheet
         public string Justification { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(6)]
-        public global::Claros.Common.Core.ReportableQualifier reportableQualifier { get; set; }
+        public global::Claros.Common.Core.ReportableQualifier ReportableQualifier { get; set; }
 
         [global::ProtoBuf.ProtoMember(7)]
-        public global::System.Collections.Generic.List<CellDataBinding> cellDataBindings { get; } = new global::System.Collections.Generic.List<CellDataBinding>();
+        public global::System.Collections.Generic.List<global::Claros.Operations.Spreadsheet.CellDataBinding> cellDataBindings { get; } = new global::System.Collections.Generic.List<global::Claros.Operations.Spreadsheet.CellDataBinding>();
 
         [global::ProtoBuf.ProtoMember(99)]
-        public global::Claros.Common.Core.AuditEvent auditEvent { get; set; }
+        public global::Claros.Common.Core.AuditEvent AuditEvent { get; set; }
 
     }
 

@@ -13,22 +13,80 @@ namespace Claros.Common.Core
         global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
             => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
-        [global::ProtoBuf.ProtoMember(1)]
+        [global::ProtoBuf.ProtoMember(1, Name = @"name")]
         [global::System.ComponentModel.DefaultValue("")]
-        public string i18nKey { get; set; } = "";
+        public string Name { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(2)]
+        public EnumLimitOperation enumLimitOperation { get; set; }
+
+        [global::ProtoBuf.ProtoMember(3)]
         public global::Claros.Common.EnumLimit enumLimit { get; set; }
 
-        [global::ProtoBuf.ProtoMember(3, Name = @"value")]
-        public double Value { get; set; }
-
         [global::ProtoBuf.ProtoMember(4)]
-        public uint unitId { get; set; }
+        public double lowValue { get; set; }
 
         [global::ProtoBuf.ProtoMember(5)]
-        public TimeWindow timeWindows { get; set; }
+        public double highValue { get; set; }
 
+        [global::ProtoBuf.ProtoMember(6)]
+        public uint unitId { get; set; }
+
+        [global::ProtoBuf.ProtoMember(7)]
+        public TimeWindow timeWindow { get; set; }
+
+        [global::ProtoBuf.ProtoMember(8)]
+        public ThresholdRule thresholdRule { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class ThresholdRule : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public EnumTimeUnit durationUnit { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2, Name = @"duration")]
+        public uint Duration { get; set; }
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public uint instanceCount { get; set; }
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public EnumLimitOperation enumLimitOperation { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EnumTimeUnit
+    {
+        [global::ProtoBuf.ProtoEnum(Name = @"TIMEUNIT_UNKNOWN")]
+        TimeunitUnknown = 0,
+        [global::ProtoBuf.ProtoEnum(Name = @"TIMEUNIT_MINUTE")]
+        TimeunitMinute = 1,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EnumLimitOperation
+    {
+        [global::ProtoBuf.ProtoEnum(Name = @"LIMITOPERATION_UNKNOWN")]
+        LimitoperationUnknown = 0,
+        [global::ProtoBuf.ProtoEnum(Name = @"LIMITOPERATION_GREATERTHAN")]
+        LimitoperationGreaterthan = 1,
+        [global::ProtoBuf.ProtoEnum(Name = @"LIMITOPERATION_GREATERTHANOREQUAL")]
+        LimitoperationGreaterthanorequal = 2,
+        [global::ProtoBuf.ProtoEnum(Name = @"LIMITOPERATION_LESSTHAN")]
+        LimitoperationLessthan = 3,
+        [global::ProtoBuf.ProtoEnum(Name = @"LIMITOPERATION_LESSTHANOREQUAL")]
+        LimitoperationLessthanorequal = 4,
+        [global::ProtoBuf.ProtoEnum(Name = @"LIMITOPERATION_BETWEEN_INCLUSIVE")]
+        LimitoperationBetweenInclusive = 5,
+        [global::ProtoBuf.ProtoEnum(Name = @"LIMITOPERATION_BETWEEN_EXCLUSIVE")]
+        LimitoperationBetweenExclusive = 6,
     }
 
 }

@@ -38,7 +38,19 @@ namespace Claros.Instrument.Measurement
         public string measurementDataExtended { get; set; } = "";
 
         [global::ProtoBuf.ProtoMember(8)]
-        public global::Claros.Instrument.Event.InstrumentEventData measurementEvent { get; set; }
+        public global::Claros.Instrument.Instrumentevent.InstrumentEventData measurementEvent { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class InstrumentMeasurementDatas : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public global::System.Collections.Generic.List<InstrumentMeasurementData> instrumentMeasurementDatas { get; } = new global::System.Collections.Generic.List<InstrumentMeasurementData>();
 
     }
 

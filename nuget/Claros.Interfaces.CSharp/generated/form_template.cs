@@ -38,6 +38,9 @@ namespace Claros.Common.Form
         [global::System.ComponentModel.DefaultValue("")]
         public string Name { get; set; } = "";
 
+        [global::ProtoBuf.ProtoMember(8, Name = @"configuration")]
+        public global::Claros.Common.Configuration.Configuration Configuration { get; set; }
+
     }
 
 }

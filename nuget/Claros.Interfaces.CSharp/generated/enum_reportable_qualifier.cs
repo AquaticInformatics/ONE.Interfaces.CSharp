@@ -15,8 +15,8 @@ namespace Claros.Common
         ReportableQualifierNondetect = 1,
         [global::ProtoBuf.ProtoEnum(Name = @"REPORTABLE_QUALIFIER_ESTIMATE")]
         ReportableQualifierEstimate = 2,
-        [global::ProtoBuf.ProtoEnum(Name = @"REPORTABLE_QUALIFIER_DETECTNONQUALIFIABLE")]
-        ReportableQualifierDetectnonqualifiable = 3,
+        [global::ProtoBuf.ProtoEnum(Name = @"REPORTABLE_QUALIFIER_DETECTNONQUANTIFIABLE")]
+        ReportableQualifierDetectnonquantifiable = 3,
         [global::ProtoBuf.ProtoEnum(Name = @"REPORTABLE_QUALIFIER_GREATERTHAN")]
         ReportableQualifierGreaterthan = 4,
         [global::ProtoBuf.ProtoEnum(Name = @"REPORTABLE_QUALIFIER_LESSTHAN")]

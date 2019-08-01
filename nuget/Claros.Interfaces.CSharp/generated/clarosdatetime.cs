@@ -13,17 +13,6 @@ namespace Claros.Common.Core
         global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
             => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
-        [global::ProtoBuf.ProtoMember(1)]
-        public MobileDateTime mobileDateTime
-        {
-            get { return __pbn__clarosDateTime.Is(1) ? ((MobileDateTime)__pbn__clarosDateTime.Object) : default; }
-            set { __pbn__clarosDateTime = new global::ProtoBuf.DiscriminatedUnion64Object(1, value); }
-        }
-        public bool ShouldSerializemobileDateTime() => __pbn__clarosDateTime.Is(1);
-        public void ResetmobileDateTime() => global::ProtoBuf.DiscriminatedUnion64Object.Reset(ref __pbn__clarosDateTime, 1);
-
-        private global::ProtoBuf.DiscriminatedUnion64Object __pbn__clarosDateTime;
-
         [global::ProtoBuf.ProtoMember(2)]
         [global::System.ComponentModel.DefaultValue("")]
         public string jsonDateTime
@@ -33,6 +22,8 @@ namespace Claros.Common.Core
         }
         public bool ShouldSerializejsonDateTime() => __pbn__clarosDateTime.Is(2);
         public void ResetjsonDateTime() => global::ProtoBuf.DiscriminatedUnion64Object.Reset(ref __pbn__clarosDateTime, 2);
+
+        private global::ProtoBuf.DiscriminatedUnion64Object __pbn__clarosDateTime;
 
         [global::ProtoBuf.ProtoMember(3, Name = @"ticks")]
         public ulong Ticks

@@ -24,6 +24,14 @@ namespace Claros.Common.Form
         [global::ProtoBuf.ProtoMember(3)]
         public global::Claros.Common.Core.TimeWindow timeWindow { get; set; }
 
+        [global::ProtoBuf.ProtoMember(9)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string locationId { get; set; } = "";
+
+        [global::ProtoBuf.ProtoMember(10)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string tenantId { get; set; } = "";
+
         [global::ProtoBuf.ProtoMember(4)]
         public FormTemplate formTemplate { get; set; }
 

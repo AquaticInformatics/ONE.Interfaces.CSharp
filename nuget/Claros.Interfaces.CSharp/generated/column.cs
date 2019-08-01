@@ -63,8 +63,8 @@ namespace Claros.Operations.Spreadsheet
         public bool ShouldSerializecomputationBinding() => __pbn__binding.Is(11);
         public void ResetcomputationBinding() => global::ProtoBuf.DiscriminatedUnionObject.Reset(ref __pbn__binding, 11);
 
-        [global::ProtoBuf.ProtoMember(12, Name = @"reportableQualiferDefinition")]
-        public global::System.Collections.Generic.List<global::Claros.Common.Core.ReportableQualifierDefinition> reportableQualiferDefinitions { get; } = new global::System.Collections.Generic.List<global::Claros.Common.Core.ReportableQualifierDefinition>();
+        [global::ProtoBuf.ProtoMember(12, Name = @"reportableQualifierDefinition")]
+        public global::System.Collections.Generic.List<global::Claros.Common.Core.ReportableQualifierDefinition> reportableQualifierDefinitions { get; } = new global::System.Collections.Generic.List<global::Claros.Common.Core.ReportableQualifierDefinition>();
 
     }
 

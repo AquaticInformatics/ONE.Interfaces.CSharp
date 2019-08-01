@@ -3,7 +3,7 @@
 // Input: instrument_event_data.proto
 
 #pragma warning disable CS0612, CS1591, CS3021, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
-namespace Claros.Instrument.Event
+namespace Claros.Instrument.Instrumentevent
 {
 
     [global::ProtoBuf.ProtoContract()]
@@ -14,25 +14,25 @@ namespace Claros.Instrument.Event
             => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
         [global::ProtoBuf.ProtoMember(1, Name = @"calibrations")]
-        public global::System.Collections.Generic.List<EventDataCalibration> Calibrations { get; } = new global::System.Collections.Generic.List<EventDataCalibration>();
+        public global::System.Collections.Generic.List<InstrumentEventDataCalibration> Calibrations { get; } = new global::System.Collections.Generic.List<InstrumentEventDataCalibration>();
 
         [global::ProtoBuf.ProtoMember(2, Name = @"errors")]
-        public global::System.Collections.Generic.List<EventDataMetaData> Errors { get; } = new global::System.Collections.Generic.List<EventDataMetaData>();
+        public global::System.Collections.Generic.List<InstrumentEventDataMetaData> Errors { get; } = new global::System.Collections.Generic.List<InstrumentEventDataMetaData>();
 
         [global::ProtoBuf.ProtoMember(3, Name = @"info")]
-        public global::System.Collections.Generic.List<EventDataMetaData> Infoes { get; } = new global::System.Collections.Generic.List<EventDataMetaData>();
+        public global::System.Collections.Generic.List<InstrumentEventDataMetaData> Infoes { get; } = new global::System.Collections.Generic.List<InstrumentEventDataMetaData>();
 
         [global::ProtoBuf.ProtoMember(4, Name = @"limits")]
-        public global::System.Collections.Generic.List<EventDataMetaData> Limits { get; } = new global::System.Collections.Generic.List<EventDataMetaData>();
+        public global::System.Collections.Generic.List<InstrumentEventDataMetaData> Limits { get; } = new global::System.Collections.Generic.List<InstrumentEventDataMetaData>();
 
         [global::ProtoBuf.ProtoMember(5, Name = @"reminders")]
-        public global::System.Collections.Generic.List<EventDataMetaData> Reminders { get; } = new global::System.Collections.Generic.List<EventDataMetaData>();
+        public global::System.Collections.Generic.List<InstrumentEventDataMetaData> Reminders { get; } = new global::System.Collections.Generic.List<InstrumentEventDataMetaData>();
 
         [global::ProtoBuf.ProtoMember(6, Name = @"warnings")]
-        public global::System.Collections.Generic.List<EventDataMetaData> Warnings { get; } = new global::System.Collections.Generic.List<EventDataMetaData>();
+        public global::System.Collections.Generic.List<InstrumentEventDataMetaData> Warnings { get; } = new global::System.Collections.Generic.List<InstrumentEventDataMetaData>();
 
         [global::ProtoBuf.ProtoMember(7, Name = @"prognosys")]
-        public global::System.Collections.Generic.List<EventDataPrognosys> Prognosys { get; } = new global::System.Collections.Generic.List<EventDataPrognosys>();
+        public global::System.Collections.Generic.List<InstrumentEventDataPrognosys> Prognosys { get; } = new global::System.Collections.Generic.List<InstrumentEventDataPrognosys>();
 
         [global::ProtoBuf.ProtoMember(8)]
         public global::Claros.Common.Core.ClarosDateTime eventDateTime { get; set; }
