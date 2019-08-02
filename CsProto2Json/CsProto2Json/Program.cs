@@ -70,6 +70,15 @@ namespace CsProto2Json
                 sr.Write(RecurrenceJson.Generate());
             }
 
+            // recurrence
+            path = @"samples\apiresponse.json";
+            if (File.Exists(path)) File.Delete(path);
+
+            using (var fs = File.OpenWrite(path))
+            using (var sr = new StreamWriter(fs))
+            {
+                sr.Write(ApiResponseJson.Generate());
+            }
         }
     }
 }
