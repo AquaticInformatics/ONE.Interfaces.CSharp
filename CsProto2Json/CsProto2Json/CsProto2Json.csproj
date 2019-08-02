@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoBogus" Version="2.5.0" />
-    <PackageReference Include="Claros.Interfaces.ProtocolBuffers" Version="0.0.3-pre-02" />
+    <PackageReference Include="AutoBogus" Version="2.6.0" />
+    <PackageReference Include="Claros.Interfaces.CSharp" Version="1.0.9" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
 

@@ -1,1 +1,23 @@
-{"Id":"card","createdById":"Garden","createdOn":{"Ticks":15761972634343673856},"modifiedById":"neural","modifiedOn":{"Ticks":10564076319790221312},"configurationData":"Monitored","entityTypeId":1,"filterById":"Frozen","tenantId":"yellow","ownerId":"violet","Public":true,"Version":2018028208,"Privileges":{"345d362f-8079-46e3-9f66-dc9b50181d98":{"View":true,"Edit":false,"Delete":true,"Create":true}}}
+{
+  "Id": "Incredible",
+  "createdById": "Concrete",
+  "createdOn": { "Ticks": 9868344102014603264 },
+  "modifiedById": "Puerto Rico",
+  "modifiedOn": { "Ticks": 1013224463960859776 },
+  "configurationData": "bus",
+  "enumEntity": 0,
+  "filterById": "mindshare",
+  "tenantId": "Paraguay",
+  "ownerId": "Small",
+  "Public": false,
+  "Version": 858995000,
+  "Privileges": {
+    "85eef54a-04ac-4de0-96ae-fa0df8fd94cd": {
+      "View": true,
+      "Edit": false,
+      "Delete": true,
+      "Create": true
+    }
+  },
+  "Name": "Fantastic Fresh Pants"
+}

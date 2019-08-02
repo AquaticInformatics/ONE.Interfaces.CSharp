@@ -8,19 +8,21 @@ namespace CsProto2Json
     {
         static void Main(string[] args)
         {
+            if (!Directory.Exists("samples")) Directory.CreateDirectory("samples");
+            
             // spreadsheet
-            var path = @"C:\temp\spreadsheet.json";
-            File.Delete(path);
+            var path = @"samples\spreadsheet.json";
+            if (File.Exists(path)) File.Delete(path);
 
-            using (var fs = File.OpenWrite(path))
+                using (var fs = File.OpenWrite(path))
             using (var sr = new StreamWriter(fs))
             {
                 sr.Write(SpreadsheetJson.Generate());
             }
 
             // instrumentdata
-            path = @"C:\temp\instrumentdata.json";
-            File.Delete(path);
+            path = @"samples\instrumentdata.json";
+            if (File.Exists(path)) File.Delete(path);
 
             using (var fs = File.OpenWrite(path))
             using (var sr = new StreamWriter(fs))
@@ -29,8 +31,8 @@ namespace CsProto2Json
             }
 
             // form template 
-            path = @"C:\temp\formtemplate.json";
-            File.Delete(path);
+            path = @"samples\formtemplate.json";
+            if (File.Exists(path)) File.Delete(path);
 
             using (var fs = File.OpenWrite(path))
             using (var sr = new StreamWriter(fs))
@@ -39,8 +41,8 @@ namespace CsProto2Json
             }
 
             // form
-            path = @"C:\temp\form.json";
-            File.Delete(path);
+            path = @"samples\form.json";
+            if (File.Exists(path)) File.Delete(path);
 
             using (var fs = File.OpenWrite(path))
             using (var sr = new StreamWriter(fs))
@@ -49,8 +51,8 @@ namespace CsProto2Json
             }
 
             // configuration
-            path = @"C:\temp\configuration.json";
-            File.Delete(path);
+            path = @"samples\configuration.json";
+            if (File.Exists(path)) File.Delete(path);
 
             using (var fs = File.OpenWrite(path))
             using (var sr = new StreamWriter(fs))
@@ -59,8 +61,8 @@ namespace CsProto2Json
             }
 
             // recurrence
-            path = @"C:\temp\recurrence.json";
-            File.Delete(path);
+            path = @"samples\recurrence.json";
+            if (File.Exists(path)) File.Delete(path);
 
             using (var fs = File.OpenWrite(path))
             using (var sr = new StreamWriter(fs))
@@ -68,7 +70,15 @@ namespace CsProto2Json
                 sr.Write(RecurrenceJson.Generate());
             }
 
+            // recurrence
+            path = @"samples\apiresponse.json";
+            if (File.Exists(path)) File.Delete(path);
 
+            using (var fs = File.OpenWrite(path))
+            using (var sr = new StreamWriter(fs))
+            {
+                sr.Write(ApiResponseJson.Generate());
+            }
         }
     }
 }

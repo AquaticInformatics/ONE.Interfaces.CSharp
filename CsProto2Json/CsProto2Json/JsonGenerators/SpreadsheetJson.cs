@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using AutoBogus;
+using Claros.Common;
 using Claros.Common.Computation;
 using Claros.Common.Core;
 using Claros.Common.Form;
@@ -48,7 +49,7 @@ namespace CsProto2Json
                     wsd.Columns.ForEach(column =>
                     {
                         column.Limits.AddRange(new AutoFaker<Limit>().Generate(2));
-                        column.reportableQualiferDefinitions.AddRange(new AutoFaker<ReportableQualifierDefinition>()
+                        column.reportableQualifierDefinitions.AddRange(new AutoFaker<ReportableQualifierDefinition>()
                             .Generate(2));
                     });
                 });
@@ -93,7 +94,7 @@ namespace CsProto2Json
                                 {
                                     unitId = 1,
                                     instrumentMeasurementId = Guid.NewGuid().ToString(),
-                                    aggregateType = AggregateType.AggregateAverage
+                                    enumAggregate = EnumAggregate.AggregateAverage
                                 }
                             });
                             cd.cellDataBindings.Add(new CellDataBinding
