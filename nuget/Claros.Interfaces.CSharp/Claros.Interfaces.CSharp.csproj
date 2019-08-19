@@ -5,15 +5,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.16</Version>
+    <Version>1.0.17</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 1.0.16
-      - created plural and singular content in apiResponse
-      - added forms, formTemplates, formIndices to clarosContent 
+      Version 1.0.17
+      - added ENTITY_DASHBOARD to enumEntity 
     </PackageReleaseNotes>
   </PropertyGroup>
 
