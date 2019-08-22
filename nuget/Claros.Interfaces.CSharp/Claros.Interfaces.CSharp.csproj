@@ -5,14 +5,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.18</Version>
+    <Version>1.0.19</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 1.0.18
-      - Added tenantId, channel, parameterGuidId, unitGuidID to instrumentMeasurementDefinition
+      Version 1.0.19
+      - modified limit to allow for high and low operations
     </PackageReleaseNotes>
   </PropertyGroup>
 
