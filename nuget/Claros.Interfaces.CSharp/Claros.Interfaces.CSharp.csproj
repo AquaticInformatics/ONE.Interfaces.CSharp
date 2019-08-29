@@ -5,14 +5,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.21</Version>
+    <Version>1.0.22</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 1.0.21
-      - updated instruments
+      Version 1.0.22
+      - added ClarosContent property to apiError
     </PackageReleaseNotes>
   </PropertyGroup>
 
