@@ -5,15 +5,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.23</Version>
+    <Version>1.0.24</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 1.0.23
-      - Create limit_configuration.proto
-      - Replace ClarosContent instrumentMeasurementDefinition with instrumentMeasurementDefinitions
+      Version 1.0.24
+      - Add reportable qualifiers: Absent, Present
+      - Update instrument protocol buffers to support events, prognosys
     </PackageReleaseNotes>
   </PropertyGroup>
 
