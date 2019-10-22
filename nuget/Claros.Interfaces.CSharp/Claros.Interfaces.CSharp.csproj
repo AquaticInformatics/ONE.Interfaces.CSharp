@@ -5,14 +5,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.2-pre</Version>
+    <Version>2.0.3-pre</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 2.0.2-pre
-      - Add limit notification
+      Version 2.0.3-pre
+      - Proposed breaking changes and additions for Computations in Spreadsheets
     </PackageReleaseNotes>
   </PropertyGroup>
 
