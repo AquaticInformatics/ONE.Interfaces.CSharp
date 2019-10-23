@@ -5,31 +5,23 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.28</Version>
+    <Version>2.0.4-pre</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 1.0.28
-      - fix minor notification bugs
-      - add timezones.proto
-      - add EnumComputationUsage
-      - add new ENTITY_GRAPH enum
-      - updates to claros content
+      Version 2.0.4-pre
+      - Changes to support computations, forms, and measurement conversions
     </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-  
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="protobuf-net" Version="2.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="generated\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.9.2" />
   </ItemGroup>
 
 </Project>
