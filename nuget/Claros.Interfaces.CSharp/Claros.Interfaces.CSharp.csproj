@@ -5,14 +5,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.4</Version>
+    <Version>2.1.0</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 2.0.4
-      - Support for nullable types, computations, forms, measurements, and breaking changes
+      Version 2.1.0
+      - Spreadsheet Computations
+      - Enterprise
+      - Instrument Management
     </PackageReleaseNotes>
   </PropertyGroup>
 
