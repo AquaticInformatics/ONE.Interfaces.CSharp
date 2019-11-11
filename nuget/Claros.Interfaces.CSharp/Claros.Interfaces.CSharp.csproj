@@ -5,15 +5,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.1.1</Version>
+    <Version>2.1.2</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 2.1.1
-      - Fixes for enums
-	  - Minor enhancements and fixes after 2.1.0
+      Version 2.1.2
+      - Added AccountStatuses to ClarosContent
     </PackageReleaseNotes>
   </PropertyGroup>
 
