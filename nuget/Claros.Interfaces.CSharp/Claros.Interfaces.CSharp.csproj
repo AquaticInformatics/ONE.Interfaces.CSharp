@@ -5,15 +5,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>3.0.0</Version>
+    <Version>3.1.0</Version>
     <Authors>Hach Claros Team</Authors>
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2019</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 3.0.0
-      - Breaking changes related to nullable types in InstrumentData and InstrumentStatus
-      - Non-breaking changes in other Instrument related protobufs
+      Version 3.1.0
+      - Added DigitalTwinType
+      - Added DigitalTwinSubtype
     </PackageReleaseNotes>
   </PropertyGroup>
 
