@@ -1,12 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>3.2.1</VersionPrefix>
-    <FileVersion>3.2.1</FileVersion>
-    <AssemblyVersion>3.2.1</AssemblyVersion>
-    <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
-    <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
@@ -16,9 +10,10 @@
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-      Version 3.2.1
-      - Added ApiResponseHelper
-    </PackageReleaseNotes>
+Version 4.0.0
+- Changed UserNotificationPreference
+</PackageReleaseNotes>
+    <Version>4.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
