@@ -10,10 +10,10 @@
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-Version 4.0.0
-- Changed UserNotificationPreference
+Version 4.1.0
+- Additions for Instrumentation
 </PackageReleaseNotes>
-    <Version>4.0.0</Version>
+    <Version>4.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
