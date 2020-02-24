@@ -1,6 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
+    <VersionPrefix>4.2.2</VersionPrefix>
+    <FileVersion>4.2.2</FileVersion>
+    <AssemblyVersion>4.2.2</AssemblyVersion>
+    <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
+    <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
@@ -10,10 +16,9 @@
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-Version 4.2.1
-- Added InstrumentDetails to ClarosContent
+Version 4.2.2
+- Added ApiExceptionHandler
 </PackageReleaseNotes>
-    <Version>4.2.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,7 +26,8 @@ Version 4.2.1
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Protobuf" Version="3.9.2" />
+    <PackageReference Include="Google.Protobuf" Version="3.11.4" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
   </ItemGroup>
 
 </Project>
