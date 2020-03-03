@@ -24,8 +24,4 @@ Version 4.3.0
     <PackageReference Include="Google.Protobuf" Version="3.9.2" />
   </ItemGroup>
 
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="prebuild.bat" />
-  </Target>
-
 </Project>
