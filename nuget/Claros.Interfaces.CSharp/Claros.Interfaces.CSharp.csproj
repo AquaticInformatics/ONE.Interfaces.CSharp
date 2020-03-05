@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>4.2.2</VersionPrefix>
-    <FileVersion>4.2.2</FileVersion>
-    <AssemblyVersion>4.2.2</AssemblyVersion>
+    <VersionPrefix>4.3.2</VersionPrefix>
+    <FileVersion>4.2.3</FileVersion>
+    <AssemblyVersion>4.3.2</AssemblyVersion>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
-    <VersionSuffix></VersionSuffix>
+    <VersionSuffix>CLAROS-21283</VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
@@ -16,7 +16,7 @@
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-Version 4.3.1
+Version 4.3.2
 - Additions for Notifications
 </PackageReleaseNotes>
     <Version>4.3.1</Version>
