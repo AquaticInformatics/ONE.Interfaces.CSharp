@@ -16,9 +16,10 @@
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
     <PackageReleaseNotes>
-Version 4.2.2
-- Added ApiExceptionHandler
+Version 4.3.1
+- Additions for Notifications
 </PackageReleaseNotes>
+    <Version>4.3.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
