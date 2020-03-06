@@ -33,7 +33,7 @@ namespace Claros.Interfaces.CSharp.Utilities
                         logger.LogError(exceptionHandler.Error, "An error occurred on the server: {exceptionMessage}", exceptionHandler.Error.Message);
 
                         var response = new ApiResponse();
-                        response.Errors.Add(new ApiError { Code = "ERR-500", Detail = exceptionHandler.Error.Message, StatusCode = 500 });
+                        response.Errors.Add(new ApiError { Code = "ERR-500", Detail = "An error occurred on the server", StatusCode = 500 });
 
                         if (isProtobuf)
                         {

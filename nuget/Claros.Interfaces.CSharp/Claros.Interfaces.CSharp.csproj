@@ -3,7 +3,7 @@
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
     <VersionPrefix>4.3.2</VersionPrefix>
-    <FileVersion>4.2.3</FileVersion>
+    <FileVersion>4.3.2</FileVersion>
     <AssemblyVersion>4.3.2</AssemblyVersion>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix>CLAROS-21283</VersionSuffix>
