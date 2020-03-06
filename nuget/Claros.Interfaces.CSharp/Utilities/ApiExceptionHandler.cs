@@ -28,7 +28,7 @@ namespace Claros.Interfaces.CSharp.Utilities
                     else
                         context.Response.ContentType = "application/json";
 
-                    if (exceptionHandler != null)
+                    if (exceptionHandler?.Error != null)
                     {
                         logger.LogError(exceptionHandler.Error, "An error occurred on the server: {exceptionMessage}", exceptionHandler.Error.Message);
 
