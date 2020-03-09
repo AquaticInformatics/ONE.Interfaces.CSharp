@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Linq;
 using Claros.Common.Core;
 using Google.Protobuf;
@@ -30,10 +31,11 @@ namespace Claros.Interfaces.CSharp.Utilities
 
                     if (exceptionHandler?.Error != null)
                     {
-                        logger.LogError(exceptionHandler.Error, "An error occurred on the server: {exceptionMessage}", exceptionHandler.Error.Message);
+                        var message = CreateErrorMessage(context.Request);
+                        logger.LogError(exceptionHandler.Error, "Message: {message}", message);
 
                         var response = new ApiResponse();
-                        response.Errors.Add(new ApiError { Code = "ERR-500", Detail = "An error occurred on the server", StatusCode = 500 });
+                        response.Errors.Add(new ApiError { Code = "ERR-500", Detail = message, StatusCode = 500 });
 
                         if (isProtobuf)
                         {
@@ -49,6 +51,15 @@ namespace Claros.Interfaces.CSharp.Utilities
                     }
                 });
             });
+        }
+
+        private static string CreateErrorMessage(HttpRequest request)
+        {
+            var errorId = request.Query["requestId"];
+            if (string.IsNullOrWhiteSpace(errorId))
+                errorId = Guid.NewGuid().ToString();
+
+            return $"An unexpected error occured. Code: {errorId}";
         }
     }
 }
