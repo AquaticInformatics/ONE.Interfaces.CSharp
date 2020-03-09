@@ -6,7 +6,7 @@
     <FileVersion>4.3.2</FileVersion>
     <AssemblyVersion>4.3.2</AssemblyVersion>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
-    <VersionSuffix>CLAROS-21283-03</VersionSuffix>
+    <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
