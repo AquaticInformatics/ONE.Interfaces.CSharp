@@ -3,8 +3,8 @@
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
     <VersionPrefix>4.3.2</VersionPrefix>
-    <FileVersion>4.3.2</FileVersion>
-    <AssemblyVersion>4.3.2</AssemblyVersion>
+    <FileVersion>4.4.0</FileVersion>
+    <AssemblyVersion>4.4.0</AssemblyVersion>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
@@ -15,11 +15,11 @@
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>
-Version 4.3.2
-- Additions for Notifications
-- Global Api exception handler
+    <PackageReleaseNotes>Version 4.4.0
+- Enterprise.Twin
+- Common.Library
 </PackageReleaseNotes>
+    <Version>4.4.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
