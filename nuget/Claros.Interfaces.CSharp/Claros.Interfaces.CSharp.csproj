@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>4.3.2</VersionPrefix>
-    <FileVersion>4.4.0</FileVersion>
-    <AssemblyVersion>4.4.0</AssemblyVersion>
+    <VersionPrefix>4.4.1</VersionPrefix>
+    <FileVersion>4.4.1</FileVersion>
+    <AssemblyVersion>4.4.1</AssemblyVersion>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
-    <VersionSuffix></VersionSuffix>
+    <VersionSuffix>CLAROS-24042-1</VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Hach</Company>
@@ -15,9 +15,7 @@
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>Version 4.4.0
-- Enterprise.Twin
-- Common.Library
+    <PackageReleaseNotes>Version 4.4.1
 </PackageReleaseNotes>
     <Version>4.4.0</Version>
   </PropertyGroup>
@@ -30,5 +28,9 @@
     <PackageReference Include="Google.Protobuf" Version="3.11.4" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
   </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="prebuild.bat" />
+  </Target>
 
 </Project>
