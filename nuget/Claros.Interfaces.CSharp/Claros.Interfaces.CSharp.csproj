@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="echo &quot;HEY LOOK HERE --------------&gt; $(SolutionDir)&quot;&#xD;&#xA;&quot;$(SolutionDir)\prebuild.bat&quot;" />
+    <Exec Command="echo &quot;Prebuild .bat will be executed from --------------&gt; $(SolutionDir)&quot;&#xD;&#xA;&quot;$(SolutionDir)prebuild.bat&quot;" />
   </Target>
 
 </Project>
