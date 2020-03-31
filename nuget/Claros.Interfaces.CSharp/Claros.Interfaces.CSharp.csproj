@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="if $(ConfigurationName) == Debug prebuild.bat" />
+    <Exec Command="echo &quot;HEY LOOK HERE --------------&gt; $(SolutionDir)&quot;&#xD;&#xA;&quot;$(SolutionDir)\prebuild.bat&quot;" />
   </Target>
 
 </Project>
