@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="prebuild.bat" />
+    <Exec Command="if $(ConfigurationName) == Debug prebuild.bat" />
   </Target>
 
 </Project>
