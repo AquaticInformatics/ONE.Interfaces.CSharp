@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>5.2.0</VersionPrefix>
-    <FileVersion>5.2.0</FileVersion>
-    <AssemblyVersion>5.2.0</AssemblyVersion>
+    <VersionPrefix>5.2.1</VersionPrefix>
+    <FileVersion>5.2.1</FileVersion>
+    <AssemblyVersion>5.2.1</AssemblyVersion>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
@@ -15,14 +15,12 @@
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>Version 5.2.0
+    <PackageReleaseNotes>Version 5.2.1
 Additions to
-- Enterprise.Core
-- Enterprise.Data
-- Instrument.Lock
 - ClarosContent
+- PlantStatus
 </PackageReleaseNotes>
-    <Version>5.2.0</Version>
+    <Version>5.2.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
