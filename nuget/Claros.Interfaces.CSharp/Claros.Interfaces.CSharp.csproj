@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>6.2.0</VersionPrefix>
-    <FileVersion>6.2.0</FileVersion>
-    <AssemblyVersion>6.2.0</AssemblyVersion>
+    <VersionPrefix>6.3.0</VersionPrefix>
+    <FileVersion>6.3.0</FileVersion>
+    <AssemblyVersion>6.3.0</AssemblyVersion>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
@@ -15,10 +15,10 @@
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>Version 6.2.0
-- Additional field on Common.Library.Parameter
+    <PackageReleaseNotes>Version 6.3.0
+- Added Claros.IoT.Registry.InstrumentConnectionString file
 </PackageReleaseNotes>
-    <Version>6.2.0</Version>
+    <Version>6.3.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
