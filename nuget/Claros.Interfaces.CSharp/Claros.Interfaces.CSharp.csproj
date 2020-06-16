@@ -2,9 +2,10 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>6.4.0</VersionPrefix>
-    <FileVersion>6.4.0</FileVersion>
-    <AssemblyVersion>6.4.0</AssemblyVersion>
+    <Version>6.4.1</Version>
+    <VersionPrefix>6.4.1</VersionPrefix>
+    <FileVersion>6.4.1</FileVersion>
+    <AssemblyVersion>6.4.1</AssemblyVersion>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
@@ -15,10 +16,9 @@
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>Version 6.4.0
-- Extend instrument lock status with PENDING
-</PackageReleaseNotes>
-    <Version>6.4.0</Version>
+    <PackageReleaseNotes>Version 6.4.1
+      - Added Forbidden FacadeStatusCode
+    </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
