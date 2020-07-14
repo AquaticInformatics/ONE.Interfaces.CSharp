@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>6.5.0</VersionPrefix>
-    <FileVersion>6.5.0</FileVersion>
-    <AssemblyVersion>6.5.0</AssemblyVersion>
+    <VersionPrefix>6.6.0</VersionPrefix>
+    <FileVersion>6.6.0</FileVersion>
+    <AssemblyVersion>6.6.0</AssemblyVersion>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
@@ -15,10 +15,10 @@
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>Version 6.5.0
-- Extend Account Status
+    <PackageReleaseNotes>Version 6.6.0
+- Add EnumSamplingStatistic and use it in DataSourceBinding
 </PackageReleaseNotes>
-    <Version>6.5.0</Version>
+    <Version>6.6.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
