@@ -19,10 +19,10 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
-        public static ApiError ValidationFailed => new ApiError
+        public static ApiError ValidationFailed(string reason = null) => new ApiError
         {
             Code = "ERR-102",
-            Detail = "Validation Failed",
+            Detail = $"Validation Failed. Reason: {reason ?? "Not provided"}",
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
