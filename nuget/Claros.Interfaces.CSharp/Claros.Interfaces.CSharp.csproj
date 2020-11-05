@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>7.3.1</VersionPrefix>
+    <VersionPrefix>7.4.0</VersionPrefix>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
@@ -13,9 +13,9 @@
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>Version 7.3.1
-      - Rebuilt submodule to generate missing files
-
+    <PackageReleaseNotes>Version 7.4.0
+      - Added EnterpriseDataTelemetry
+      - Added TenantId field to User
     </PackageReleaseNotes>
   </PropertyGroup>
 
