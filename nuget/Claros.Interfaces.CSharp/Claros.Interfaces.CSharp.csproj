@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>9.6.0</VersionPrefix>
+    <VersionPrefix>9.7.0</VersionPrefix>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
@@ -13,12 +13,10 @@
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2020</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>Version 9.6.0
-      - Additions for Library
-      - Additions for Computations
-      - Additions for Parameters and Agencies
+    <PackageReleaseNotes>Version 9.7.0
+      - Updates to Instrument Status, Unit Agency Code, Parameter Agency Code, and Computation Variable Binding
     </PackageReleaseNotes>
-    <Version>9.6.0</Version>
+    <Version>9.7.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
