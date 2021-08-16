@@ -12,6 +12,7 @@ namespace Claros.Interfaces.CSharp.Utilities
     /// <summary>
     /// Helpers for <see cref="ApiResponse"/>.
     /// </summary>
+    [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
     public static class ApiResponseHelper
     {
         #region Type handlers
@@ -24,6 +25,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <typeparam name="T">Type of content.</typeparam>
         /// <param name="apiResponse">The ApiResponse object to assign the content to.</param>
         /// <param name="content">The content to assign.</param>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         private static void GenericTypeHandler<T>(ApiResponse apiResponse, T content)
         {
             var contentType = content.GetType();
@@ -120,6 +122,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// </summary>
         /// <param name="httpStatusCode">HTTP status code to be returned to the client.</param>
         /// <returns><see cref="FacadeApiResponse"/> that contains an HTTP status code.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse(HttpStatusCode httpStatusCode)
         {
             return new FacadeApiResponse { StatusCode = (int)httpStatusCode, ApiResponse = new ApiResponse() };
@@ -132,6 +135,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <param name="httpStatusCode">HTTP status code to be returned to the client.</param>
         /// <param name="error">Error to include in the response.</param>
         /// <returns><see cref="FacadeApiResponse"/> that contains an HTTP status code and an error.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse(HttpStatusCode httpStatusCode, IErrorCode error)
         {
             return GetFacadeApiResponse(httpStatusCode, new[] { error });
@@ -144,6 +148,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <param name="httpStatusCode">HTTP status code to be returned to the client.</param>
         /// <param name="error">Error to include in the response.</param>
         /// <returns><see cref="FacadeApiResponse"/> that contains an HTTP status code and an error.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse(HttpStatusCode httpStatusCode, ApiError error)
         {
             return GetFacadeApiResponse(httpStatusCode, new[] { error });
@@ -156,6 +161,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <param name="httpStatusCode">HTTP status code to be returned to the client.</param>
         /// <param name="errors">Error to include in the response.</param>
         /// <returns><see cref="FacadeApiResponse"/> that contains an HTTP status code and errors.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse(HttpStatusCode httpStatusCode, IEnumerable<IErrorCode> errors)
         {
             var result = new FacadeApiResponse { StatusCode = (int)httpStatusCode, ApiResponse = new ApiResponse() };
@@ -171,6 +177,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <param name="httpStatusCode">HTTP status code to be returned to the client.</param>
         /// <param name="errors">Error to include in the response.</param>
         /// <returns><see cref="FacadeApiResponse"/> that contains an HTTP status code and errors.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse(HttpStatusCode httpStatusCode, IEnumerable<ApiError> errors)
         {
             var result = new FacadeApiResponse { StatusCode = (int)httpStatusCode, ApiResponse = new ApiResponse() };
@@ -187,6 +194,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <param name="httpStatusCode">HTTP status code to be returned to the client.</param>
         /// <param name="content">Content to include in the response.</param>
         /// <returns><see cref="FacadeApiResponse"/> that contains an HTTP status code and content.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse<T>(T content, HttpStatusCode httpStatusCode)
         {
             var result = new FacadeApiResponse { StatusCode = (int)httpStatusCode, ApiResponse = new ApiResponse() };
@@ -206,6 +214,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <param name="error">Error to include in the response.</param>
         /// <param name="content">Content to include in the response.</param>
         /// <returns><see cref="FacadeApiResponse"/>.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse<T>(T content, HttpStatusCode httpStatusCode, IErrorCode error)
         {
             return GetFacadeApiResponse(content, httpStatusCode, error != null ? new[] { error } : null);
@@ -220,6 +229,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <param name="error">Error to include in the response.</param>
         /// <param name="content">Content to include in the response.</param>
         /// <returns><see cref="FacadeApiResponse"/>.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse<T>(T content, HttpStatusCode httpStatusCode, ApiError error)
         {
             return GetFacadeApiResponse(content, httpStatusCode, error != null ? new[] { error } : null);
@@ -234,6 +244,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <param name="content">Content to include in the response.</param>
         /// <param name="errors">Errors to include in the response.</param>
         /// <returns><see cref="FacadeApiResponse"/>.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse<T>(T content, HttpStatusCode httpStatusCode, IEnumerable<IErrorCode> errors)
         {
             var result = new FacadeApiResponse { StatusCode = (int)httpStatusCode, ApiResponse = new ApiResponse() };
@@ -256,6 +267,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <param name="content">Content to include in the response.</param>
         /// <param name="errors">Errors to include in the response.</param>
         /// <returns><see cref="FacadeApiResponse"/>.</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static FacadeApiResponse GetFacadeApiResponse<T>(T content, HttpStatusCode httpStatusCode, IEnumerable<ApiError> errors)
         {
             var result = new FacadeApiResponse { StatusCode = (int)httpStatusCode, ApiResponse = new ApiResponse() };
@@ -276,6 +288,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <summary>
         /// Adds the content to an <see cref="ApiResponse"/>.
         /// </summary>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         private static void AddContentToResponse<T>(ApiResponse apiResponse, T content)
         {
             GenericTypeHandler(apiResponse, content);
@@ -284,6 +297,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <summary>
         /// Adds an error to an <see cref="ApiResponse"/>.
         /// </summary>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static void AddErrorToResponse(ApiResponse apiResponse, IErrorCode error)
         {
             apiResponse.Errors.Add(new ApiError { StatusCode = (uint)error.StatusCode, Code = error.Code, Detail = error.ErrorDetail });
@@ -292,6 +306,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <summary>
         /// Adds errors to an <see cref="ApiResponse"/>.
         /// </summary>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static void AddErrorsToResponse(ApiResponse apiResponse, IEnumerable<IErrorCode> errors)
         {
             foreach (var error in errors)
@@ -301,6 +316,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// <summary>
         /// Adds errors to an <see cref="ApiResponse"/>.
         /// </summary>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         private static void AddErrorsToResponse(ApiResponse apiResponse, IEnumerable<ApiError> errors)
         {
             apiResponse.Errors.AddRange(errors);
@@ -312,16 +328,19 @@ namespace Claros.Interfaces.CSharp.Utilities
     /// <summary>
     /// Api facade response to be returned to the api controller.
     /// </summary>
+    [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
     public class FacadeApiResponse
     {
         /// <summary>
         /// Http status code.
         /// </summary>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public int StatusCode { get; set; }
 
         /// <summary>
         /// Content.
         /// </summary>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public ApiResponse ApiResponse { get; set; }
     }
 }

@@ -5,10 +5,12 @@ using Claros.Common;
 
 namespace Claros.Interfaces.CSharp.Utilities
 {
+    [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
     public class TimezoneUtility
     {
         private static Dictionary<int, string> _timezones;
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static Dictionary<int, string> Timezones
         {
             get
@@ -562,6 +564,7 @@ namespace Claros.Interfaces.CSharp.Utilities
         /// </summary>
         /// <param name="name">TZ database name</param>
         /// <returns>Matched Claros.Common.Core.TimeZone, or TimeZone.TimezoneUnknown if not found</returns>
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static EnumTimeZone GetTimezone(string name)
         {
             KeyValuePair<int, string> matched = Timezones.FirstOrDefault(t => t.Value.Equals(name, StringComparison.OrdinalIgnoreCase));

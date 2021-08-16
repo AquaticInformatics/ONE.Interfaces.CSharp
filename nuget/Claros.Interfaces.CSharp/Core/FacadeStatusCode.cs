@@ -1,5 +1,8 @@
-﻿namespace Claros.Interfaces.CSharp.Core
+﻿using System;
+
+namespace Claros.Interfaces.CSharp.Core
 {
+    [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
     public enum FacadeStatusCode
     {
         Ok = 200,
