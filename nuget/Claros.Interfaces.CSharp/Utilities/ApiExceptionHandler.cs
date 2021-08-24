@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Linq;
 using Claros.Common.Core;
 using Claros.Interfaces.CSharp.Core;
@@ -11,8 +12,10 @@ using Newtonsoft.Json;
 
 namespace Claros.Interfaces.CSharp.Utilities
 {
+    [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
     public static class ApiExceptionHandler
     {
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static void UseClarosApiExceptionHandling(this IApplicationBuilder app, ILogger logger)
         {
             app.UseExceptionHandler(h =>

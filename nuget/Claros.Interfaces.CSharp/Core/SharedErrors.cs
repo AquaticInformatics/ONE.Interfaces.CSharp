@@ -3,8 +3,10 @@ using Claros.Common.Core;
 
 namespace Claros.Interfaces.CSharp.Core
 {
+    [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
     public static class SharedErrors
     {
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError NotFound => new ApiError
         {
             Code = "ERR-100", 
@@ -12,6 +14,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint) FacadeStatusCode.NotFound
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError UnrecognizedDataFormat => new ApiError
         {
             Code = "ERR-101",
@@ -19,6 +22,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError ValidationFailed(string reason = null) => new ApiError
         {
             Code = "ERR-102",
@@ -26,6 +30,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError InvalidRange(string rangeStart, string rangeEnd) => new ApiError
         {
             Code = "ERR-103",
@@ -33,6 +38,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError DateTimeTooEarly => new ApiError
         {
             Code = "ERR-104",
@@ -40,6 +46,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError ServiceUnavailable(string serviceName) => new ApiError
         {
             Code = "ERR-105",
@@ -47,6 +54,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError NotAuthorized => new ApiError
         {
             Code = "ERR-106",
@@ -54,6 +62,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.Forbidden
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError PropertyIsInvalid(string propertyName) => new ApiError
         {
             Code = "ERR-107",
@@ -61,6 +70,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError PropertyIsRequired(string propertyName) => new ApiError
         {
             Code = "ERR-108",
@@ -68,6 +78,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError PropertyCannotBeNull(string propertyName) => new ApiError
         {
             Code = "ERR-109",
@@ -75,6 +86,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint)FacadeStatusCode.BadRequest
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError ActionCouldNotBeCompleted(string action) => new ApiError
         {
             Code = "ERR-110",
@@ -82,6 +94,7 @@ namespace Claros.Interfaces.CSharp.Core
             StatusCode = (uint) FacadeStatusCode.BadRequest
         };
 
+        [Obsolete("This code has been moved to the Hach.Fusion.Shared.Core package", false)]
         public static ApiError UnexpectedError(string errorId = null) => new ApiError
         {
             Code = "ERR-500",
