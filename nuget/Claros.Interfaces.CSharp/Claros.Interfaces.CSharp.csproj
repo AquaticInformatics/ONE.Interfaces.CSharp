@@ -13,8 +13,8 @@
     <PackageTags>protocol buffer, protobuf, claros</PackageTags>
     <Copyright>2021</Copyright>
     <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
-    <PackageReleaseNotes>Version 10.3.1
-        - Changed namespace for Coagulation files
+    <PackageReleaseNotes>Version 10.4.0
+        - Added UIDefinition, I18NKeyName, and JsonSchema to product offerings.
     </PackageReleaseNotes>
   </PropertyGroup>
 
