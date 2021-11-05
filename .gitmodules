@@ -1,3 +1,3 @@
 [submodule "nuget/claros.interfaces.protocolbuffers"]
 	path = nuget/claros.interfaces.protocolbuffers
-	url = ssh://git@stash.waterqualitytools.com:7999/cpb/claros.interfaces.protocolbuffers.git
+	url = ssh://git@stash.waterqualitytools.com:7999/aqic/claros.interfaces.protocolbuffers.git
