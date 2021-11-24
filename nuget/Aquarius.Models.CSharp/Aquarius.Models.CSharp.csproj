@@ -4,17 +4,19 @@
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
     <VersionPrefix>1.0.0</VersionPrefix>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
-    <VersionSuffix>AQI-2116</VersionSuffix>
+    <VersionSuffix>AQI-2116-3</VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Company>AQI</Company>
+    <Company>Aquatic Informatics Inc.</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>AQI Claros Team</Authors>
-    <PackageTags>protocol buffer, protobuf, claros</PackageTags>
+    <Authors>OpenSourceAquatics</Authors>
+    <PackageTags>Aquatic, Informatics, Aquarius, models, csharp</PackageTags>
     <Copyright>2021</Copyright>
-    <Description>.NET Classes for use with Claros Protocol Buffer data contracts.</Description>
+    <Description>C# data model classes generated from shared protocol buffer messages for use within Aquarius ecosystem.</Description>
     <PackageReleaseNotes>Version 1.0.0
-        - Removed obsolete code
+      - Removed obsolete code
+      - Removed unused models
+      - Updated namespaces
     </PackageReleaseNotes>
   </PropertyGroup>
 
