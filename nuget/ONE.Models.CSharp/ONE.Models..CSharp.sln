@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aquarius.Models.CSharp", "Aquarius.Models.CSharp.csproj", "{E0C96DB3-D045-4E9D-B274-0D2B873B4AC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ONE.Models.CSharp", "ONE.Models.CSharp.csproj", "{E0C96DB3-D045-4E9D-B274-0D2B873B4AC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

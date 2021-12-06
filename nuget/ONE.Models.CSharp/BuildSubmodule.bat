@@ -3,7 +3,7 @@ cd ..\Claros.Interfaces.ProtocolBuffers\generators
 Powershell.exe -executionpolicy Bypass -File gen_all.ps1
 
 # Create folder
-mkdir ..\..\Aquarius.Models.CSharp\generated
+mkdir ..\..\ONE.Models.CSharp\generated
 
 # Copy to local folder
-copy ..\proto\flat\out\csharp\* ..\..\Aquarius.Models.CSharp\generated
+copy ..\proto\flat\out\csharp\* ..\..\ONE.Models.CSharp\generated

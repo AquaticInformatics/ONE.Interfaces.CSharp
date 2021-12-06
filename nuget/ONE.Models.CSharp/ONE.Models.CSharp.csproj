@@ -4,15 +4,17 @@
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
     <VersionPrefix>1.0.0</VersionPrefix>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
-    <VersionSuffix>AQI-2116-7</VersionSuffix>
+    <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Aquatic Informatics Inc.</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>OpenSourceAquatics</Authors>
-    <PackageTags>Aquatic, Informatics, Aquarius, models, csharp</PackageTags>
+    <PackageTags>Aquatic, Informatics, Aquarius, ONE, models, csharp</PackageTags>
+    <PackageId>Aquarius.$(AssemblyName)</PackageId>
+    <Product>Aquarius.$(AssemblyName)</Product>
     <Copyright>2021</Copyright>
-    <Description>C# data model classes generated from shared protocol buffer messages for use within Aquarius ecosystem.</Description>
+    <Description>C# data model classes generated from shared protocol buffer messages for use within the ONE ecosystem.</Description>
     <PackageReleaseNotes>Version 1.0.0
       - Removed obsolete code
       - Removed unused models
