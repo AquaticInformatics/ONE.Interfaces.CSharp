@@ -17,10 +17,12 @@
     <Description>C# data model classes generated from shared protocol buffer messages for use within the ONE ecosystem.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Version 2.0.0
+    <PackageReleaseNotes>
+      Version 2.1.0
+      - Added Schedule and ScheduleType models
+      Version 2.0.0
       - Updated to ONE.Models.CSharp namespace
       - Added license
-      - Added Schedule and ScheduleType models
       Version 1.0.0
       - Removed obsolete code
       - Removed unused models
