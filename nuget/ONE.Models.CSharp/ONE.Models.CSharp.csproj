@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>2.1.1</VersionPrefix>
+    <VersionPrefix>2.2.0</VersionPrefix>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
-    <VersionSuffix></VersionSuffix>
+    <VersionSuffix>pre-1</VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Aquatic Informatics Inc.</Company>
@@ -18,6 +18,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>
+      Version 2.2.0
+      - Added notificationFlag to limit model
       Version 2.1.1
       - Added Terms and Conditions fields back to user model
       Version 2.1.0
