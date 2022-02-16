@@ -20,6 +20,8 @@
     <PackageReleaseNotes>
       Version 2.3.0
       - Added I18N properties to notification template
+      Version 2.2.0
+      - Added notificationFlag to limit model
       Version 2.1.1
       - Added Terms and Conditions fields back to user model
       Version 2.1.0
