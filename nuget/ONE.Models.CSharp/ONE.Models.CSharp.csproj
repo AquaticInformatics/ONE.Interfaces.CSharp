@@ -18,6 +18,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>
+      Version 2.4.0
+      - Added new fields to Configuration model
       Version 2.3.0
       - Added I18N properties to notification template
       Version 2.2.0
