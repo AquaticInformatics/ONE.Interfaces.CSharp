@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>2.4.0</VersionPrefix>
+    <VersionPrefix>2.5.0</VersionPrefix>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
@@ -18,6 +18,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>
+      Version 2.5.0
+      - Added new HistorianData model
       Version 2.4.0
       - Added new fields to Configuration model
       Version 2.3.0
@@ -31,10 +33,6 @@
       Version 2.0.0
       - Updated to ONE.Models.CSharp namespace
       - Added license
-      Version 1.0.0
-      - Removed obsolete code
-      - Removed unused models
-      - Updated namespaces
     </PackageReleaseNotes>
   </PropertyGroup>
 
