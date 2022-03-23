@@ -1,5 +1,5 @@
 # Generate all the C# classes from proto files
-cd ..\Claros.Interfaces.ProtocolBuffers\generators
+cd ..\ONE.Interfaces.ProtocolBuffers\generators
 Powershell.exe -executionpolicy Bypass -File gen_all.ps1
 
 # Create folder
