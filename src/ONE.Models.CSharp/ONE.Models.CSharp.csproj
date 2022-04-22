@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>4.0.0</VersionPrefix>
+    <VersionPrefix>4.1.0</VersionPrefix>
     <!--For Feature packages update the VersionSuffix with the Jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
@@ -18,29 +18,14 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>
+      Version 4.1.0
+      - Removed priority/status enums and changed priority/status on Activity model to integers
       Version 4.0.0
       - Removed old models related to Activities
       - Added new Activity models
       Version 3.0.0
       - Removed Id from HistorianData model
       - Added Regulatory, Warning, Goal to EnumLimit
-      Version 2.5.1
-      - Added HistorianDatas to content
-      Version 2.5.0
-      - Added new HistorianData model
-      Version 2.4.0
-      - Added new fields to Configuration model
-      Version 2.3.0
-      - Added I18N properties to notification template
-      Version 2.2.0
-      - Added notificationFlag to limit model
-      Version 2.1.1
-      - Added Terms and Conditions fields back to user model
-      Version 2.1.0
-      - Added Schedule and ScheduleType models
-      Version 2.0.0
-      - Updated to ONE.Models.CSharp namespace
-      - Added license
     </PackageReleaseNotes>
   </PropertyGroup>
 
