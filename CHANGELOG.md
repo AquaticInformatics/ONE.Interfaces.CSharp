@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.2.0 - 2022-05-11
+### Added
+- Nullable entry to EnumVariableType
+- TakeAny entry to EnumCellRangeAction
+- ErrorMessage field to Variable model
+
 ## Version 4.1.0 - 2022-04-25
 ### Changed
 - Activity.Prioritycode to int from EnumActivityPriority
