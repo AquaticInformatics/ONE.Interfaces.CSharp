@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.3.0 - 2022-06-06
+### Changed
+- Schedule - updated fields
+- ScheduleType - updated fields
+- Content - allow ScheduleOccurrences to be returned through API
+
+### Added
+- ScheduleOccurrence
+
 ## Version 4.2.0 - 2022-05-11
 ### Added
 - Nullable entry to EnumVariableType
