@@ -20,6 +20,7 @@
     <PackageReleaseNotes>
       Version 4.4.0
       - Added configurationNotes model
+      - Added confiugrationTags model
     </PackageReleaseNotes>
   </PropertyGroup>
 
