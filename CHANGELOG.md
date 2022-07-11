@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.5.0 - 2022-07-11
+### Added
+- ScheduleRecurrencePattern
+
 ## Version 4.4.0 - 2022-06-24
 ### Added
 - ConfigurationNotes
