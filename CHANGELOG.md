@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.6.0 - 2022-07-20
+### Added
+- Analyte
+- TestAnalyteGroup
+- TestAnalyteGroupItem
+
 ## Version 4.5.0 - 2022-07-11
 ### Added
 - ScheduleRecurrencePattern
