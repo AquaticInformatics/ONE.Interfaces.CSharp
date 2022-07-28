@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 5.0.0 - 2022-07-28
+## Version 4.6.1 - 2022-07-28
 ### Remove
 - ScheduleId from ScheduleOccurrence
 
