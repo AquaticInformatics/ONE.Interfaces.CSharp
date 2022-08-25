@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+### ## Version 4.7.2 - 2022-08-25
+### Update
+- TestAnalyteGroup - updated to use collection of Analyte Ids instead of Analyte objects
+
 ### ## Version 4.7.1 - 2022-08-08
 Remove
 - ScheduleId from ScheduleOccurrence
