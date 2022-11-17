@@ -1,7 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-### ## Version 4.7.1 - 2022-08-08
+## Version 4.8.0 - 2022-11-17
+### Added
+- ConfigurationNote - added Geography field
+
+## Version 4.7.1 - 2022-08-08
 Remove
 - ScheduleId from ScheduleOccurrence
 
