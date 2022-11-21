@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.9.0 - 2022-11-21
+### Added
+- Models and Constants from ClientSDK
+
 ## Version 4.8.0 - 2022-11-17
 ### Added
 - ConfigurationNote - added Geography field
