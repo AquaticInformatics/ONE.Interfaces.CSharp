@@ -27,4 +27,8 @@
     <PackageReference Include="Google.Protobuf" Version="3.19.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Imposed\AAA\" />
+  </ItemGroup>
+
 </Project>
