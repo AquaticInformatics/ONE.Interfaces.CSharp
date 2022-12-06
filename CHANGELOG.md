@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.10.0-alpha - 2022-12-06
+### Added
+- EnterpriseDataSourceDefinition
+- EnterpriseDataTableQueryParameter
+- EnterpriseDataTableQuery
+- EnterpriseDataTableField
+- EnterpriseDataTableDefinition
+- EnterpriseDataSetDefinition
+
 ## Version 4.9.0 - 2022-11-21
 ### Added
 - Models and Constants from ClientSDK
