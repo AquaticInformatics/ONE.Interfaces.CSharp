@@ -15,5 +15,6 @@ namespace ONE.Models.CSharp.Imposed.WorksheetView
         public bool? canEdit { get; set; }
         public bool? canDelete { get; set; }
         public List<dynamic> headers { get; set; } // (ColumnHeader | GroupHeader)
+        public string headerCategory { get; set; }
     }
 }
