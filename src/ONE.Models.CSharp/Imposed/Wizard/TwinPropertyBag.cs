@@ -9,6 +9,6 @@ namespace ONE.Models.CSharp.Imposed.Wizard
         // List of Suggested Locations for this Digital Twin Sub Type
         public List<WizardLocation> ls { get; set; }
         // List of Suggested Parameters
-        public List<Parameter> ps { get; set; }
+        public List<WizardParameter> ps { get; set; }
     }
 }
