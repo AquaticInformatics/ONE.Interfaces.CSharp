@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.11.0 - 2023-01-12
+### Added
+- Grouping field to ComputationVariableBinding
+
 ## Version 4.10.0-alpha - 2022-12-06
 ### Added
 - EnterpriseDataSourceDefinition
