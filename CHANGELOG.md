@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.13.0 - 2023-02-02
+### Added
+- Take_Special to EnumCellRangeAction
+
 ## Version 4.12.0 - 2023-01-30
 ### Added
 - Column.DisplayOptions
