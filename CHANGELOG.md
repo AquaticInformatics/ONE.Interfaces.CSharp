@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.12.0 - 2023-01-30
+### Added
+- Column.DisplayOptions
+
 ## Version 4.11.0 - 2023-01-12
 ### Added
 - Grouping field to ComputationVariableBinding
