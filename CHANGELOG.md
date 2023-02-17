@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.14.0 - 2023-02-17
+### Added 
+- EnumDataSource.DATASOURCE_SAMPLE_MANAGER
+- EnumSamplingStatistic.SAMPLING_STATISTIC_FIRST
+- EnumSamplingStatistic.SAMPLING_STATISTIC_LAST
+### Deprecated
+- EnumSamplingStatistic.SAMPLING_STATISTIC_24_HOUR_COMPOSITE
+- EnumSamplingStatistic.SAMPLING_STATISTIC_CALCULATION
+- EnumSamplingStatistic.SAMPLING_STATISTIC_LAB_DATA_TRANSFER
+- EnumSamplingStatistic.SAMPLING_STATISTIC_LABORATORY_REPORT
+- EnumSamplingStatistic.SAMPLING_STATISTIC_FIELD_TEST
+		
 ## Version 4.13.0 - 2023-02-02
 ### Added
 - Take_Special to EnumCellRangeAction
