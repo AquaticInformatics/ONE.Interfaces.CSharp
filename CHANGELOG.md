@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## Version 4.15.0
 ### Added
-- Added EnterrpiseDatasetDefinition.queryParameters
+- Added EnterpriseDataSetDefinition.queryParameters
 
 ## Version 4.14.0 - 2023-02-17
 ### Added 

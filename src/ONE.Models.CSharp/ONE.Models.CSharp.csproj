@@ -19,7 +19,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>
         Version 4.15.0
-        - Added EnterrpiseDatasetDefinition.queryParameters
+        - Added EnterpriseDataSetDefinition.queryParameters
     </PackageReleaseNotes>
   </PropertyGroup>
 
