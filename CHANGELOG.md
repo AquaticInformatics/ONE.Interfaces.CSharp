@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.16.0 
+### Added
+- Update QueryParameters Protobuf to include plurals
+
 ## Version 4.15.0
 ### Added
 - Added EnterpriseDataSetDefinition.queryParameters
