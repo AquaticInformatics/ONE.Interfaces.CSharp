@@ -18,9 +18,9 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>
-		Version 4.15.0
-		- Added EnterrpiseDatasetDefinition.queryParameters
-	</PackageReleaseNotes>
+        Version 4.15.0
+        - Added EnterrpiseDatasetDefinition.queryParameters
+    </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
