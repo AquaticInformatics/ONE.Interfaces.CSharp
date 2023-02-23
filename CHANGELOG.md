@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.15.0
+### Added
+- Added EnterrpiseDatasetDefinition.queryParameters
+
 ## Version 4.14.0 - 2023-02-17
 ### Added 
 - EnumDataSource.DATASOURCE_SAMPLE_MANAGER
