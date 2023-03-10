@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.17.0
+### Added
+- Added Version, TenantId to protobuf type ReportDefinition
+
 ## Version 4.16.0 
 ### Added
 - Update QueryParameters Protobuf to include plurals
