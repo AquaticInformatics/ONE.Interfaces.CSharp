@@ -1,5 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## Version 4.17.0-AQI-4651
+### Added
+- Add ReportRendered to protobuf type ReportDefinitionRun 
 
 ## Version 4.17.0
 ### Added
