@@ -13,13 +13,14 @@
     <PackageTags>Aquatic, Informatics, Aquarius, ONE, models, csharp</PackageTags>
     <PackageId>Aquarius.$(AssemblyName)</PackageId>
     <Product>Aquarius.$(AssemblyName)</Product>
-    <Copyright>2022</Copyright>
+    <Copyright>2023</Copyright>
     <Description>C# data model classes generated from shared protocol buffer messages for use within the ONE ecosystem.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>
 		Version 4.19.0
 		- Added DoubelEntered to EnumReportableQualifierDefinition
+        - Added EnteredOrConstant to EnumReportableQualifierDefinition
 	</PackageReleaseNotes>
   </PropertyGroup>
 
