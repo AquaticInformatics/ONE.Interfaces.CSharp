@@ -1,5 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## Version 4.20.0 - 2023-04-12
+### Added
+- Created ReportRun and ReportRuns protobuf 
+- Integrated ReportRuns into the ApiResponse 
 
 ## Version 4.20.0 - 2023-04-13
 ### Added
