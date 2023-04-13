@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.20.0 - 2023-04-13
+### Added
+- Added ReportableQualifierDefinitions
+
 ## Version 4.19.0 - 2023-04-04
 ### Added
 - DoubleEntered to EnumReportableQualifierDefinition
