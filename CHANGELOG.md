@@ -1,6 +1,6 @@
 # Changelog
 All notable changes to this project will be documented in this file.
-## Version 4.20.0 - 2023-04-12
+## Version 4.21.0 - 2023-04-14
 ### Added
 - Created ReportRun and ReportRuns protobuf 
 - Integrated ReportRuns into content.proto
