@@ -1,5 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+
+## Version 4.22.1 - 2023-04-21
+### Fixed
+- Resolved missing models issue in previous two releases
+
+## Version 4.22.0 - 2023-04-17
+### Added
+- Added TakeCurrentAndNext to EnumCellRangeAction
+
 ## Version 4.21.0 - 2023-04-14
 ### Added
 - Created ReportRun and ReportRuns protobuf 
