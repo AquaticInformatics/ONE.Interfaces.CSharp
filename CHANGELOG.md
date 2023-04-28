@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.23.0 - 2023-04-28
+### Added
+- Added protobuf types for Historian Ingest
+- Deprecate ONE.Models.CSharp.Enums.EnumLogLevel
+
 ## Version 4.22.1 - 2023-04-21
 ### Fixed
 - Resolved missing models issue in previous two releases
