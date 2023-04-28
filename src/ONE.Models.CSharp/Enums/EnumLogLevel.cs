@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ONE.Models.CSharp.Enums
 {
+    [Obsolete("This enum is deprecated, please use EnumOneLogLevel instead.")]
     public enum EnumLogLevel
     {
         Unknown = 0,

@@ -20,6 +20,7 @@
     <PackageReleaseNotes>
     Version 4.23.0
     - Added protobuf types for Historian Ingest
+    - Deprecate ONE.Models.CSharp.Enums.EnumLogLevel
     </PackageReleaseNotes>
   </PropertyGroup>
 
