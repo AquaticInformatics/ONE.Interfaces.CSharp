@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.24.0 - 2023-05-02
+### Added
+- Added SignalR OneHub models
+
 ## Version 4.23.0 - 2023-04-28
 ### Added
 - Added protobuf types for Historian Ingest
