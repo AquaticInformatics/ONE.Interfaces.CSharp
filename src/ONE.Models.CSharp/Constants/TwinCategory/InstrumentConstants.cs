@@ -14,6 +14,11 @@ namespace ONE.Models.CSharp.Constants.TwinCategory
                 public const string RefId = "02d6fd74-f610-428f-8dd6-2789960e7fd7";
                 public static readonly Guid Guid = new Guid(RefId);
             }
+            public static class ClientIngestCloudServiceSubType
+            {
+                public const string RefId = "f0d9b74a-a3a5-4bd1-b727-877f0b6f436d";
+                public static readonly Guid Guid = new Guid(RefId);
+            }
         }
         public static class ClientUtilityType
         {

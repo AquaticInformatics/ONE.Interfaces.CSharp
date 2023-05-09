@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.25.0 - 2023-05-09
+### Added
+- Added constant ClientIngestCloudServiceSubType
+
 ## Version 4.24.0 - 2023-05-02
 ### Added
 - Added SignalR OneHub models
