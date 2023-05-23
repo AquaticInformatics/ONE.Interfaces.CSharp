@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.26.0 - 2023-05-15
+### Changed
+- Added requestId, numberOfExecutions and cellKey to OutputCellBackup
+- Added stringValue, timestamp and cellKey to CellValueBackup
+- Added CellValueBackups and OutputCellBackups to Content
+
 ## Version 4.25.0 - 2023-05-09
 ### Added
 - Added constant ClientIngestCloudServiceSubType
