@@ -1,0 +1,14 @@
+name: Build main
+
+on: 
+  push:
+    branches:
+      - pre-release
+
+jobs:
+  call-reusable-build:
+    uses: ./.github/workflows/reusable-build.yml      
+    with:
+      publish: true      
+      configuration: debug
+    secrets: inherit

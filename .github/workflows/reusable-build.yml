@@ -1,0 +1,84 @@
+name: Reusable build
+
+on:
+  workflow_call:
+    inputs:
+      configuration:
+        description: build configuration (default Release)
+        default: Release
+        required: false
+        type: string
+      publish:
+        description: publish the artifact to nuget
+        default: false
+        required: false
+        type: boolean
+      tagbuild:
+        description: tag the version to repo
+        default: false
+        required: false
+        type: boolean
+    secrets:
+      RIO_NUGET_API_KEY:
+        required: false
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    env:
+      SolutionFile: ONE.Models.CSharp.sln
+      DOTNET_NOLOGO: true
+      DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+    defaults:
+      run:
+        working-directory: src\ONE.Models.CSharp
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup dotnet sdk
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.x'
+
+      - name: Restore
+        run: dotnet restore ${{ env.SolutionFile }}
+
+      - name: Build submodoule
+        run: BuildSubmodule.bat
+
+      - name: Build
+        id: build
+        run: dotnet build ${{ env.SolutionFile }} /p:configuration=${{ inputs.configuration }}
+
+      - name: Test
+        run: dotnet test --no-build --verbosity normal --configuration ${{ inputs.configuration }} ${{ env.SolutionFile }}
+
+      - name: Publish nuget artifact to GitHub
+        uses: actions/upload-artifact@v3
+        with:
+          name: "package-${{ github.sha }}"
+          path: ${{ github.workspace }}\**\*.nupkg
+          if-no-files-found: error
+      
+      - name: Publish nuget package
+        if: inputs.publish
+        run: dotnet nuget push ${{ github.workspace }}\**\*.nupkg --api-key ${{ secrets.RIO_NUGET_API_KEY }} --skip-duplicate --source https://api.nuget.org/v3/index.json
+
+      - name: Get Version
+        if: inputs.tagbuild
+        uses: bbonkr/get-version-action@v1
+        id: get_version
+        with:
+          project: './ONE.Models.CSharp.csproj'
+      
+      - name: Tag repo
+        if: inputs.tagbuild
+        run: |
+          echo "tag repo with v${{ steps.get_version.outputs.version }}"
+          git tag v${{ steps.get_version.outputs.version }}
+          git push origin v${{ steps.get_version.outputs.version }}
+
