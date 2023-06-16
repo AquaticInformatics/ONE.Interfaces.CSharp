@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.27.0 - 2023-06-16
+### Added
+- EnumTimeContext
+- TimeContext
+### Changed
+- Added contextType and twinRefId to JsonTicksDateTime
+
 ## Version 4.26.0 - 2023-05-15
 ### Changed
 - Added requestId, numberOfExecutions and cellKey to OutputCellBackup
