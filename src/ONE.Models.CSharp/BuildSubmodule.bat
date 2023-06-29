@@ -12,3 +12,4 @@ mkdir ..\..\ONE.Models.CSharp\generated
 
 @rem Copy to local folder
 copy ..\proto\flat\out\csharp\* ..\..\ONE.Models.CSharp\generated
+pause
