@@ -32,10 +32,10 @@ namespace ONE.Models.CSharp.Constants
             public static readonly Guid Guid = new Guid(Id);
         }
 
-        public static class Logbooks
+        public static class Logbook
         {
             public const string Id = "C3F5B20A-62D3-4DD2-8430-C0EAD8D70A59";
-            public static readonly Guid Guid = new Guid("C3F5B20A-62D3-4DD2-8430-C0EAD8D70A59");
+            public static readonly Guid Guid = new Guid(Id);
         }
     }
 }
