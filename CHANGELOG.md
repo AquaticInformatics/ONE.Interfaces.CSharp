@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.28.0 - 2023-06-28
+### Added
+- Operation Export Protobuf
+- LastLoginDateUTC On User Protobuf
+
 ## Version 4.27.0 - 2023-06-16
 ### Added
 - EnumTimeContext
