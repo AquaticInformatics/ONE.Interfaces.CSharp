@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.29.0 - 2023-07-19
+### Changed
+- Removed Users, Report Runs, Tenant, and Dashboards from Operation Export Protobuf
+- Changed WorksheetDefinition to WorksheetDefinitions (plural) in Operation Export Protobuf
+
 ## Version 4.28.0 - 2023-06-28
 ### Added
 - Operation Export Protobuf
