@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.30.0 - 2023-07-31
+### Added
+- Added ReportDefinitionJsonV2 protobuf
+
 ## Version 4.29.0 - 2023-07-19
 ### Changed
 - Removed Users, Report Runs, Tenant, and Dashboards from Operation Export Protobuf
