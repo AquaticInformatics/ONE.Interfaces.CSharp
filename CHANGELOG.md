@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.31.0 - 2023-08-03
+### Changed
+- Removed QueryParameters from ReportDefinitionJsonV2 protobuf
+### Added
+- Added StartTime and EndTime to ReportDefinitionJsonV2
+
 ## Version 4.30.0 - 2023-07-31
 ### Added
 - Added ReportDefinitionJsonV2 protobuf
