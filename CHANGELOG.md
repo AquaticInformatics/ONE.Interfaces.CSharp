@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.33.0 - 2023-08-24
+### Added
+- ReportDefinitionCategoryTenant entry to EnumReportDefinitionCategory
+
 ## Version 4.32.0 - 2023-08-23
 ### Added
 - WIMS entry to EnumDataSource and EnumDomainSource
