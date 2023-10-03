@@ -73,7 +73,7 @@ jobs:
         uses: bbonkr/get-version-action@v1
         id: get_version
         with:
-          project: './ONE.Models.CSharp.csproj'
+          project: './src/ONE.Models.CSharp/ONE.Models.CSharp.csproj'
       
       - name: Tag repo
         if: inputs.tagbuild
