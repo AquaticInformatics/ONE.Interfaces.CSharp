@@ -49,12 +49,9 @@ jobs:
       - name: Restore
         run: dotnet restore ${{ env.SolutionFile }}
 
-      - name: Build Models
-        run: |
-            cd ..\ONE.Interfaces.ProtocolBuffers\generators
-            .\gen_all.ps1
-            mkdir ..\..\ONE.Models.CSharp\generated
-            copy ..\proto\flat\out\csharp\* ..\..\ONE.Models.CSharp\generated
+      - name: Build submodule
+        shell: cmd
+        run: BuildSubmodule.bat
 
       - name: Build
         id: build
