@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 4.34.0 - 2023-09-29
+## Version 4.34.0 - 2023-10-03
 ### Added
 - WIMS Computation entry to EnumDataSource
 
