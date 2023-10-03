@@ -69,16 +69,18 @@ jobs:
         run: dotnet nuget push ${{ github.workspace }}\**\*.nupkg --api-key ${{ secrets.RIO_NUGET_API_KEY }} --skip-duplicate --source https://api.nuget.org/v3/index.json
 
       - name: Get Version
-        if: inputs.tagbuild
+        if: inputs.tagbuild || true
         uses: bbonkr/get-version-action@v1
         id: get_version
         with:
           project: './src/ONE.Models.CSharp/ONE.Models.CSharp.csproj'
       
       - name: Tag repo
-        if: inputs.tagbuild
+        if: inputs.tagbuild || true
         run: |
           echo "tag repo with v${{ steps.get_version.outputs.version }}"
           git tag v${{ steps.get_version.outputs.version }}
           git push origin v${{ steps.get_version.outputs.version }}
+          git submodule foreach git tag v${{ steps.get_version.outputs.version }}
+          git submodule foreach git push origin v${{ steps.get_version.outputs.version }}
 
