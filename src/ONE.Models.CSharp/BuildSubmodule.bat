@@ -1,4 +1,4 @@
-@rem Clean up temporary flat proto files and previous generted cs files for a clean generation
+@rem Clean up temporary flat proto files and previous generated cs files for a clean generation
 IF EXIST "..\ONE.Interfaces.ProtocolBuffers\proto\flat" rd /q /s "..\ONE.Interfaces.ProtocolBuffers\proto\flat"
 IF EXIST "generated" rd /q /s "generated"
 
