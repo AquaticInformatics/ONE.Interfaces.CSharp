@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.35.0 - 2023-10-05
+### Added
+- Historian Data Ingest data source entry to EnumDataSource
+
 ## Version 4.34.0 - 2023-10-03
 ### Added
 - WIMS Computation entry to EnumDataSource
