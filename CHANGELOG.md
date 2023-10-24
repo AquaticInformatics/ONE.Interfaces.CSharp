@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 4.36.0
+### Added
+- AnalyteResult and EnumImportStatus protobufs
+
 ## Version 4.35.0 - 2023-10-05
 ### Added
 - Historian Data Ingest data source entry to EnumDataSource
