@@ -13,11 +13,6 @@ on:
         default: false
         required: false
         type: boolean
-      tagbuild:
-        description: tag the version to repo
-        default: false
-        required: false
-        type: boolean
       prerelease:
         description: build and publish prerelease version (default false)
         default: false
@@ -89,16 +84,22 @@ jobs:
         run: dotnet nuget push ${{ github.workspace }}\**\*.nupkg --api-key ${{ secrets.RIO_NUGET_API_KEY }} --skip-duplicate --source https://api.nuget.org/v3/index.json
 
       - name: Get Version
-        if: inputs.tagbuild
+        if: inputs.publish
         uses: bbonkr/get-version-action@v1.2.1
         id: get_version
         with:
           project: './src/ONE.Models.CSharp/ONE.Models.CSharp.csproj'
       
-      - name: Tag repo
-        if: inputs.tagbuild
+      - name: Tag repository wih release
+        if: inputs.publish && inputs.release
         run: |
           echo "tag repo with v${{ steps.get_version.outputs.version }}"
           git tag v${{ steps.get_version.outputs.version }}
           git push origin v${{ steps.get_version.outputs.version }}
 
+      - name: Tag repository with prerelease
+        if: inputs.publish && inputs.prerelease
+        run: |
+          echo "tag repo with v${{ steps.get_version.outputs.version }}-pre-${{ github.run_number }}"
+          git tag v${{ steps.get_version.outputs.version }}-pre-${{ github.run_number }}
+          git push origin v${{ steps.get_version.outputs.version }}-pre-${{ github.run_number }}

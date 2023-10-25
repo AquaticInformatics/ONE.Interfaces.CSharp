@@ -9,7 +9,6 @@ jobs:
   call-reusable-build:
     uses: ./.github/workflows/reusable-build.yml      
     with:
-      publish: true      
-      tagbuild: true
+      publish: true
       prerelease: true
     secrets: inherit
