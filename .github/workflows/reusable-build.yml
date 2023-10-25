@@ -18,6 +18,16 @@ on:
         default: false
         required: false
         type: boolean
+      prerelease:
+        description: build and publish prerelease version (default false)
+        default: false
+        required: false
+        type: boolean
+      release:
+        description: build and publish release version (default false)
+        default: false
+        required: false
+        type: boolean
     secrets:
       RIO_NUGET_API_KEY:
         required: false
@@ -36,6 +46,12 @@ jobs:
         working-directory: src\ONE.Models.CSharp
 
     steps:
+      - name: Validate inputs
+        if: inputs.release == inputs.prerelease
+        uses: actions/github-script@v2.1.0
+        with:
+          script: core.setFailed('Must specify either release or prerelease but not both')
+
       - name: Checkout repository
         uses: actions/checkout@v4.1.1
         with:
@@ -53,10 +69,14 @@ jobs:
         shell: cmd
         run: BuildSubmodule.bat
 
-      - name: Build
-        id: build
-        run: dotnet build ${{ env.SolutionFile }} /p:configuration=${{ inputs.configuration }}
+      - name: Build Release
+        if: inputs.release
+        run: dotnet build ${{ env.SolutionFile }} -c ${{ inputs.configuration }}
 
+      - name: Build PreRelease
+        if: inputs.prerelease
+        run: dotnet build ${{ env.SolutionFile }} -c ${{ inputs.configuration }} --version-suffix pre-${{ github.run_number }}
+        
       - name: Publish nuget artifact to GitHub
         uses: actions/upload-artifact@v3.1.3
         with:

@@ -11,4 +11,5 @@ jobs:
     with:
       publish: true
       tagbuild: true
+      release: true
     secrets: inherit

@@ -10,5 +10,6 @@ jobs:
     uses: ./.github/workflows/reusable-build.yml      
     with:
       publish: true      
-      configuration: debug
+      tagbuild: true
+      prerelease: true
     secrets: inherit
