@@ -37,12 +37,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.1.1
         with:
             submodules: 'true'
 
       - name: Setup dotnet sdk
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v3.2.0
         with:
           dotnet-version: '6.0.x'
 
@@ -58,7 +58,7 @@ jobs:
         run: dotnet build ${{ env.SolutionFile }} /p:configuration=${{ inputs.configuration }}
 
       - name: Publish nuget artifact to GitHub
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: "package-${{ github.sha }}"
           path: ${{ github.workspace }}\**\*.nupkg
@@ -70,7 +70,7 @@ jobs:
 
       - name: Get Version
         if: inputs.tagbuild
-        uses: bbonkr/get-version-action@v1
+        uses: bbonkr/get-version-action@v1.2.1
         id: get_version
         with:
           project: './src/ONE.Models.CSharp/ONE.Models.CSharp.csproj'
