@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 4.37.0 - 2023-11-06
+## Version 4.37.0 - 2023-11-08
 ### Added
 - Nullable referenceColumnNum to ComputationVariableBinding
 
