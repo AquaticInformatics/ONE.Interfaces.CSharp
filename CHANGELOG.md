@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 4.38.0 - 2023-11-14
+## Version 4.38.0 - 2023-11-16
 ### Added
 - AnalyteResultsImportProfile protobuf
 
