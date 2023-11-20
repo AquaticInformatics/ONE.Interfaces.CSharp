@@ -1,10 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 4.40.0 - 2023-11-20
+## Version 5.0.0 - 2023-11-20
 ### Added
 - TwinSubType Constants for Sample Service and Import Profile
 - ConfigurationType constant for Analyte Result Import Profile
+### Removed
+- EnumLogLevel
 
 ## Version 4.38.0 - 2023-11-16
 ### Added
