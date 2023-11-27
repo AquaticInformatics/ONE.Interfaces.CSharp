@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - EnumLogLevel
 
+## Version 4.39.0 - 2023-11-27
+### Added
+- AnalyteResultsImportProfile protobuf changes
+
 ## Version 4.38.0 - 2023-11-16
 ### Added
 - AnalyteResultsImportProfile protobuf
