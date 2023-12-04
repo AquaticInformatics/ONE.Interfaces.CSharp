@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 5.1.0 - 2023-12-04
+### Added
+- CsvConfigurationFile.IsNarrow property
+
 ## Version 5.0.1 - 2023-11-27
 ### Fixed
 - Updated Submodule commit
