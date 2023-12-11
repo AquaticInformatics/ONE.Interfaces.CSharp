@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 5.2.0 - 2023-12-08
+### Added
+- AnalyteResultsImportTelemetry.Value property
+### Remove
+- AnalyteResultsImportTelemetry.Filter property
+- AnalyteResultsImportTelemetry.FilterByColumnNumber property
+
 ## Version 5.1.0 - 2023-12-04
 ### Added
 - CsvConfigurationFile.IsNarrow property
