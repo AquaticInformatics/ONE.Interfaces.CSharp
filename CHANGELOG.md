@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 5.3.0 - 2023-12-15
+### Added
+- DataSourceBinding.BindingType property
+- EnumHistorianAggregateType enum
+- HistorianBinding type
+
 ## Version 5.2.0 - 2023-12-08
 ### Added
 - AnalyteResultsImportTelemetry.Value property
