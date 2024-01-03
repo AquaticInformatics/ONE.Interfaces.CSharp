@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 5.4.0 - 2024-02-03
+### Removed
+- EnumHistorianAggregateType enum
+- HistorianBinding.EnumHistorianAggregateType field
+
 ## Version 5.3.0 - 2023-12-15
 ### Added
 - DataSourceBinding.BindingType property
