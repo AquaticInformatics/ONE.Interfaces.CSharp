@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>5.4.0</VersionPrefix>
+    <VersionPrefix>6.0.0</VersionPrefix>
     <!--For Feature packages update the VersionSuffix with the jira ticket number-->
     <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>

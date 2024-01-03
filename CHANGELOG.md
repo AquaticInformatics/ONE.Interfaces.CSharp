@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 5.4.0 - 2024-02-03
+## Version 6.0.0 - 2024-01-03
 ### Removed
 - EnumHistorianAggregateType enum
 - HistorianBinding.EnumHistorianAggregateType field
