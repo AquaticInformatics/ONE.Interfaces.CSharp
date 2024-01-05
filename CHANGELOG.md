@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.1.0 - 2023-01-05
+### Added
+- Metadata oneof with RowCount field to Variable model
+- TakeSpecialWithMetadata to EnumCellRangeAction model
+- VariableTypeVariable to EnumVariableType model
+
 ## Version 6.0.0 - 2024-01-03
 ### Removed
 - EnumHistorianAggregateType enum
