@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.2.1 - 2023-01-16
+### Removed
+- EnumRelativeDateRangeExtensions 
+
+## Version 6.2.0 - 2023-01-12
+### Changed
+- Aligned imposed enum EnumRelativeDateRange with web app typescript definition
+- ### Added
+- EnumRelativeDateRangeExtensions
+
 ## Version 6.1.0 - 2023-01-05
 ### Added
 - Metadata oneof with RowCount field to Variable model
