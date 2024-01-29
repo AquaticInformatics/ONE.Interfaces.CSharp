@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.3.0 - 2024-01-26
+### Added
+- Expression field to computation_binding.proto
+
 ## Version 6.2.1 - 2023-01-16
 ### Removed
 - EnumRelativeDateRangeExtensions 
