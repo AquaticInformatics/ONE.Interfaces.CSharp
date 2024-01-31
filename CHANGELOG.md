@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.4.0 - 2024-01-31
+### Added
+- EnumIdentityProvider
+- User.IdentityProviderType
+
 ## Version 6.3.0 - 2024-01-26
 ### Added
 - Expression field to computation_binding.proto
