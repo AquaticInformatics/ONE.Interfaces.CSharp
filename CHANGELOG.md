@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 6.5.0 - 2024-02-02
+## Version 6.5.0 - 2024-02-05
 ### Added
 - DataSourceConfiguration
 
