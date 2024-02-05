@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.5.0 - 2024-02-05
+### Added
+- DataSourceConfiguration
+
 ## Version 6.4.0 - 2024-01-31
 ### Added
 - EnumIdentityProvider
