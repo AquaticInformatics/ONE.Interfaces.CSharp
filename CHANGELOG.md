@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 6.5.2 - 2024-02-09
+## Version 6.5.2 - 2024-02-08
 ### Fixed
 - DataSourceConfiguration casing and comments
 
