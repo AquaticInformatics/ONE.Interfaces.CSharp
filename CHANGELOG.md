@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.6.0 - 2024-03-29
+### Added
+- ModelExecution
+
 ## Version 6.5.2 - 2024-02-08
 ### Fixed
 - DataSourceConfiguration casing and comments
