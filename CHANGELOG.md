@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.7.0 - 2024-04-02
+### Added
+- ModelTemplate
+- TemplateParameter
+- ExecutionParameter
+- ModelLocation
+### Changed
+- ModelExecution
+### Removed
+- ModelParameter
+
 ## Version 6.6.0 - 2024-03-29
 ### Added
 - ModelExecution
