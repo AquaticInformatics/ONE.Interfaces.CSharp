@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.8.0 - 2024-04-09
+### Added
+- Level threshold to EnumLimit
+- Process model to EnumDataSource
+- Enabled to ModelTemplate
+
 ## Version 6.7.0 - 2024-04-02
 ### Added
 - ModelTemplate
