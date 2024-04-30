@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.9.0 - 2024-04-30
+### Added
+- DefaultValue to TemplateParameter and ModelParameter
+- TenantId to ModelExecution
+- Timestamps array to ModelExecution
+- ParameterValue model
+### Changed
+- ExecutionParameter.Values to a list of ParameterValue
+
 ## Version 6.8.0 - 2024-04-09
 ### Added
 - Level threshold to EnumLimit
