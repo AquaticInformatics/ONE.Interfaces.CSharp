@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 6.9.0 - 2024-04-30
+## Version 6.9.0 - 2024-05-01
 ### Added
 - DefaultValue to TemplateParameter and ModelParameter
 - TenantId to ModelExecution
