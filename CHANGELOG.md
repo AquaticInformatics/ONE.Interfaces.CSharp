@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.10.0 - 2024-06-26
+### Added
+- Add IDENTITY_PROVIDER_SSO to EnumIdentityProvider
+
 ## Version 6.9.0 - 2024-05-01
 ### Added
 - DefaultValue to TemplateParameter and ModelParameter
