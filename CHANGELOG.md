@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.11.0 - 2024-07-17
+### Added
+- Add OptimizationInputs to model template (AQI-7583)
+
 ## Version 6.10.0 - 2024-06-26
 ### Added
 - Add IDENTITY_PROVIDER_SSO to EnumIdentityProvider
