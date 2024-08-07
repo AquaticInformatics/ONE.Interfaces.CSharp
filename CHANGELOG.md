@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.12.0 - 2024-08-07
+### Added
+- Add externalSourceId property to ConfigurationNote model (AQI-7772)
+
 ## Version 6.11.0 - 2024-07-17
 ### Added
 - Add OptimizationInputs to model template (AQI-7583)
