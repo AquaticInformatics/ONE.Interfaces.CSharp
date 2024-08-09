@@ -20,6 +20,7 @@
         Last14Days = 15,
         Last60Days = 16,
         Last90Days = 17,
-        ThisMonth = 18
+        ThisMonth = 18,
+        ThisQuarter = 19,
     }
 }
