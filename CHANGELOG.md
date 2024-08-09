@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.13.0 - 2024-08-08
+- Add ThisQuarter to EnumRelativeDateRange
+- Add ThisYear to EnumRelativeDateRange
+
 ## Version 6.12.1 - 2024-08-07
 ### Added
 - Add externalSourceId property to ConfigurationNote model (AQI-7772)
