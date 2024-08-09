@@ -22,5 +22,6 @@
         Last90Days = 17,
         ThisMonth = 18,
         ThisQuarter = 19,
+        ThisYear = 20,
     }
 }
