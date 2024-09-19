@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.14.0 - 2024-09-19
+### Added
+- Add AggregateRange to HistorianBinding
+- Add AggregateInterval to HistorianBinding
+
 ## Version 6.13.0 - 2024-08-08
 - Add ThisQuarter to EnumRelativeDateRange
 - Add ThisYear to EnumRelativeDateRange
