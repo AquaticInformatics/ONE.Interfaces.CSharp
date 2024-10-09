@@ -1,5 +1,3 @@
 [submodule "src/ONE.Interfaces.ProtocolBuffers"]
 	path = src/ONE.Interfaces.ProtocolBuffers
 	url = https://github.com/AquaticInformatics/ONE.Interfaces.ProtocolBuffers
-[submodule "src/ONE.Models.CSharp/ONE.Interfaces.ProtocolBuffers"]
-	url = https://github.com/AquaticInformatics/ONE.Interfaces.ProtocolBuffers
