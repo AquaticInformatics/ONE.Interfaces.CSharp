@@ -1,13 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 6.15.0-AF-248 - 2024-10-10
-### Added
-- Add ReportDefinitionCategotyAqtsLicense to EnumReportDefinitionCategory 
-
-## Version 6.15.0-AQI-8065 - 2024-10-09
+## Version 6.15.0
 ### Added
 - New Protobuf classes, like EnumDelphiModelMode, DelphiConfigurationExecution, DelphiModelDetails, DelphiModelExecution,    DelphiDetailParameter
+- New enum value ReportDefinitionCategotyAqtsLicense to EnumReportDefinitionCategory
 ### Changed
 - Changed Namespaces for DelphiModelExecution in content.proto
 - Renamed DelphiConfigurationExecution,DelphiModelDetails,DelphiModelExecution,DelphiDetailParameter
