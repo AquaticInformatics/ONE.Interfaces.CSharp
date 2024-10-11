@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.0.0 - 2024-10-11
+### Added
+- EnumDelphiModelMode, DelphiConfigurationExecution, DelphiModelDetails
+- ModelModesEnabled field to DelphiModelExecution, DelphiDetailParameter
+### Changed
+- ModelTemplate to use ModelDetails oneof and added DelphiModelDetails to it
+- Renumbered fields in ModelTemplate
+### Renamed
+- DelphiModelExecution, DelphiDetailParameter
+### Deleted
+- ModelTemplate.OptimizationInputs
+
 ## Version 6.15.0 - 2024-10-11
 ### Added
 - Add ReportDefinitionAqtsLicense to EnumReportDefinitionCategory
