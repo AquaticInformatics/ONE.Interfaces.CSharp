@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 6.15.0 - 2024-10-11
+### Added
+- Add ReportDefinitionAqtsLicense to ReportDefinition
+
 ## Version 6.14.0 - 2024-09-19
 ### Added
 - Add AggregateRange to HistorianBinding
