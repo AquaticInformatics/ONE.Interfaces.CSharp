@@ -1,5 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## Version 7.0.0-pre - 2024-10-10
+### Changed
+-Rename enumdelphimodelmode property
 
 ## Version 6.15.0-AQI-8065 - 2024-10-09
 ### Added
