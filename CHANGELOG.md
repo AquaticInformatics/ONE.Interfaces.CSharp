@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.0.0 - 2024-10-16
+### Added and Updated
+- Updated Models for Delphi
+
 ## Version 6.15.0 - 2024-10-11
 ### Added
 - Add ReportDefinitionAqtsLicense to EnumReportDefinitionCategory
