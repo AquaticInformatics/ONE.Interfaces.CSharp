@@ -1,17 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 7.0.0 - 2024-10-11
+## Version 7.1.0 - 2024-11-07
 ### Added
-- EnumDelphiModelMode, DelphiConfigurationExecution, DelphiModelDetails
-- ModelModesEnabled field to DelphiModelExecution, DelphiDetailParameter
-### Changed
-- ModelTemplate to use ModelDetails oneof and added DelphiModelDetails to it
-- Renumbered fields in ModelTemplate
-### Renamed
-- DelphiModelExecution, DelphiDetailParameter
-### Deleted
-- ModelTemplate.OptimizationInputs
+- Add ReportDefinitionHistorian to EnumReportDefinitionCategory
+
+## Version 7.0.0 - 2024-10-16
+### Added and Updated
+- Updated Models for Delphi
 
 ## Version 6.15.0 - 2024-10-11
 ### Added
