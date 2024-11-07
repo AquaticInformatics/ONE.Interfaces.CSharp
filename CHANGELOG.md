@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.1.0 - 2024-11-07
+### Added
+- Add ReportDefinitionHistorian to EnumReportDefinitionCategory
+
 ## Version 7.0.0 - 2024-10-16
 ### Added and Updated
 - Updated Models for Delphi
