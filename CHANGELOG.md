@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.2.0 - 2025-01-22
+### Added
+- Add ExternalUsername to ConfigurationNote
+
 ## Version 7.1.0 - 2024-11-07
 ### Added
 - Add ReportDefinitionHistorian to EnumReportDefinitionCategory
