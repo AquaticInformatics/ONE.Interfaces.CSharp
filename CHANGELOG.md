@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.3.0 - 2025-02-03
+### Added
+- Added EnumTimeZone property to DelphiModelDetail 
+- Added TimezoneOffsetHours property to DelphiModelExecution
+- Added applicationLogs property to DelphiModelExecution
+
 ## Version 7.2.0 - 2025-01-22
 ### Added
 - Add ExternalUsername to ConfigurationNote
