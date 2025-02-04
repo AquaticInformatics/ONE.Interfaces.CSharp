@@ -1,9 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 7.3.0 - 2025-01-30
+## Version 7.3.0 - 2025-02-03
 ### Added
-- Updated Models for Delphi to add Timezone and TimezoneOffsetHours
+- Added Timezone property to DelphiModelDetail 
+- Added TimezoneOffsetHours property to DelphiModelExecution
+- Added applicationLogs property to DelphiModelExecution
 
 ## Version 7.2.0 - 2025-01-22
 ### Added
