@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.4.0 - 2025-02-05
+### Added
+- Added EnumReportFileOutputType enum
+### Changed
+- Updated EnumRenderingEngine with CUSTOM entry 
+
+
 ## Version 7.3.0 - 2025-02-03
 ### Added
 - Added EnumTimeZone property to DelphiModelDetail 
