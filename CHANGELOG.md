@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 - Added EnumReportFileOutputType enum
 ### Changed
 - Updated EnumRenderingEngine with CUSTOM entry 
+- Updated EnumReportDefinitionCategory with CUSTOM entry
 
 
 ## Version 7.4.0 - 2025-02-05
