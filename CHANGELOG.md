@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.7.0 - 2025-03-25
+### Added
+- Added EquipmentDescription for Work Manager
+
 ## Version 7.6.0 - 2025-02-11
 ### Added
 - Added applicationLogsTwinRefId property to DelphiModelDetail
