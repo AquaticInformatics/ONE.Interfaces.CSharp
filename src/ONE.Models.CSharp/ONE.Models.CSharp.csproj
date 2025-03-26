@@ -13,7 +13,7 @@
     <PackageTags>Aquatic, Informatics, Aquarius, ONE, models, csharp</PackageTags>
     <PackageId>Aquarius.$(AssemblyName)</PackageId>
     <Product>Aquarius.$(AssemblyName)</Product>
-    <Copyright>2024</Copyright>
+    <Copyright>2025</Copyright>
     <Description>C# data model classes generated from shared protocol buffer messages for use within the ONE ecosystem.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
