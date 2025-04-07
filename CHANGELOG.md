@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.7.2 - 2025-04-07
+### Added
+- Added EquipmentType to Equipment table
+
 ## Version 7.7.1 - 2025-04-04
 ### Changed
 - Renamed EquipmentDescription table to Equipment
