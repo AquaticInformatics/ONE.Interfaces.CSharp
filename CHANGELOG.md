@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.8.0 - 2025-04-08
+### Added
+- Added DelphiScenarioConfiguration for model simulation analysis
+- Added two new value for EnumDelphiModelMode 
+
 ## Version 7.7.2 - 2025-04-07
 ### Added
 - Added EquipmentType to Equipment table
