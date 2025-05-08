@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.9.0 - 2025-05-15
+### Added
+- EnumSerializationMethod enum
+- SerializedRemotingMessage model with mapField plural
+- ComputationExecution model with mapField plural
+- Columns model
+
 ## Version 7.8.1 - 2025-04-16
 ### Updated
 - New release to integrate the 7.7.2 changes
