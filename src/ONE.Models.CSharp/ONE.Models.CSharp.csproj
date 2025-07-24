@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <!--For Release packages update the VersionPrefix and remove any VersionSuffix-->
-    <VersionPrefix>7.10.0</VersionPrefix>
+    <VersionPrefix>7.9.0</VersionPrefix>
     <!--For Feature packages update the VersionSuffix with the jira ticket number-->
-    <VersionSuffix></VersionSuffix>
+    <VersionSuffix>PA-2940</VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Aquatic Informatics Inc.</Company>
