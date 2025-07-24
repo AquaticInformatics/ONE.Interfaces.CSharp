@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.10.0 - 2025-07-22
+### Added
+- EnumDelphiModelTagScenario and EnumDelphiModelTagSumo24 enums
+
 ## Version 7.9.0 - 2025-05-15
 ### Added
 - EnumSerializationMethod enum
