@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.11.0 - 2025-08-07
+### Added
+- Rainfall tag for Delphi model Enum EnumDelphiModelTagSumo24
+
 ## Version 7.10.1 - 2025-07-30
 ### Added
 - renamed 'TAG_UNKNOWN' in EnumDelphiModelTagScenario and EnumDelphiModelTagSumo24 enums to avoid name conflicts on python
