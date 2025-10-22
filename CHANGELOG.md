@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.12.0 - 2025-08-07
+### Added
+- Added scenarioFlowUnitId and scenarioLoadingUnitId properties to the DelphiModelDetail protobuf
+
 ## Version 7.11.0 - 2025-08-07
 ### Added
 - Rainfall tag for Delphi model Enum EnumDelphiModelTagSumo24
