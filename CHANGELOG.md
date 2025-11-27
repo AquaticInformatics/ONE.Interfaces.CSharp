@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.13.0 - 2025-08-07
+### Added
+- Added Support for Multiple Output Parameter Selection in DelphiScenarioConfiguration protobuffer
+
 ## Version 7.12.0 - 2025-08-07
 ### Added
 - Added scenarioFlowUnitId and scenarioLoadingUnitId properties to the DelphiModelDetail protobuf
