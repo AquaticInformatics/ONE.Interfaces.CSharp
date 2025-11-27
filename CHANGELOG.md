@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 7.13.0 - 2025-08-07
+## Version 7.13.0 - 2025-11-27
 ### Added
 - Added Support for Multiple Output Parameter Selection in DelphiScenarioConfiguration protobuffer
 
