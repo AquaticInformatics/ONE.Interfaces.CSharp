@@ -3,7 +3,8 @@ All notable changes to this project will be documented in this file.
 
 ## Version 7.14.0 - 2025-12-03
 ### Added
-- Added EnumReportRunStatus
+- Added EnumReportRunStatus 
+- Updated ReportDefinitionRun with Status field
 
 ## Version 7.13.0 - 2025-08-07
 ### Added
