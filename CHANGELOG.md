@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.13.1 - 2025-12-03
+### Changed
+- Updated type of Data property of CloudEvent protobuffer from StringValue to Bytes
+
 ## Version 7.13.0 - 2025-08-07
 ### Added
 - Added Support for Multiple Output Parameter Selection in DelphiScenarioConfiguration protobuffer
