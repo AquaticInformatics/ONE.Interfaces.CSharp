@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.15.0 - 2025-12-23
+### Added
+- Added DatasetEventMessageData object
+
 ## Version 7.14.0 - 2025-12-23
 ### Added
 - Added EnumReportRunStatus 
