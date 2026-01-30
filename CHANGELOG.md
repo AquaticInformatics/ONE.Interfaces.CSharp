@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.16.0 - 2026-01-30
+### Added
+- CustomDataEntry DataSource
+- CustomDataEntry Repport Definition Category
+
 ## Version 7.15.0 - 2025-12-23
 ### Added
 - Added DatasetEventMessageData object
