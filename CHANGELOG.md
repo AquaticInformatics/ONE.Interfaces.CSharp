@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## Version 7.16.0 - 2026-01-23
+## Version 7.16.0 - 2026-01-30
 ### Added
 - CustomDataEntry DataSource
 - CustomDataEntry Repport Definition Category
