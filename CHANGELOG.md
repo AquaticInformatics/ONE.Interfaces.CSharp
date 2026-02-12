@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.17.0 - 2026-02-11
+### Added
+- Added EventSummarySummary for instrument events in instrumentDataSummary
+- Added EventMetaDataSummary
+- Updated Instrument Core folder files with adding InstrumentId.
+
 ## Version 7.16.0 - 2026-01-30
 ### Added
 - CustomDataEntry DataSource
