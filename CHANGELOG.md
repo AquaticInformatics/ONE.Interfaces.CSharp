@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 7.19.0 -2026-02-20
+### Added
+- Updated Instrument Type proto to include image Url
+
 ## Version 7.18.0 -2026-02-12
 ### Added
 - Pointing submodules to main
