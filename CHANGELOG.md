@@ -31,8 +31,7 @@ All notable changes to this project will be documented in this file.
 ## Version 7.18.0 -2026-02-12
 
 ### Added
-
-- Pointing submodules to main
+- creating a single prerelease package for all the protobuf changes related to Instrument health.
 
 ## Version 7.17.0 - 2026-02-11
 
