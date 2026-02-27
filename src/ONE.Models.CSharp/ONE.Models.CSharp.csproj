@@ -6,7 +6,7 @@
     <VersionPrefix>7.19.0</VersionPrefix>
     <!--For
     Feature packages update the VersionSuffix with the jira ticket number-->
-    <VersionSuffix>Pre-IH-Sprint2026.4</VersionSuffix>
+    <VersionSuffix></VersionSuffix>
     <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Aquatic Informatics Inc.</Company>
