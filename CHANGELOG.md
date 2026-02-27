@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## Version 7.19.1 - 2026-02-15
+## Version 7.19.0 - 2026-02-15
 
 ### Added
 
@@ -12,8 +12,13 @@ All notable changes to this project will be documented in this file.
 ### Updated
 
 - Updated Instrument
+- Updated InstrumentType
 - Updated InstrumentManifest
 - Updated InstrumentDetailSummary
+- Updated InstrumentMeasurementDefinitionSummary
+
+### Removed
+- InstrumentTypeAttributes 
 
 ## Version 7.18.0 -2026-02-12
 
