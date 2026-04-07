@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.20.0 - 2026-04-06
+
+### Added
+
+- Added timeSlotOffsetInMinutes field to the ModelTemplate protobuf to record Time Slot Offset in minutes
+
 ## Version 7.19.0 - 2026-02-27
 
 ### Added
