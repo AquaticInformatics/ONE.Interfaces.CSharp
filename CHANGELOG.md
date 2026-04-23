@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.20.0 - 2026-04-06
+
+### Added
+
+- Added `timeSlotOffsetInMinutes` field to `ModelTemplate` to allow WPM model configurations to specify a configurable delay (in minutes) before sensor/input data is consumed by WPM simulations, replacing a previously hardcoded offset. The value is persisted in the model configuration template and read by the Model OrchestratorService.
+
 ## Version 7.19.0 - 2026-02-27
 
 ### Added
