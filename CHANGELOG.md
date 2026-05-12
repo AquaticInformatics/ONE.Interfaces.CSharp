@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.22.0 - 2026-05-12
+### Added
+- `DigitalTwinPartitionInfo` and `DigitalTwinCacheEntry` models
+
 ## Version 7.21.0 - 2026-04-20
 
 ### Updated
