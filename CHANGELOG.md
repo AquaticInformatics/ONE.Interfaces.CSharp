@@ -2,11 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## Version 7.20.1 - 2026-04-20
+## Version 7.22.0 - 2026-05-15
 
-### Extended `DelphiModelDetail` with a `modelEngine` field so WPM model configurations can control which model engine is used for execution. 
+### Updated
 
-- Added
+- Added `firmwareVersion` field to `InstrumentDetailSummary` for tracking firmware manifest version of the instrument. 
+
+## Version 7.21.0 - 2026-04-20
+
+### Updated
+
+- Extended `DelphiModelDetail` with a `modelEngine` field so WPM model configurations can control which model engine is used for execution. 
 
 ## Version 7.20.0 - 2026-04-06
 
