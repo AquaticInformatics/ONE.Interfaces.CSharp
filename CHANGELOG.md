@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.22.0 - 2026-05-15
+
+### Added
+
+- Added EnumHistorianDataCategory enum
+
+### Updated
+
+- Extended `HistorianData` with a `dataCategory` field to categorize the type of data.
+
 ## Version 7.21.0 - 2026-04-20
 
 ### Updated
