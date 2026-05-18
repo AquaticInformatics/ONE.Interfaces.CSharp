@@ -1,10 +1,13 @@
 name: Build pr
 
-on: pull_request
+on: 
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
 
 jobs:
   call-reusable-build:
     uses: ./.github/workflows/reusable-build.yml
     with:
-      release: true
+      publish: true
+      prerelease: true
     secrets: inherit
