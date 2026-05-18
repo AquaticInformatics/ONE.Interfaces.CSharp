@@ -1,10 +1,20 @@
 name: Build pr
 
-on: pull_request
+on: 
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
 
 jobs:
-  call-reusable-build:
+  call-reusable-build-release:
+    if: ${{ !contains(github.event.pull_request.labels.*.name, 'prerelease') }}
     uses: ./.github/workflows/reusable-build.yml
     with:
       release: true
+    secrets: inherit
+  call-reusable-build-prerelease:
+    if: ${{ contains(github.event.pull_request.labels.*.name, 'prerelease') }}
+    uses: ./.github/workflows/reusable-build.yml
+    with:
+      publish: true
+      prerelease: true
     secrets: inherit
