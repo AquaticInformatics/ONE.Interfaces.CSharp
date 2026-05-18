@@ -1,4 +1,4 @@
-name: Build Manual Pre-Release
+name: Manual Build Pre-Release
 
 on: 
   workflow_dispatch:
