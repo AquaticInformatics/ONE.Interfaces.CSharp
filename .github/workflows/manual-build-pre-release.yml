@@ -1,0 +1,12 @@
+name: Manual Build Pre-Release
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  call-reusable-build:
+    uses: ./.github/workflows/reusable-build.yml      
+    with:
+      publish: true
+      prerelease: true
+    secrets: inherit
