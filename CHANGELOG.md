@@ -2,11 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
-## Version 7.22.0 - 2026-05-15
+## Version 7.23.0 - 2026-05-16
 
 ### Updated
 
 - Added `firmwareVersion` field to `InstrumentDetailSummary` for tracking firmware manifest version of the instrument. 
+
+## Version 7.22.0 - 2026-05-15
+
+### Added
+
+- Added EnumHistorianDataCategory enum
+
+### Updated
+
+- Extended `HistorianData` with a `dataCategory` field to categorize the type of data.
 
 ## Version 7.21.0 - 2026-04-20
 
