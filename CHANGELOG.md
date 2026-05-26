@@ -2,11 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.23.0 - 2026-05-25
+
+### Added
+
+- Add REPORT_RUN_STATUS_FORM_SUBMITTED (AQI-10938)
+
+
 ## Version 7.22.0 - 2026-05-15
+
+### Added
+
+- Added EnumHistorianDataCategory enum
 
 ### Updated
 
-- Added `firmwareVersion` field to `InstrumentDetailSummary` for tracking firmware manifest version of the instrument. 
+- Extended `HistorianData` with a `dataCategory` field to categorize the type of data.
 
 ## Version 7.21.0 - 2026-04-20
 
