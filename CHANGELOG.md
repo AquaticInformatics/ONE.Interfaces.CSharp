@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ## Version 7.25.0 - 2026-06-03
 
-### Added
+### Updated
 
 - Added `channelName` field to `InstrumentMeasurementDefinitionSummary` for tracking channel name of the specific parameter.
 
