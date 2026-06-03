@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.25.0 - 2026-06-03
+
+### Added
+
+- Added `channelName` field to `InstrumentMeasurementDefinitionSummary` for tracking channel name of the specific parameter.
+
 ## Version 7.24.0 - 2026-05-25
 
 ### Added
@@ -12,7 +18,7 @@ All notable changes to this project will be documented in this file.
 
 ### Updated
 
-- Added `firmwareVersion` field to `InstrumentDetailSummary` for tracking firmware manifest version of the instrument. 
+- Added `firmwareVersion` field to `InstrumentDetailSummary` for tracking firmware manifest version of the instrument.
 
 ## Version 7.22.0 - 2026-05-15
 
@@ -28,7 +34,7 @@ All notable changes to this project will be documented in this file.
 
 ### Updated
 
-- Extended `DelphiModelDetail` with a `modelEngine` field so WPM model configurations can control which model engine is used for execution. 
+- Extended `DelphiModelDetail` with a `modelEngine` field so WPM model configurations can control which model engine is used for execution.
 
 ## Version 7.20.0 - 2026-04-06
 
@@ -52,7 +58,8 @@ All notable changes to this project will be documented in this file.
 - Updated InstrumentMeasurementDefinitionSummary
 
 ### Removed
-- InstrumentTypeAttributes 
+
+- InstrumentTypeAttributes
 
 ## Version 7.18.0 -2026-02-12
 
