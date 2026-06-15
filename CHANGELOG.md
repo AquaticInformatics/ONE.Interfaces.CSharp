@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.27.0 - 2026-06-15
+
+### Added
+
+- Nullable `telemetryId` field to `HistorianData`.
+- `DataTelemetries`, `SampleTelemetries`, `Samples`, and `PaginationInfo` models.
+
+### Updated
+
+- `Content` to contain `DataTelemetries`, `SampleTelemetries`, and `Samples`.
+- `EnumHistorianDataCategory` to include `Samples` entry.
+
 ## Version 7.24.0 - 2026-05-25
 
 ### Added
