@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Add RequestId to SignalROneHubEvent (AQI-11069)
-
+- Added `channelName` field to `InstrumentMeasurementDefinitionSummary` for tracking channel name of the specific parameter.
 
 ## Version 7.24.0 - 2026-05-25
 
