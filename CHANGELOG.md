@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.28.0 - 2026-06-23
+
+### Added
+
+- `PaginationInfo` field to `HistorianDatas` and `Samples`.
+- `AggregateValues`, and `TelemetryRequest` models.
+
+### Removed
+
+- `DataTelemetries`, `SampleTelemetries` models
+
 ## Version 7.27.0 - 2026-06-15
 
 ### Added
