@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.29.0 - 2026-06-25
+
+### Added
+
+- `WorksheetHistorianSettings` model to support historian settings for worksheets.
+
+### Updated
+
+- `WorksheetDefinition` model to include historian settings fields.
+
 ## Version 7.27.0 - 2026-06-15
 
 ### Added
