@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.29.0 - 2026-06-26
+
+### Added
+
+- InstrumentDiagnosticSummary
+
+### Updated
+
+- InstrumentDataSummary
+
+
 ## Version 7.27.0 - 2026-06-15
 
 ### Added
