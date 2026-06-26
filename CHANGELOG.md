@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.30.0 - 2026-06-26
+
+### Added
+
+- InstrumentDiagnosticSummary
+
+### Updated
+
+- InstrumentDataSummary
+
+
 ## Version 7.29.0 - 2026-06-25
 
 ### Added
@@ -11,6 +22,8 @@ All notable changes to this project will be documented in this file.
 ### Updated
 
 - `WorksheetDefinition` model to include historian settings fields.
+
+
 
 ## Version 7.27.0 - 2026-06-15
 
