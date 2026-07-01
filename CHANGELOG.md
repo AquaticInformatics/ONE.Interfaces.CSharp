@@ -6,11 +6,11 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- InstrumentDiagnosticSummary
+- Added `InstrumentDiagnosticSummary` model to support instrument diagnostic summaries.
 
 ### Updated
 
-- InstrumentDataSummary
+- Extended `InstrumentDataSummary` with `InstrumentDiagnosticSummaries` field.
 
 
 ## Version 7.27.0 - 2026-06-15
