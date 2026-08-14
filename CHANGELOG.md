@@ -7,6 +7,11 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Added `InstrumentDiagnosticDifintion` model to support instrument diagnostic manifest.
+- Added `InstrumentDiagnosticCapability` model to support instrument diagnostic manifest.
+
+### Updated
+
+- Extended `InstrumentManifest` with `InstrumentDiagnosticCapability` field.
 
 ## Version 7.29.0 - 2026-07-07
 
