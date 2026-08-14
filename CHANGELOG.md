@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.30.0 - 2026-08-14
+
+### Added
+
+- Added `InstrumentDiagnosticDifintion` model to support instrument diagnostic manifest.
+
 ## Version 7.29.0 - 2026-07-07
 
 ### Added
