@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## Version 7.30.1 - 2026-08-14
+## Version 7.30.2 - 2026-08-14
 
 ### Added
 
