@@ -2,11 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
-## Version 7.30.0 - 2026-06-26
+## Version 7.30.1 - 2026-08-14
 
 ### Added
 
-- InstrumentDiagnosticSummary
+- Added `InstrumentDiagnosticDifintion` model to support instrument diagnostic manifest.
+- Added `InstrumentDiagnosticCapability` model to support instrument diagnostic manifest.
+
+### Updated
+
+- Extended `InstrumentManifest` with `InstrumentDiagnosticCapability` field.
+
+## Version 7.30.0 - 2026-07-07
+
+### Added
+
+- Added `InstrumentDiagnosticSummary` model to support instrument diagnostic summaries.
 
 ### Updated
 
@@ -24,6 +35,19 @@ All notable changes to this project will be documented in this file.
 - `WorksheetDefinition` model to include historian settings fields.
 
 
+- Extended `InstrumentDataSummary` with `InstrumentDiagnosticSummaries` field.
+
+
+## Version 7.28.0 - 2026-07-02
+
+### Added
+
+- `PaginationInfo` field to `HistorianDatas` and `Samples`.
+- `AggregateValues`, and `TelemetryRequest` models.
+
+### Removed
+
+- `DataTelemetries`, `SampleTelemetries` models
 
 ## Version 7.27.0 - 2026-06-15
 
