@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.31.0 - 2026-08-19
+
+### Added
+
+- Added `InstrumentComplianceNotificationSetting` model to support instrument compliance notification configuration.
+- Added `ComplianceSettingsCategory` enum to define compliance notification scope categories (Tenant, Operation, Location).
+
 ## Version 7.30.0 - 2026-08-14
 
 ### Added
@@ -22,7 +29,6 @@ All notable changes to this project will be documented in this file.
 ### Updated
 
 - Extended `InstrumentDataSummary` with `InstrumentDiagnosticSummaries` field.
-
 
 ## Version 7.28.0 - 2026-07-02
 
@@ -64,7 +70,7 @@ All notable changes to this project will be documented in this file.
 
 ### Updated
 
-- Added `firmwareVersion` field to `InstrumentDetailSummary` for tracking firmware manifest version of the instrument. 
+- Added `firmwareVersion` field to `InstrumentDetailSummary` for tracking firmware manifest version of the instrument.
 
 ## Version 7.22.0 - 2026-05-15
 
@@ -80,7 +86,7 @@ All notable changes to this project will be documented in this file.
 
 ### Updated
 
-- Extended `DelphiModelDetail` with a `modelEngine` field so WPM model configurations can control which model engine is used for execution. 
+- Extended `DelphiModelDetail` with a `modelEngine` field so WPM model configurations can control which model engine is used for execution.
 
 ## Version 7.20.0 - 2026-04-06
 
@@ -104,7 +110,8 @@ All notable changes to this project will be documented in this file.
 - Updated InstrumentMeasurementDefinitionSummary
 
 ### Removed
-- InstrumentTypeAttributes 
+
+- InstrumentTypeAttributes
 
 ## Version 7.18.0 -2026-02-12
 
