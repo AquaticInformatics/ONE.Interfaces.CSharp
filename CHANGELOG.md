@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.32.0 - 2026-08-26
+
+### Added
+
+- Added `InstrumentComplianceLimit` model to support instrument compliance limit configuration.
+
 ## Version 7.31.0 - 2026-08-19
 
 ### Added
