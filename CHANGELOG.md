@@ -6,7 +6,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- Added `InstrumentComplianceLimit` model to support instrument compliance limit configuration.
+- Added `TelemtryComplianceLimits` model to support telemtry compliance limit configuration.
+- Updated `ComplianceNotificationSetting` model to add the unique identifier for the instrument.
 
 ## Version 7.31.0 - 2026-08-19
 
