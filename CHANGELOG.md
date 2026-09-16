@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.34.0 - 2026-09-15
+
+### Added
+
+- Added `InstrumentTelemetryComplianceStatus`, `InstrumentTelemetryComplianceStatuses` and `InstrumentTelemetryComplianceStatusGroup` protos in `InstrumentHealth` proto.
+
 ## Version 7.33.0 - 2026-09-08
 
 ### Added
