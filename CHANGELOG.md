@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.35.0 - 2026-09-21
+
+### Added
+
+- Added `ScheduledActivity` and `ScheduledActivities` protos in `Common\Activity` proto.
+
+
 ## Version 7.33.0 - 2026-09-08
 
 ### Added
