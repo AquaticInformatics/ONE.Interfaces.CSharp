@@ -60,10 +60,6 @@ jobs:
       - name: Restore
         run: dotnet restore ${{ env.SolutionFile }}
 
-      - name: Build submodule
-        shell: cmd
-        run: BuildSubmodule.bat
-
       - name: Build Release
         if: inputs.release
         run: dotnet build ${{ env.SolutionFile }} -c ${{ inputs.configuration }}
