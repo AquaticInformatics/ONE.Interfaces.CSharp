@@ -27,13 +27,17 @@
     <PackageReference Include="Google.Protobuf" Version="3.19.1" />
   </ItemGroup>
 
-    <Target
-      Name="BuildProtocolBufferSubmodule"
-      BeforeTargets="CoreCompile"
-      Condition="'$(BuildingProject)' == 'true'">
-        <Exec
-          Command="call &quot;$(MSBuildProjectDirectory)\BuildSubmodule.bat&quot;"
-          WorkingDirectory="$(MSBuildProjectDirectory)" />
-    </Target>
+  <Target
+    Name="BuildProtocolBufferSubmodule"
+    BeforeTargets="CoreCompile"
+    Condition="'$(BuildingProject)' == 'true'">
+    <Exec
+      Command="call &quot;$(MSBuildProjectDirectory)\BuildSubmodule.bat&quot;"
+      WorkingDirectory="$(MSBuildProjectDirectory)" />
+    <ItemGroup>
+      <Compile Remove="generated\**\*.cs" />
+      <Compile Include="generated\**\*.cs" />
+    </ItemGroup>
+  </Target>
 
 </Project>
