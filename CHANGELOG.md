@@ -2,11 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
-## Version 7.34.0 - 2026-09-18
+## Version 7.36.0 - 2026-09-28
 
 ### Added
 
-- Added `InstrumentComplianceSummary`,`InstrumentComplianceTelemetrySummary`,`InstrumentComplianceNotificationSettingsSummary` protos in `InstrumentHealth` proto.
+- Added `InstrumentComplianceSummary`proto in `InstrumentHealth` proto.
 
 ## Version 7.33.0 - 2026-09-08
 
