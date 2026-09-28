@@ -2,12 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
-## Version 7.34.0 - 2026-09-23
+## Version 7.36.0 - 2026-09-28
 
 ### Added
 
-- Added `LongHorizonForecastScenario` to `EnumDelphiModelMode`, `AQI_scenario_horizon_time_minutes` to `EnumDelphiModelTagScenario`, and `isLongHorizonScenario` and `staticInputs` to `DelphiScenarioConfiguration` to support WPM long-horizon scenario simulations. The horizon is sent in minutes for direct consumption by the simulation engine, while `staticInputs` carries operator-supplied input overrides.
-
+- Added `InstrumentComplianceSummary`proto in `InstrumentHealth` proto.
 
 ## Version 7.33.0 - 2026-09-08
 
