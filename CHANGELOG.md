@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.36.0 - 2026-10-05
+
+### Updated
+- Updated `InstrumentStatusSummary` model to include `reportedTimeUtc`
+
 ## Version 7.35.0 - 2026-09-25
 
 ### Added
