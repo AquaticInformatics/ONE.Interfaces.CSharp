@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 ### Updated
 - Updated `InstrumentStatusSummary` model to include `reportedTimeUtc`
 
+## Version 7.36.0 - 2026-10-06
+
+### Added
+
+- Added `InstrumentTelemetryComplianceStatus`, `InstrumentTelemetryComplianceStatuses`, `InstrumentTelemetryComplianceStatusGroup` `InstrumentComplianceSummary` protos in `InstrumentHealth` proto.
+
 ## Version 7.35.0 - 2026-09-25
 
 ### Added
