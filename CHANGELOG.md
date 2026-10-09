@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Added nullable `PropertyBag` (`StringValue`, protobuf field 11) to `ReportDefinitionRun`.
+- Added nullable `PropertyBag` (`StringValue`, protobuf field 14) to `ReportRun`.
 
 ## Version 7.35.0 - 2026-09-25
 
