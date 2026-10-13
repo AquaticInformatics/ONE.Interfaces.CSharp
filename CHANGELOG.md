@@ -9,6 +9,12 @@ All notable changes to this project will be documented in this file.
 - Added nullable `PropertyBag` (`StringValue`, protobuf field 11) to `ReportDefinitionRun`.
 - Added nullable `PropertyBag` (`StringValue`, protobuf field 14) to `ReportRun`.
 
+## Version 7.36.0 - 2026-10-06
+
+### Added
+
+- Added `InstrumentTelemetryComplianceStatus`, `InstrumentTelemetryComplianceStatuses`, `InstrumentTelemetryComplianceStatusGroup` `InstrumentComplianceSummary` protos in `InstrumentHealth` proto.
+
 ## Version 7.35.0 - 2026-09-25
 
 ### Added
