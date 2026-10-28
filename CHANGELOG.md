@@ -1,11 +1,24 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
-
-## Version 7.36.1 - 2026-10-09
+## Version 7.38.1 - 2026-10-28
 
 ### Updated
 - Updated `InstrumentStatusSummary` model to include `reportedTimeUtc`
+
+
+## Version 7.38.0 - 2026-10-14
+
+### Added
+
+- Added nullable isScheduledTask and state to `Activity`.
+
+## Version 7.37.0 - 2026-10-09
+
+### Added
+
+- Added nullable `PropertyBag` (`StringValue`, protobuf field 11) to `ReportDefinitionRun`.
+- Added nullable `PropertyBag` (`StringValue`, protobuf field 14) to `ReportRun`.
 
 ## Version 7.36.0 - 2026-10-06
 
