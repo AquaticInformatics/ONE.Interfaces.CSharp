@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.40.0 - 2026-11-05
+
+### Added
+
+- Added `EnumEReportType` (`E_REPORT_TYPE_NONE` = 0, `E_REPORT_TYPE_NET_DMR` = 1) to identify the kind of E-Report that a Custom Report produces.
+
 ## Version 7.39.0 - 2026-11-02
 
 ### Added
