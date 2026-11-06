@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 - Updated `InstrumentStatusSummary` model to include `reportedTimeUtc`
 
 
+## Version 7.39.0 - 2026-11-02
+
+### Added
+
+- Added `OUTPUT_TYPE_E_REPORT` (4) to `EnumReportFileOutputType` to support NetDMR E-Report output for Custom Reports.
+
 ## Version 7.38.0 - 2026-10-14
 
 ### Added
