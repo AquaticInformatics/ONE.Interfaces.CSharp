@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ## Version 7.41.0 - 2026-11-06
 
 ### Added
-- Instrument status to EnumDataSource
+- `DATASOURCE_INSTRUMENT_STATUS` to `EnumDataSource`
 
 
 ## Version 7.40.0 - 2026-11-05
