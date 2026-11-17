@@ -23,13 +23,14 @@ on:
         default: false
         required: false
         type: boolean
-    secrets:
-      RIO_NUGET_API_KEY:
-        required: false
 
 jobs:
   build:
     runs-on: windows-latest
+
+    permissions:
+      id-token: write
+      contents: write
 
     env:
       SolutionFile: ONE.Models.CSharp.sln
@@ -75,9 +76,16 @@ jobs:
           path: ${{ github.workspace }}\**\*.nupkg
           if-no-files-found: error
       
+      - name: NuGet login (trusted publishing)
+        if: inputs.publish
+        id: login
+        uses: NuGet/login@v1
+        with:
+          user: ${{ vars.NUGET_USER || 'OpenSourceAquatics' }}
+
       - name: Publish nuget package
         if: inputs.publish
-        run: dotnet nuget push ${{ github.workspace }}\**\*.nupkg --api-key ${{ secrets.RIO_NUGET_API_KEY }} --skip-duplicate --source https://api.nuget.org/v3/index.json
+        run: dotnet nuget push ${{ github.workspace }}\**\*.nupkg --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --skip-duplicate --source https://api.nuget.org/v3/index.json
 
       - name: Get Version
         if: inputs.publish
