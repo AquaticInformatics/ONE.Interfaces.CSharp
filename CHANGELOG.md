@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.41.0 - 2026-11-06
+
+### Added
+- `DATASOURCE_INSTRUMENT_STATUS` to `EnumDataSource`
+
+
 ## Version 7.40.0 - 2026-11-05
 
 ### Added
@@ -13,6 +19,11 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Added `OUTPUT_TYPE_E_REPORT` (4) to `EnumReportFileOutputType` to support NetDMR E-Report output for Custom Reports.
+
+## Version 7.38.1 - 2026-10-28
+
+### Updated
+- Updated `InstrumentStatusSummary` model to include `reportedTimeUtc`
 
 ## Version 7.38.0 - 2026-10-14
 
