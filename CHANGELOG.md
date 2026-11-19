@@ -2,11 +2,47 @@
 
 All notable changes to this project will be documented in this file.
 
-## Version 7.41.0 - 2026-11-19
+## Version 7.42.0 - 2026-11-19
 
 ### Added
 
 - Added `InstrumentErrorNotificationStatus`, `InstrumentErrorNotificationStatuses`, `ErrorNotificationState` and `ErrorNotificationStates` protos in `instrument_error_notification_status.proto` to support real-time Instrument Error notifications.
+
+## Version 7.41.0 - 2026-11-06
+
+### Added
+- `DATASOURCE_INSTRUMENT_STATUS` to `EnumDataSource`
+
+
+## Version 7.40.0 - 2026-11-05
+
+### Added
+
+- Added `EnumEReportType` (`E_REPORT_TYPE_NONE` = 0, `E_REPORT_TYPE_NET_DMR` = 1) to identify the kind of E-Report that a Custom Report produces.
+
+## Version 7.39.0 - 2026-11-02
+
+### Added
+
+- Added `OUTPUT_TYPE_E_REPORT` (4) to `EnumReportFileOutputType` to support NetDMR E-Report output for Custom Reports.
+
+## Version 7.38.1 - 2026-10-28
+
+### Updated
+- Updated `InstrumentStatusSummary` model to include `reportedTimeUtc`
+
+## Version 7.38.0 - 2026-10-14
+
+### Added
+
+- Added nullable isScheduledTask and state to `Activity`.
+
+## Version 7.37.0 - 2026-10-09
+
+### Added
+
+- Added nullable `PropertyBag` (`StringValue`, protobuf field 11) to `ReportDefinitionRun`.
+- Added nullable `PropertyBag` (`StringValue`, protobuf field 14) to `ReportRun`.
 
 ## Version 7.36.0 - 2026-10-06
 
