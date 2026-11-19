@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.42.0 - 2026-11-19
+
+### Added
+
+- Added `InstrumentErrorNotificationStatus`, `InstrumentErrorNotificationStatuses`, `ErrorNotificationState` and `ErrorNotificationStates` protos in `instrument_error_notification_status.proto` to support real-time Instrument Error notifications.
+
 ## Version 7.41.0 - 2026-11-06
 
 ### Added
