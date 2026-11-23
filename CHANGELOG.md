@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file.
 
 - Added `InstrumentErrorNotificationStatus`, `InstrumentErrorNotificationStatuses`, `ErrorNotificationState` and `ErrorNotificationStates` protos in `instrument_error_notification_status.proto` to support real-time Instrument Error notifications.
 - Added `reportedTimeUtc` to `InstrumentErrorNotificationStatus` so the time the errors were reported is available to notification handlers.
+- Added `notifiedAtUtc` to `InstrumentErrorNotificationStatus` to record when the notification was sent.
+
+### Changed
+
+- `InstrumentErrorNotificationStatus.errors` is now a single `ErrorNotificationStates` instead of a repeated field.
+- Removed `notifiedAtUtc` from `ErrorNotificationState`.
 
 ## Version 7.41.0 - 2026-11-06
 
