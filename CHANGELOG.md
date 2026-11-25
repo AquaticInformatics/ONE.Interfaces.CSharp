@@ -2,11 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
-## Version 7.42.0 - 2026-11-19
+## Version 7.43.0 - 2026-11-25
 
 ### Added
 
 - Added `InstrumentErrorNotificationStatus` and `InstrumentErrorNotificationStatuses` protos in `instrument_error_notification_status.proto` to support real-time Instrument Error notifications.
+
+## Version 7.42.0 - 2026-11-24
+
+### Added
+
+- Added `DelphiScenarioRun` and `EnumDelphiScenarioRunStatus` (`DELPHI_SCENARIO_RUN_STATUS_UNKNOWN` = 0, `DELPHI_SCENARIO_RUN_STATUS_COMPLETED` = 1, `DELPHI_SCENARIO_RUN_STATUS_PARTIALLY_COMPLETED` = 2) to store a saved WPM scenario run as the `ConfigurationData` of a Common Configuration record.
+
 
 ## Version 7.41.0 - 2026-11-06
 
