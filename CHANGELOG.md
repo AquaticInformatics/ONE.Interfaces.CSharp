@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.43.0 - 2026-11-25
+
+### Added
+- `pendingPersistence ` to `ScheduledActivity`
+
 ## Version 7.42.0 - 2026-11-24
 
 ### Added
