@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 7.43.0 - 2026-11-25
+
+### Added
+
+- Added `InstrumentErrorManual` and `InstrumentErrorManuals` to store instrument error manual records (device manual and support article links) by instrument type and culture.
+
 ## Version 7.42.0 - 2026-11-24
 
 ### Added
