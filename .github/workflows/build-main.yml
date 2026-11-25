@@ -7,8 +7,10 @@ on:
 
 jobs:
   call-reusable-build:
+    permissions:
+      id-token: write
+      contents: write
     uses: ./.github/workflows/reusable-build.yml      
     with:
       publish: true
       release: true
-    secrets: inherit
